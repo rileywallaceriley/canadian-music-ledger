@@ -1,0 +1,17 @@
+{
+  "name": "canadian-music-ledger",
+  "version": "1.0.0",
+  "description": "Daily auto-updating public ledger of new Canadian music releases",
+  "scripts": {
+    "build":    "node scripts/build.js",
+    "dry-run":  "node scripts/build.js --dry-run"
+  },
+  "dependencies": {
+    "axios":     "^1.6.7",
+    "puppeteer": "^21.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

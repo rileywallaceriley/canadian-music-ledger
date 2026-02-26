@@ -1,0 +1,199 @@
+# 🍁 Canadian Music Ledger
+
+A public, auto-updating daily ledger of new Canadian music releases, hosted on GitHub Pages.
+
+Data is fetched from **MusicBrainz** (API) and **Bandcamp** (Puppeteer scrape) each morning via a scheduled GitHub Action.
+
+---
+
+## Live site
+
+`https://YOUR_USERNAME.github.io/canadian-music-ledger/`
+
+---
+
+## How it works
+
+```
+scripts/build.js          ← Node.js build script
+  ├── MusicBrainz API     ← REST, country:CA, last 30 days
+  └── Bandcamp (Puppeteer)← Headless Chrome, tag pages
+
+Writes:
+  data/releases.json      ← Array of release objects
+  data/tally.json         ← Aggregated stats
+
+GitHub Action (daily)     ← Runs build.js, commits changed JSON
+GitHub Pages              ← Serves index.html + data/*.json
+```
+
+The frontend (`index.html` + `app.js` + `style.css`) loads `data/releases.json` at page load.  
+Until the first real build runs, a clearly-labelled **demo mode** is shown with sample data.
+
+---
+
+## Setup (one-time, ~10 minutes)
+
+### 1. Fork / create the repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/canadian-music-ledger.git
+cd canadian-music-ledger
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+> `npm install` downloads Puppeteer **and** its bundled Chromium (~170 MB).  
+> This only happens locally and in CI — not served to users.
+
+### 3. Set the MusicBrainz User-Agent secret
+
+MusicBrainz requires a descriptive `User-Agent` header. Add it as a GitHub Secret:
+
+1. Go to your repo → **Settings → Secrets and variables → Actions**
+2. Click **New repository secret**
+3. Name: `MB_USER_AGENT`
+4. Value: `CanadianMusicLedger/1.0.0 (https://github.com/YOUR_USERNAME/canadian-music-ledger; your@email.com)`
+
+Replace `YOUR_USERNAME` and `your@email.com` with real values.
+
+### 4. Enable GitHub Pages
+
+1. Repo → **Settings → Pages**
+2. Source: **Deploy from a branch**
+3. Branch: `main`, folder: `/ (root)`
+4. Click **Save**
+
+### 5. Run the first build
+
+Either locally:
+
+```bash
+node scripts/build.js
+git add data/releases.json data/tally.json
+git commit -m "data: first build"
+git push
+```
+
+Or via the GitHub Action:
+
+1. Go to **Actions → Daily Music Ledger Update**
+2. Click **Run workflow → Run workflow**
+
+---
+
+## Daily automation
+
+The GitHub Action (`.github/workflows/update.yml`) runs every day at **07:00 UTC**.
+
+It:
+1. Installs Node + system Chrome deps
+2. Runs `node scripts/build.js`
+3. Commits `data/releases.json` and `data/tally.json` if changed
+4. GitHub Pages redeploys automatically
+
+You can also trigger it manually any time from the Actions tab.
+
+---
+
+## Local dry run (no file writes)
+
+```bash
+node scripts/build.js --dry-run
+```
+
+Fetches real data, prints the first 3 results and tally to stdout, writes nothing.
+
+---
+
+## Data sources
+
+| Source | Method | Notes |
+|---|---|---|
+| [MusicBrainz](https://musicbrainz.org) | REST API | Free, `country:CA`, last 30 days. Rate-limited to 1 req/sec. |
+| [Bandcamp](https://bandcamp.com) | Puppeteer | Tag pages for `canada`, `toronto`, `montreal`, `vancouver`, `winnipeg`, `halifax`, `edmonton`, `calgary`, `ottawa`. JS-rendered — requires headless Chrome. |
+
+---
+
+## Data schema
+
+### `data/releases.json`
+
+```jsonc
+[
+  {
+    "artist":          "Artist Name",
+    "artist_country":  "CA",
+    "artist_city":     "Toronto",
+    "artist_province": "ON",
+    "release_title":   "Album Title",
+    "release_type":    "Album",        // Album, Single, EP, …
+    "release_date":    "2026-02-20",
+    "primary_genre":   "Hip-Hop",
+    "subgenres":       ["Conscious Rap"],
+    "platforms":       ["MusicBrainz", "Bandcamp"],
+    "label":           "",
+    "independent":     true,
+    "source_url":      "https://musicbrainz.org/release/…",
+    "date_added":      "2026-02-26"
+  }
+]
+```
+
+### `data/tally.json`
+
+```jsonc
+{
+  "generated_at":                "2026-02-26T07:03:11.000Z",
+  "total_releases_last_7_days":  42,
+  "total_releases_last_30_days": 183,
+  "by_genre":    { "Hip-Hop": 24, "Electronic": 18, … },
+  "by_province": { "Ontario": 64, "Québec": 41, … },
+  "independent_count": 120,
+  "label_count":        63
+}
+```
+
+---
+
+## Customisation
+
+| What | Where |
+|---|---|
+| Add more Bandcamp tags | `BANDCAMP_TAGS` array in `scripts/build.js` |
+| Change lookback window | `DAYS_BACK` constant in `scripts/build.js` |
+| Add genre mappings | `GENRE_MAP` object in `scripts/build.js` |
+| Add city → province mappings | `CITY_TO_PROVINCE` in `scripts/build.js` |
+| Change schedule | `cron` expression in `.github/workflows/update.yml` |
+| Change colours / fonts | CSS variables at top of `style.css` |
+
+---
+
+## File structure
+
+```
+canadian-music-ledger/
+├── index.html                     ← Frontend (loads from data/)
+├── style.css                      ← Styles
+├── app.js                         ← Frontend JS
+├── package.json
+├── .gitignore
+├── data/
+│   ├── releases.json              ← Generated by build script
+│   └── tally.json                 ← Generated by build script
+├── scripts/
+│   └── build.js                   ← MusicBrainz + Bandcamp fetcher
+└── .github/
+    └── workflows/
+        └── update.yml             ← Daily GitHub Action
+```
+
+---
+
+## License
+
+MIT

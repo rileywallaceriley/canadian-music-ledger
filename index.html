@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A public daily ledger of newly released Canadian music, organised by genre and province. Independent and niche artists." />
+  <title>Canadian Music Ledger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Cormorant+SC:wght@400;600;700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg-canvas" aria-hidden="true">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="vignette"></div>
+</div>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="meta-bar">
+      <div style="display:flex;align-items:center;gap:.3rem">
+        <span class="meta-chip" id="ledger-vol">Vol. I</span>
+        <span class="meta-sep">◆</span>
+        <span class="meta-chip">Daily Dispatch</span>
+      </div>
+      <span class="meta-chip" id="ledger-date-top">—</span>
+    </div>
+
+    <div class="hero-lockup">
+      <div class="hero-deco-left" aria-hidden="true">
+        <div class="deco-vline"></div>
+        <div class="deco-dots"><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="deco-vline"></div>
+      </div>
+
+      <div class="hero-center">
+        <span class="hero-overline">The</span>
+        <h1 class="hero-title">
+          <span class="ht-1">Canadian</span>
+          <span class="ht-2">Music</span>
+          <span class="ht-3">Ledger</span>
+        </h1>
+        <p class="hero-tagline">Independent &ensp;·&ensp; Niche &ensp;·&ensp; Nationwide</p>
+      </div>
+
+      <div class="hero-deco-right" aria-hidden="true">
+        <div class="maple-svg-wrap">
+          <svg viewBox="0 0 80 95" xmlns="http://www.w3.org/2000/svg" class="maple-svg">
+            <path d="M40 4 L47 22 L66 15 L57 33 L76 40 L59 48 L64 66 L47 56 L50 78 L40 70 L30 78 L33 56 L16 66 L21 48 L4 40 L23 33 L14 15 L33 22 Z"/>
+            <rect x="36.5" y="70" width="7" height="20" rx="1"/>
+            <rect x="27" y="88" width="26" height="3.5" rx="1.5"/>
+          </svg>
+        </div>
+        <div class="deco-vline"></div>
+      </div>
+    </div>
+
+    <div class="sub-bar">
+      <div class="sub-rule"></div>
+      <p class="sub-text">A public record of new Canadian releases &ensp;·&ensp; Updated daily via GitHub Actions</p>
+      <div class="sub-rule"></div>
+    </div>
+  </div>
+</header>
+
+<!-- STATS -->
+<section class="stats-band" aria-label="Release statistics">
+  <div class="stats-inner">
+    <div class="stat-card">
+      <div class="stat-ghost">7</div>
+      <div class="stat-body">
+        <span class="stat-num" id="stat-7">0</span>
+        <div class="stat-meta"><span class="stat-noun">releases</span><span class="stat-period">Last 7 Days</span></div>
+      </div>
+      <div class="stat-accent"></div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-card">
+      <div class="stat-ghost">30</div>
+      <div class="stat-body">
+        <span class="stat-num" id="stat-30">0</span>
+        <div class="stat-meta"><span class="stat-noun">releases</span><span class="stat-period">Last 30 Days</span></div>
+      </div>
+      <div class="stat-accent"></div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-card">
+      <div class="stat-ghost">✦</div>
+      <div class="stat-body">
+        <span class="stat-num" id="stat-indie">0</span>
+        <div class="stat-meta"><span class="stat-noun">artists</span><span class="stat-period">Independent</span></div>
+      </div>
+      <div class="stat-accent"></div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-card">
+      <div class="stat-ghost">⬡</div>
+      <div class="stat-body">
+        <span class="stat-num" id="stat-label-ct">0</span>
+        <div class="stat-meta"><span class="stat-noun">artists</span><span class="stat-period">On a Label</span></div>
+      </div>
+      <div class="stat-accent"></div>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN -->
+<main class="body-grid">
+  <aside class="sidebar">
+
+    <div class="panel">
+      <div class="panel-head"><span class="ph-line"></span><span class="ph-label">Filter</span><span class="ph-line"></span></div>
+      <div class="ctrl-row">
+        <span class="ctrl-label">Window</span>
+        <div class="pill-toggle">
+          <button class="pill-btn active" data-range="7">7 days</button>
+          <button class="pill-btn" data-range="30">30 days</button>
+        </div>
+      </div>
+      <div class="ctrl-row">
+        <label class="ctrl-label" for="filter-genre">Genre</label>
+        <div class="sel-wrap">
+          <select id="filter-genre" class="fancy-select"><option value="">All genres</option></select>
+          <span class="sel-arr">▾</span>
+        </div>
+      </div>
+      <div class="ctrl-row">
+        <label class="ctrl-label" for="filter-province">Province</label>
+        <div class="sel-wrap">
+          <select id="filter-province" class="fancy-select"><option value="">All provinces</option></select>
+          <span class="sel-arr">▾</span>
+        </div>
+      </div>
+      <div class="ctrl-row">
+        <label class="ctrl-label" for="filter-type">Release</label>
+        <div class="sel-wrap">
+          <select id="filter-type" class="fancy-select">
+            <option value="">All types</option>
+            <option value="independent">Independent only</option>
+            <option value="label">On a label</option>
+          </select>
+          <span class="sel-arr">▾</span>
+        </div>
+      </div>
+      <div class="tally-row">
+        <span class="tally-num" id="results-count-num">—</span>
+        <span class="tally-label">releases shown</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Genre</span><span class="ph-line"></span></div>
+      <div style="position:relative;height:210px"><canvas id="chart-genre"></canvas></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Province</span><span class="ph-line"></span></div>
+      <div style="position:relative;height:230px"><canvas id="chart-province"></canvas></div>
+    </div>
+
+  </aside>
+
+  <section class="ledger-pane">
+    <div class="notice-bar" id="sample-notice" style="display:none" role="status">
+      <strong>⚠ Demo mode</strong> — showing sample data. Run <code>node scripts/build.js</code> or trigger the GitHub Action to populate real releases.
+    </div>
+
+    <div class="ledger-head">
+      <span class="lh">Date</span>
+      <span class="lh">Artist</span>
+      <span class="lh">Release</span>
+      <span class="lh">Genre</span>
+      <span class="lh">Prov.</span>
+      <span class="lh">Format</span>
+      <span class="lh lh-indie">Ind.</span>
+    </div>
+
+    <div id="ledger-body" role="list" aria-live="polite">
+      <div class="skeleton-wrap">
+        <div class="skel-row" style="--sd:.00s"><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="skel-row" style="--sd:.07s"><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="skel-row" style="--sd:.14s"><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="skel-row" style="--sd:.21s"><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="skel-row" style="--sd:.28s"><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="skel-row" style="--sd:.35s"><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+    </div>
+
+    <div id="empty-state" class="empty-state" hidden>
+      <span class="empty-glyph">𝄽</span>
+      <p class="empty-title">No releases found</p>
+      <p class="empty-sub">Try adjusting your filters</p>
+      <button class="ghost-btn" id="reset-filters">↩ Reset filters</button>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-rule"></div>
+  <div class="footer-inner">
+    <div class="footer-brand"><span>🍁</span><span>Canadian Music Ledger</span></div>
+    <div class="footer-links">
+      <a href="https://musicbrainz.org" target="_blank" rel="noopener">MusicBrainz</a>
+      <span class="footer-dot">·</span>
+      <a href="https://bandcamp.com" target="_blank" rel="noopener">Bandcamp</a>
+      <span class="footer-dot">·</span>
+      <a href="https://github.com/YOUR_USERNAME/canadian-music-ledger" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="footer-build">Last build: <span id="footer-date">—</span></div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
