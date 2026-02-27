@@ -1,136 +1,172 @@
 [
   {
-    "artist": "The Sheepdogs",
+    "artist": "Bruno Mars",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "Keep Out of the Storm",
+    "release_title": "The Romantic",
+    "release_type": "Album",
+    "release_date": "2026-02-27",
+    "primary_genre": "Pop",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/the-romantic/1866732792?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Gord Downie & The Sadies",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Live At 6 O'Clock",
     "release_type": "Album",
     "release_date": "2026-02-27",
     "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
     "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/6e05b97a-d670-4b35-95f4-e6fb6bb6d387",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/live-at-6-oclock/1871273894?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Scott Buckley",
+    "artist": "Bill Callahan",
     "artist_country": "CA",
-    "artist_city": "Afghanistan",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "Memories Of Stone",
-    "release_type": "Single",
+    "release_title": "My Days of 58",
+    "release_type": "Album",
     "release_date": "2026-02-27",
     "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
     "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/6f956ece-06d8-4a6c-b132-ee0c9d8ca1bd",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/my-days-of-58/1846471021?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Jane Duke",
+    "artist": "A Wilhelm Scream",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "The Origin Of Evil - The Legend Of Narcissus And Oedipus (MP3 One File Edition)",
+    "release_title": "Cheap Heat",
+    "release_type": "Album",
+    "release_date": "2026-02-27",
+    "primary_genre": "Punk",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/cheap-heat/1870588948?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Em Beihold",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Tales of a Failed Shapeshifter",
+    "release_type": "Album",
+    "release_date": "2026-02-27",
+    "primary_genre": "Pop",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/tales-of-a-failed-shapeshifter/1861005676?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Matchbox Twenty",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The North B-Sides - EP",
+    "release_type": "Album",
+    "release_date": "2026-02-27",
+    "primary_genre": "Pop",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/the-north-b-sides-ep/1877226494?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Elyse Aeryn",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Everybody Loves You...",
+    "release_type": "Album",
+    "release_date": "2026-02-26",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/everybody-loves-you/1835980694?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Various Artists",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Bridgerton Season Four (Covers from the Netflix Series)",
+    "release_type": "Album",
+    "release_date": "2026-02-26",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/bridgerton-season-four-covers-from-the-netflix-series/1876958045?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kris Bowers",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Bridgerton Season Four (Soundtrack from the Netflix Series)",
     "release_type": "Album",
     "release_date": "2026-02-25",
     "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Neo-Romantic Records",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/d00bf674-8f75-4e4e-9484-5b3b12801192",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Jane Duke",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "The Origin Of Evil - The Legend Of Narcissus And Oedipus (WAV One File Edition)",
-    "release_type": "Album",
-    "release_date": "2026-02-25",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Neo-Romantic Records",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/4e07b21d-cb48-4fc6-8c63-d3285bea04db",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Michel Robichaud",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Rallumer l'effort",
-    "release_type": "Album",
-    "release_date": "2026-02-24",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Productions de l’Onde",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/047054b3-c97f-4fc9-8117-8fd3181431c2",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "The Glass Cage",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Where Did The Sunshine Go?",
-    "release_type": "Album",
-    "release_date": "2026-02-24",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Supreme Echo",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/3119afa1-f945-4da0-b812-a369f16070be",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Mumford & Sons",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Prizefighter",
-    "release_type": "Album",
-    "release_date": "2026-02-20",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
     "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/eb5aa456-be7c-4c2b-a24e-e239e429aeae",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/bridgerton-season-four-soundtrack-from-the-netflix-series/1876956599?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Mumford & Sons",
+    "artist": "Baby Keem",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "[Worldwide]",
     "artist_province": "",
-    "release_title": "Prizefighter",
+    "release_title": "Ca$ino",
     "release_type": "Album",
     "release_date": "2026-02-20",
     "primary_genre": "Other",
@@ -138,493 +174,361 @@
     "platforms": [
       "MusicBrainz"
     ],
-    "label": "Glassnote",
+    "label": "Columbia",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/2ad745a5-d5f2-4bb5-9a39-035e03b4eac2",
+    "source_url": "https://musicbrainz.org/release/7dc1bb4e-d817-4bac-965e-5a182591ae10",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "The Album LeafSpencer Zahn",
+    "artist": "Sababa 5",
     "artist_country": "CA",
-    "artist_city": "Afghanistan",
+    "artist_city": "[Worldwide]",
     "artist_province": "",
-    "release_title": "Floating",
-    "release_type": "Single",
+    "release_title": "Ça va Ça va",
+    "release_type": "Album",
     "release_date": "2026-02-20",
     "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
       "MusicBrainz"
     ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/8aebedb8-122a-4f0b-a48f-96cf52850a6d",
+    "label": "Batov Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/79f98952-1e09-4023-a2f4-93569dcf20c5",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Foo Fighters",
+    "artist": "Dominique Fils-Aimé",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "Your Favorite Toy",
-    "release_type": "Single",
+    "release_title": "My World Is The Sun",
+    "release_type": "Album",
+    "release_date": "2026-02-20",
+    "primary_genre": "Jazz",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/my-world-is-the-sun/1859635028?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Megan Moroney",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Cloud 9",
+    "release_type": "Album",
+    "release_date": "2026-02-20",
+    "primary_genre": "Country",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/cloud-9/1851296746?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Elvis Presley",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "EPiC: Elvis Presley in Concert - Original Motion Picture Soundtrack",
+    "release_type": "Album",
+    "release_date": "2026-02-20",
+    "primary_genre": "Rock",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/epic-elvis-presley-in-concert-original-motion-picture/1866789518?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "New Found Glory",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Listen Up!",
+    "release_type": "Album",
+    "release_date": "2026-02-20",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/listen-up/1838991916?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Michael Bennett",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "After You Passed (Slow Rock)",
+    "release_type": "Album",
+    "release_date": "2026-02-20",
+    "primary_genre": "Rock",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/after-you-passed-slow-rock/1879995545?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Alan Doyle",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Already Dancing - EP",
+    "release_type": "Album",
+    "release_date": "2026-02-20",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/already-dancing-ep/1844975476?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Michael Bennett",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Waiting At The Gate (Slow Rock)",
+    "release_type": "Album",
     "release_date": "2026-02-19",
-    "primary_genre": "Other",
+    "primary_genre": "Rock",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
-    "label": "RCA",
+    "label": "",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/906d4c82-fc81-498e-aa4c-8f4991314e0e",
+    "source_url": "https://music.apple.com/ca/album/waiting-at-the-gate-slow-rock/1879315924?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Denez PrigentO'Tridal",
+    "artist": "U2",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "Tatimato",
-    "release_type": "Single",
+    "release_title": "Days Of Ash - EP",
+    "release_type": "Album",
+    "release_date": "2026-02-18",
+    "primary_genre": "Rock",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/days-of-ash-ep/1875348241?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Michael Bennett",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "I Still Miss Her (Slow Rock & Sad Music)",
+    "release_type": "Album",
+    "release_date": "2026-02-18",
+    "primary_genre": "Rock",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/i-still-miss-her-slow-rock-sad-music/1879756427?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Michael Bennett",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "We Will Meet Again (Slow Rock)",
+    "release_type": "Album",
     "release_date": "2026-02-17",
-    "primary_genre": "Other",
+    "primary_genre": "Rock",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
-    "label": "Arfolk",
+    "label": "",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/f8b707dc-409c-4fc4-93e8-8e88721ea85f",
+    "source_url": "https://music.apple.com/ca/album/we-will-meet-again-slow-rock/1878954762?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Boy Golden",
+    "artist": "Mikhail Bennett",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "Best of Our Possible Lives",
+    "release_title": "After I Pass Away",
+    "release_type": "Album",
+    "release_date": "2026-02-15",
+    "primary_genre": "Blues",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/after-i-pass-away/1878679505?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Charli xcx",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Wuthering Heights",
     "release_type": "Album",
     "release_date": "2026-02-13",
-    "primary_genre": "Other",
+    "primary_genre": "Pop",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Six Shooter Records",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/7012c3cd-a708-4053-860d-8c797a72ad76",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Arif Murakami",
-    "artist_country": "CA",
-    "artist_city": "Afghanistan",
-    "artist_province": "",
-    "release_title": "Mannen Som Døde Stående",
-    "release_type": "Single",
-    "release_date": "2026-02-13",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Nora Collective AS",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/464be8c0-1925-4eb5-8663-d80a6abb8720",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Andrew BirdGavin Brivik",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Need Someone",
-    "release_type": "Single",
-    "release_date": "2026-02-12",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Loma Vista Recordings",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/1e109e07-3579-475f-805b-c51ddb3da970",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Touch Girl Apple Blossom",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "The Springtime Reminds Me Of…",
-    "release_type": "Single",
-    "release_date": "2026-02-11",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "perennialdeath",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/79beeb9b-5190-4390-b25c-1625baa3c30a",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "MC ShadowKaye Sergeant",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Similar",
-    "release_type": "Single",
-    "release_date": "2026-02-10",
-    "primary_genre": "Hip-Hop",
-    "subgenres": [
-      "Hip-Hop",
-      "R&B / Soul"
-    ],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "East Park Productions",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/bddb80f7-4ce7-47c0-89bf-f5b033a2d08e",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "MC ShadowKaye Sergeant",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Foolin' Ya Self",
-    "release_type": "Single",
-    "release_date": "2026-02-07",
-    "primary_genre": "Hip-Hop",
-    "subgenres": [
-      "Hip-Hop",
-      "R&B / Soul"
-    ],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "East Park Productions",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/aea6696b-927f-42e1-b3c6-b556042beb0c",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Sam Aleums",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "At the End, Together // Home Safe",
-    "release_type": "Album",
-    "release_date": "2026-02-06",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "[no label]",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/37a3bcd8-5cf7-4ff4-b1e7-c28ac02e4d23",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Emilie‐Claire Barlow",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "La plus belle saison",
-    "release_type": "Album",
-    "release_date": "2026-02-06",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Empress Music Group",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/87127d75-2f37-476b-ab02-0d70d40bd233",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Uni Boys",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Abra",
-    "release_type": "Single",
-    "release_date": "2026-02-06",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Curation Records",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/cf484c15-7d31-49f5-be75-e6205a6eb112",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Karnivool",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "In Verses",
-    "release_type": "Album",
-    "release_date": "2026-02-06",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Cymatic",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/651a6044-16d0-438d-a802-a06ee3c1c393",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Annapantsu",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Losin' Streak",
-    "release_type": "Single",
-    "release_date": "2026-02-05",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
     "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/df3cb279-fff7-4eb4-9897-e1dc393d7489",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/wuthering-heights/1852566184?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Good Kid",
+    "artist": "promptgenix",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "Eastside",
-    "release_type": "Single",
-    "release_date": "2026-02-03",
-    "primary_genre": "Other",
+    "release_title": "Digital Delta: volume four",
+    "release_type": "Album",
+    "release_date": "2026-02-09",
+    "primary_genre": "Blues",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
     "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/488c8943-4fdf-4ab6-9bb3-fe743ec9f319",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/digital-delta-volume-four/1875169023?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Signal Hangup",
+    "artist": "NFL",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "[Worldwide]",
     "artist_province": "",
-    "release_title": "sines + signals",
-    "release_type": "Album",
-    "release_date": "2026-02-03",
+    "release_title": "Super Bowl LX Live From Santa Clara, CA",
+    "release_type": "EP",
+    "release_date": "2026-02-08",
     "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
       "MusicBrainz"
+    ],
+    "label": "NFL",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/6bdf9945-d4b7-448b-80d6-f6b1bf5c8de5",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bad Bunny",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Super Bowl LX Halftime Show (Live) - EP",
+    "release_type": "Album",
+    "release_date": "2026-02-08",
+    "primary_genre": "World",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
     ],
     "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/1a37056f-626f-44d7-bf4c-53ea835bddb6",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "The Mummies",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "The Beast With Four Left Feet",
-    "release_type": "Single",
-    "release_date": "2026-02",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Fink City",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/dbb60710-1859-4982-987f-9c43a342c1b5",
+    "source_url": "https://music.apple.com/ca/album/super-bowl-lx-halftime-show-live-ep/1875811658?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "The Mummies",
+    "artist": "Freya Skye",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "The Beast With Four Left Feet",
-    "release_type": "Single",
-    "release_date": "2026-02",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Neptoon Records",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/9cdd0227-2a84-458a-b2b2-b7af725f312d",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Jocelyn Tellier",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Birdhouse",
+    "release_title": "stardust - EP",
     "release_type": "Album",
-    "release_date": "2026-01-30",
-    "primary_genre": "Other",
+    "release_date": "2026-02-04",
+    "primary_genre": "Pop",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
     "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/f1226c08-b7d9-4ecb-b84d-4f95f30a6584",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Fakear",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "those trees",
-    "release_type": "Single",
-    "release_date": "2026-01-30",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Nowadays Records",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/344f72dd-5572-43f3-b68a-ba8a84b3bad1",
+    "source_url": "https://music.apple.com/ca/album/stardust-ep/1872542998?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "Mehdi Cayenne",
+    "artist": "Various Artists",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "",
     "artist_province": "",
-    "release_title": "Cupidon",
-    "release_type": "Single",
-    "release_date": "2026-01-30",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "PASA Musik",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/fc383686-d97a-460b-95b2-ff7cb1dc8331",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Cold Camp",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Winter Dreamz",
+    "release_title": "Bridgerton Season Four (Covers from the Netflix Series – Pt. 1) - EP",
     "release_type": "Album",
-    "release_date": "2026-01-30",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Hand’Solo Records",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/af77f2ef-6ba4-423d-99c9-bcfd122cf1db",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "Sam Sauvage",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Mesdames, Messieurs !",
-    "release_type": "Album",
-    "release_date": "2026-01-30",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Cinq 7",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/92a67847-3296-4749-a9de-a4f0688b767b",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "The Cure",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Boys Don’t Cry (86 Mix)",
-    "release_type": "Single",
-    "release_date": "2026-01-30",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Elektra",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/141339c2-f7b3-414e-98b9-ea8d6861c819",
-    "date_added": "2026-02-27"
-  },
-  {
-    "artist": "NOFX",
-    "artist_country": "CA",
-    "artist_city": "Canada",
-    "artist_province": "",
-    "release_title": "Minnesota Nazis",
-    "release_type": "Single",
     "release_date": "2026-01-29",
     "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
-      "MusicBrainz"
+      "iTunes"
     ],
-    "label": "Fat Wreck Chords",
+    "label": "",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/796e2ab4-b8c2-449e-84bf-2e35b447d48c",
+    "source_url": "https://music.apple.com/ca/album/bridgerton-season-four-covers-from-the-netflix-series/1869792542?uo=2",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "The Rural Alberta Advantage",
+    "artist": "The Band of Heathens",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "[Worldwide]",
     "artist_province": "",
-    "release_title": "The Hunt in Edson",
-    "release_type": "Single",
-    "release_date": "2026-01-28",
-    "primary_genre": "Other",
+    "release_title": "Jam In The Van (Live Session, Los Angeles, CA, 2016)",
+    "release_type": "EP",
+    "release_date": "2026-01-25",
+    "primary_genre": "Rock",
     "subgenres": [],
     "platforms": [
       "MusicBrainz"
     ],
-    "label": "Paper Bag Records",
+    "label": "Jam in the Van",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/244b3e60-2412-4d7f-9d0c-44f4af68887e",
+    "source_url": "https://musicbrainz.org/release/366d1d13-0e77-421b-9625-0279a4f61ad0",
     "date_added": "2026-02-27"
   },
   {
-    "artist": "SeventhString",
+    "artist": "Jarnyl",
     "artist_country": "CA",
-    "artist_city": "Canada",
+    "artist_city": "[Worldwide]",
     "artist_province": "",
-    "release_title": "Bridges",
+    "release_title": "Ça ira",
     "release_type": "Single",
-    "release_date": "2026-01-28",
+    "release_date": "2026-01-23",
     "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
@@ -632,7 +536,4579 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://musicbrainz.org/release/900a1365-c6e2-45a4-827a-63d8b90c2bfc",
+    "source_url": "https://musicbrainz.org/release/930d0b8b-bcac-46c1-a583-b710220d57ec",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Megadeth",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Megadeth",
+    "release_type": "Album",
+    "release_date": "2026-01-23",
+    "primary_genre": "Metal",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/megadeth/1840222160?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Van Morrison",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Somebody Tried To Sell Me A Bridge",
+    "release_type": "Album",
+    "release_date": "2026-01-23",
+    "primary_genre": "Blues",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/somebody-tried-to-sell-me-a-bridge/1860998242?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "promptgenix",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Digital Delta: volume three",
+    "release_type": "Album",
+    "release_date": "2026-01-19",
+    "primary_genre": "Blues",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/digital-delta-volume-three/1869782388?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "promptgenix",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Underworld Blues: volume two",
+    "release_type": "Album",
+    "release_date": "2026-01-05",
+    "primary_genre": "Blues",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/underworld-blues-volume-two/1866010498?uo=2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Drake",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Views",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Drake/Views",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Drake",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Scorpion",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Drake/Scorpion",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Drake",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "More Life",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Drake/More+Life",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Drake",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "So Far Gone",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Drake/So+Far+Gone",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Drake",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Certified Lover Boy",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Drake/Certified+Lover+Boy",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "DAMN.",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kendrick+Lamar/DAMN.",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "good kid, m.A.A.d city",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kendrick+Lamar/good+kid,+m.A.A.d+city",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Black Panther the Album Music From and Inspired By",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kendrick+Lamar/Black+Panther+the+Album+Music+From+and+Inspired+By",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "To Pimp a Butterfly",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kendrick+Lamar/To+Pimp+a+Butterfly",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "GNX",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kendrick+Lamar/GNX",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Weeknd",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Starboy",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Weeknd/Starboy",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Weeknd",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "After Hours",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Weeknd/After+Hours",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Weeknd",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Beauty Behind the Madness",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Weeknd/Beauty+Behind+the+Madness",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Weeknd",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "My Dear Melancholy,",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Weeknd/My+Dear+Melancholy,",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Weeknd",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Dawn FM",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Weeknd/Dawn+FM",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kanye West",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Graduation",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kanye+West/Graduation",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kanye West",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "My Beautiful Dark Twisted Fantasy",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kanye+West/My+Beautiful+Dark+Twisted+Fantasy",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kanye West",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "808s & Heartbreak",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kanye+West/808s+&+Heartbreak",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kanye West",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Late Registration",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kanye+West/Late+Registration",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Kanye West",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Yeezus",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Kanye+West/Yeezus",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Radiohead",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "OK Computer",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Radiohead/OK+Computer",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Radiohead",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Pablo Honey",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Radiohead/Pablo+Honey",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Radiohead",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "In Rainbows",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Radiohead/In+Rainbows",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Radiohead",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Bends",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Radiohead/The+Bends",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Radiohead",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Kid A",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Radiohead/Kid+A",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tyler, The Creator",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Flower Boy",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tyler,+The+Creator/Flower+Boy",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tyler, The Creator",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "IGOR",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tyler,+The+Creator/IGOR",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tyler, The Creator",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Chromakopia",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tyler,+The+Creator/Chromakopia",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tyler, The Creator",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "CALL ME IF YOU GET LOST",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tyler,+The+Creator/CALL+ME+IF+YOU+GET+LOST",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tyler, The Creator",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Goblin",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tyler,+The+Creator/Goblin",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "PinkPantheress",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "to hell with it",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/PinkPantheress/to+hell+with+it",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "PinkPantheress",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Boy's a liar Pt. 2",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/PinkPantheress/Boy%27s+a+liar+Pt.+2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "PinkPantheress",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Heaven knows",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/PinkPantheress/Heaven+knows",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "PinkPantheress",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Fancy That",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/PinkPantheress/Fancy+That",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "PinkPantheress",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Attracted to you",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/PinkPantheress/Attracted+to+you",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Rihanna",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Good Girl Gone Bad: Reloaded",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Rihanna/Good+Girl+Gone+Bad:+Reloaded",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Rihanna",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Good Girl Gone Bad",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Rihanna/Good+Girl+Gone+Bad",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Rihanna",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Loud",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Rihanna/Loud",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Rihanna",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "ANTI (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Rihanna/ANTI+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Rihanna",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Talk That Talk",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Rihanna/Talk+That+Talk",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Charli xcx",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "BRAT",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Charli+xcx/BRAT",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Charli xcx",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Brat and it’s completely different but also still brat",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Charli+xcx/Brat+and+it%E2%80%99s+completely+different+but+also+still+brat",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Charli xcx",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "how i'm feeling now",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Charli+xcx/how+i%27m+feeling+now",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Charli xcx",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Guess featuring billie eilish",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Charli+xcx/Guess+featuring+billie+eilish",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Charli xcx",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "SUCKER",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Charli+xcx/SUCKER",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Taylor Swift",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Lover",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Taylor+Swift/Lover",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Taylor Swift",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "reputation",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Taylor+Swift/reputation",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Taylor Swift",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "folklore",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Taylor+Swift/folklore",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Taylor Swift",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "1989",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Taylor+Swift/1989",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Taylor Swift",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "1989 (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Taylor+Swift/1989+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Frank Ocean",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Blonde",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Frank+Ocean/Blonde",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Frank Ocean",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "channel ORANGE",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Frank+Ocean/channel+ORANGE",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Frank Ocean",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Novacane",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Frank+Ocean/Novacane",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Frank Ocean",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Chanel",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Frank+Ocean/Chanel",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Frank Ocean",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "In My Room",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Frank+Ocean/In+My+Room",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tame Impala",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Currents",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tame+Impala/Currents",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tame Impala",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Slow Rush",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tame+Impala/The+Slow+Rush",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tame Impala",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Lonerism",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tame+Impala/Lonerism",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tame Impala",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Innerspeaker",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tame+Impala/Innerspeaker",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tame Impala",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Deadbeat",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tame+Impala/Deadbeat",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "A$AP Rocky",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "LONG.LIVE.A$AP (Deluxe Version)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/A$AP+Rocky/LONG.LIVE.A$AP+(Deluxe+Version)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "A$AP Rocky",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "AT.LONG.LAST.A$AP",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/A$AP+Rocky/AT.LONG.LAST.A$AP",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "A$AP Rocky",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "TESTING",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/A$AP+Rocky/TESTING",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "A$AP Rocky",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Sundress",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/A$AP+Rocky/Sundress",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "A$AP Rocky",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/A$AP+Rocky/I+Smoked+Away+My+Brain+(I%27m+God+x+Demons+Mashup)+(feat.+Imogen+Heap+&+Clams+Casino)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Ariana Grande",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Dangerous Woman",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Ariana+Grande/Dangerous+Woman",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Ariana Grande",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "thank u, next",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Ariana+Grande/thank+u,+next",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Ariana Grande",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "My Everything (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Ariana+Grande/My+Everything+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Ariana Grande",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Sweetener",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Ariana+Grande/Sweetener",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Ariana Grande",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Positions",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Ariana+Grande/Positions",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lana Del Rey",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Born to Die - The Paradise Edition",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lana+Del+Rey/Born+to+Die+-+The+Paradise+Edition",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lana Del Rey",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Ultraviolence (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lana+Del+Rey/Ultraviolence+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lana Del Rey",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Norman Fucking Rockwell!",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lana+Del+Rey/Norman+Fucking+Rockwell%21",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lana Del Rey",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Young and Beautiful",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lana+Del+Rey/Young+and+Beautiful",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lana Del Rey",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Born to Die",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lana+Del+Rey/Born+to+Die",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lady Gaga",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Fame",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lady+Gaga/The+Fame",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lady Gaga",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Fame Monster (Deluxe Edition)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lady+Gaga/The+Fame+Monster+(Deluxe+Edition)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lady Gaga",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Fame Monster",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lady+Gaga/The+Fame+Monster",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lady Gaga",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "ARTPOP",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lady+Gaga/ARTPOP",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lady Gaga",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Born This Way",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lady+Gaga/Born+This+Way",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Don Toliver",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Heaven or Hell",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Don+Toliver/Heaven+or+Hell",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Don Toliver",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Love Sick (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Don+Toliver/Love+Sick+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Don Toliver",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "HARDSTONE PSYCHO",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Don+Toliver/HARDSTONE+PSYCHO",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Don Toliver",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Life of a DON",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Don+Toliver/Life+of+a+DON",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Don Toliver",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Love Sick",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Don+Toliver/Love+Sick",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Sabrina Carpenter",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Short n' Sweet",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Sabrina+Carpenter/Short+n%27+Sweet",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Sabrina Carpenter",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Espresso",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Sabrina+Carpenter/Espresso",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Sabrina Carpenter",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "emails i can't send",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Sabrina+Carpenter/emails+i+can%27t+send",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Sabrina Carpenter",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "emails i can’t send fwd:",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Sabrina+Carpenter/emails+i+can%E2%80%99t+send+fwd:",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Sabrina Carpenter",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Please Please Please",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Sabrina+Carpenter/Please+Please+Please",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Travis Scott",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Rodeo (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Travi$+Scott/Rodeo+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Travis Scott",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Days Before Rodeo",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Travi$+Scott/Days+Before+Rodeo",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Travis Scott",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Antidote",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Travi$+Scott/Antidote",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Travis Scott",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Birds in the Trap Sing McKnight",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Travi$+Scott/Birds+in+the+Trap+Sing+McKnight",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Travis Scott",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "OWL PHARAOH",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Travi$+Scott/OWL+PHARAOH",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bad Bunny",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "DeBÍ TiRAR MáS FOToS",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bad+Bunny/DeB%C3%8D+TiRAR+M%C3%A1S+FOToS",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bad Bunny",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Un Verano Sin Ti",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bad+Bunny/Un+Verano+Sin+Ti",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bad Bunny",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "YHLQMDLG",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bad+Bunny/YHLQMDLG",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bad Bunny",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "nadie sabe lo que va a pasar mañana",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bad+Bunny/nadie+sabe+lo+que+va+a+pasar+ma%C3%B1ana",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bad Bunny",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "EL ÚLTIMO TOUR DEL MUNDO",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bad+Bunny/EL+%C3%9ALTIMO+TOUR+DEL+MUNDO",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Future",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "WE DON'T TRUST YOU",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Future/WE+DON%27T+TRUST+YOU",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Future",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "FUTURE",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Future/FUTURE",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Future",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "I NEVER LIKED YOU",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Future/I+NEVER+LIKED+YOU",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Future",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "HNDRXX",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Future/HNDRXX",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Future",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "DS2 (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Future/DS2+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Billie Eilish",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Billie+Eilish/WHEN+WE+ALL+FALL+ASLEEP,+WHERE+DO+WE+GO%3F",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Billie Eilish",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "HIT ME HARD AND SOFT",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Billie+Eilish/HIT+ME+HARD+AND+SOFT",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Billie Eilish",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Happier Than Ever",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Billie+Eilish/Happier+Than+Ever",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Billie Eilish",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "dont smile at me",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Billie+Eilish/dont+smile+at+me",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Billie Eilish",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "lovely (with Khalid)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Billie+Eilish/lovely+(with+Khalid)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Arctic Monkeys",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "AM",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Arctic+Monkeys/AM",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Arctic Monkeys",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Favourite Worst Nightmare",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Arctic+Monkeys/Favourite+Worst+Nightmare",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Arctic Monkeys",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Whatever People Say I Am, That's What I'm Not",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Arctic+Monkeys/Whatever+People+Say+I+Am,+That%27s+What+I%27m+Not",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Arctic Monkeys",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Favourite Worst Nightmare (Standard Version)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Arctic+Monkeys/Favourite+Worst+Nightmare+(Standard+Version)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Arctic Monkeys",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Humbug",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Arctic+Monkeys/Humbug",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Paramore",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "RIOT!",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Paramore/RIOT%21",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Paramore",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "brand new eyes",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Paramore/brand+new+eyes",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Paramore",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Paramore",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Paramore/Paramore",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Paramore",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "After Laughter",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Paramore/After+Laughter",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Paramore",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "All We Know Is Falling",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Paramore/All+We+Know+Is+Falling",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Marías",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Submarine",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Mar%C3%ADas/Submarine",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Marías",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "CINEMA",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Mar%C3%ADas/CINEMA",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Marías",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Superclean, Vol. II",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Mar%C3%ADas/Superclean,+Vol.+II",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Marías",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Superclean, Vol. I",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Mar%C3%ADas/Superclean,+Vol.+I",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Marías",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "No One Noticed (Extended)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Mar%C3%ADas/No+One+Noticed+(Extended)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "SZA",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "SOS",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/SZA/SOS",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "SZA",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Ctrl",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/SZA/Ctrl",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "SZA",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "SOS Deluxe: LANA",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/SZA/SOS+Deluxe:+LANA",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "SZA",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Good Days",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/SZA/Good+Days",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "SZA",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Saturn",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/SZA/Saturn",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Playboi Carti",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Whole Lotta Red",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Playboi+Carti/Whole+Lotta+Red",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Playboi Carti",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Playboi Carti",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Playboi+Carti/Playboi+Carti",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Playboi Carti",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Die Lit",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Playboi+Carti/Die+Lit",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Playboi Carti",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Music",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Playboi+Carti/Music",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Playboi Carti",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "ALL RED",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Playboi+Carti/ALL+RED",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bruno Mars",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Doo-Wops & Hooligans",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bruno+Mars/Doo-Wops+&+Hooligans",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bruno Mars",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Unorthodox Jukebox",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bruno+Mars/Unorthodox+Jukebox",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bruno Mars",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "24K Magic",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bruno+Mars/24K+Magic",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bruno Mars",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "An Evening with Silk Sonic",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bruno+Mars/An+Evening+with+Silk+Sonic",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Bruno Mars",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "It Will Rain",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Bruno+Mars/It+Will+Rain",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Justin Bieber",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Purpose (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Justin+Bieber/Purpose+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Justin Bieber",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "My World 2.0",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Justin+Bieber/My+World+2.0",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Justin Bieber",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Believe",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Justin+Bieber/Believe",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Justin Bieber",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Justice",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Justin+Bieber/Justice",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Justin Bieber",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Believe (Deluxe Edition)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Justin+Bieber/Believe+(Deluxe+Edition)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Rumours (Super Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Fleetwood+Mac/Rumours+(Super+Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Rumours",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Fleetwood+Mac/Rumours",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Fleetwood Mac",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Fleetwood+Mac/Fleetwood+Mac",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Greatest Hits",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Fleetwood+Mac/Greatest+Hits",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Tango in the Night (Deluxe Edition)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Fleetwood+Mac/Tango+in+the+Night+(Deluxe+Edition)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lil Uzi Vert",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Luv Is Rage 2",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lil+Uzi+Vert/Luv+Is+Rage+2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lil Uzi Vert",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Luv Is Rage 2 (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lil+Uzi+Vert/Luv+Is+Rage+2+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lil Uzi Vert",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Pink Tape",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lil+Uzi+Vert/Pink+Tape",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lil Uzi Vert",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Eternal Atake",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lil+Uzi+Vert/Eternal+Atake",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Lil Uzi Vert",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Lil Uzi Vert vs. the World",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Lil+Uzi+Vert/Lil+Uzi+Vert+vs.+the+World",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Childish Gambino",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "\"Awaken, My Love!\"",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Childish+Gambino/%22Awaken,+My+Love%21%22",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Childish Gambino",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Camp",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Childish+Gambino/Camp",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Childish Gambino",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Because the Internet",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Childish+Gambino/Because+the+Internet",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Childish Gambino",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Kauai",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Childish+Gambino/Kauai",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Childish Gambino",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Summer Pack",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Childish+Gambino/Summer+Pack",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Clairo",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Immunity",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Clairo/Immunity",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Clairo",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Charm",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Clairo/Charm",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Clairo",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Pretty Girl",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Clairo/Pretty+Girl",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Clairo",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Sling",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Clairo/Sling",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Clairo",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "diary 001",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Clairo/diary+001",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mac Miller",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Swimming",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mac+Miller/Swimming",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mac Miller",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Divine Feminine",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mac+Miller/The+Divine+Feminine",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mac Miller",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Circles",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mac+Miller/Circles",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mac Miller",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "K.I.D.S.",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mac+Miller/K.I.D.S.",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mac Miller",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "GO:OD AM",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mac+Miller/GO:OD+AM",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Doja Cat",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Planet Her",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Doja+Cat/Planet+Her",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Doja Cat",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Hot Pink",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Doja+Cat/Hot+Pink",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Doja Cat",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Scarlet",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Doja+Cat/Scarlet",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Doja Cat",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Amala",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Doja+Cat/Amala",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Doja Cat",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Amala (Deluxe Version)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Doja+Cat/Amala+(Deluxe+Version)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Baby Keem",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Melodic Blue",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Baby+Keem/The+Melodic+Blue",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Baby Keem",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "DIE FOR MY BITCH",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Baby+Keem/DIE+FOR+MY+BITCH",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Baby Keem",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Melodic Blue (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Baby+Keem/The+Melodic+Blue+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Baby Keem",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "family ties (with Kendrick Lamar)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Baby+Keem/family+ties+(with+Kendrick+Lamar)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Baby Keem",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Sound of Bad Habit",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Baby+Keem/The+Sound+of+Bad+Habit",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Deftones",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Around the Fur",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Deftones/Around+the+Fur",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Deftones",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "White Pony",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Deftones/White+Pony",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Deftones",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Diamond Eyes",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Deftones/Diamond+Eyes",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Deftones",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Saturday Night Wrist",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Deftones/Saturday+Night+Wrist",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Deftones",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Koi No Yokan",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Deftones/Koi+No+Yokan",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "J. Cole",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "2014 Forest Hills Drive",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/J.+Cole/2014+Forest+Hills+Drive",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "J. Cole",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Cole World: The Sideline Story",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/J.+Cole/Cole+World:+The+Sideline+Story",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "J. Cole",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Born Sinner (Deluxe Version)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/J.+Cole/Born+Sinner+(Deluxe+Version)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "J. Cole",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Off-Season",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/J.+Cole/The+Off-Season",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "J. Cole",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "4 Your Eyez Only",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/J.+Cole/4+Your+Eyez+Only",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mitski",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Be the Cowboy",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mitski/Be+the+Cowboy",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mitski",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Land Is Inhospitable and So Are We",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mitski/The+Land+Is+Inhospitable+and+So+Are+We",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mitski",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "bury me at makeout creek",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mitski/bury+me+at+makeout+creek",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mitski",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Puberty 2",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mitski/Puberty+2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mitski",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Retired from Sad, New Career in Business",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Mitski/Retired+from+Sad,+New+Career+in+Business",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Chappell Roan",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Rise and Fall of a Midwest Princess",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Chappell+Roan/The+Rise+and+Fall+of+a+Midwest+Princess",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Chappell Roan",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Good Luck, Babe!",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Chappell+Roan/Good+Luck,+Babe%21",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Chappell Roan",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Subway",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Chappell+Roan/The+Subway",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Chappell Roan",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Giver",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Chappell+Roan/The+Giver",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Chappell Roan",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Love Me Anyway",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Chappell+Roan/Love+Me+Anyway",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Neighbourhood",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "I Love You.",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Neighbourhood/I+Love+You.",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Neighbourhood",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Wiped Out!",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Neighbourhood/Wiped+Out%21",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Neighbourhood",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Hard to Imagine the Neighbourhood Ever Changing",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Neighbourhood/Hard+to+Imagine+the+Neighbourhood+Ever+Changing",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Neighbourhood",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Chip Chrome & The Mono-Tones",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Neighbourhood/Chip+Chrome+&+The+Mono-Tones",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Neighbourhood",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "I'm Sorry...",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Neighbourhood/I%27m+Sorry...",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "beabadoobee",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Beatopia",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/beabadoobee/Beatopia",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "beabadoobee",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Glue Song",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/beabadoobee/Glue+Song",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "beabadoobee",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "This Is How Tomorrow Moves",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/beabadoobee/This+Is+How+Tomorrow+Moves",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "beabadoobee",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Patched Up",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/beabadoobee/Patched+Up",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "beabadoobee",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Loveworm",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/beabadoobee/Loveworm",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Smiths",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Queen Is Dead",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Smiths/The+Queen+Is+Dead",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Smiths",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Hatful of Hollow",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Smiths/Hatful+of+Hollow",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Smiths",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Louder Than Bombs",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Smiths/Louder+Than+Bombs",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Smiths",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Smiths",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Smiths/The+Smiths",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Smiths",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Meat Is Murder",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/The+Smiths/Meat+Is+Murder",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Gorillaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Demon Days",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Gorillaz/Demon+Days",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Gorillaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Gorillaz",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Gorillaz/Gorillaz",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Gorillaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Plastic Beach",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Gorillaz/Plastic+Beach",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Gorillaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Humanz (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Gorillaz/Humanz+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Gorillaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Cracker Island",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Gorillaz/Cracker+Island",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Daniel Caesar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Freudian",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Daniel+Caesar/Freudian",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Daniel Caesar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "NEVER ENOUGH",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Daniel+Caesar/NEVER+ENOUGH",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Daniel Caesar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Get You - Single",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Daniel+Caesar/Get+You+-+Single",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Daniel Caesar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "CASE STUDY 01",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Daniel+Caesar/CASE+STUDY+01",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Daniel Caesar",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Pilgrim's Paradise",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Daniel+Caesar/Pilgrim%27s+Paradise",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Joji",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "BALLADS 1",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Joji/BALLADS+1",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Joji",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Nectar",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Joji/Nectar",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Joji",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "SMITHEREENS",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Joji/SMITHEREENS",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Joji",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "In Tongues (Deluxe)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Joji/In+Tongues+(Deluxe)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Joji",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Glimpse of Us",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Joji/Glimpse+of+Us",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Coldplay",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Parachutes",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Coldplay/Parachutes",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Coldplay",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "A Rush of Blood to the Head",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Coldplay/A+Rush+of+Blood+to+the+Head",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Coldplay",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Viva la Vida or Death and All His Friends",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Coldplay/Viva+la+Vida+or+Death+and+All+His+Friends",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Coldplay",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "X&Y",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Coldplay/X&Y",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Coldplay",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Mylo Xyloto",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Coldplay/Mylo+Xyloto",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "TV Girl",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "French Exit",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/TV+Girl/French+Exit",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "TV Girl",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Who Really Cares",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/TV+Girl/Who+Really+Cares",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "TV Girl",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Death of a Party Girl",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/TV+Girl/Death+of+a+Party+Girl",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "TV Girl",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "The Night in Question: French Exit Outtakes",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/TV+Girl/The+Night+in+Question:+French+Exit+Outtakes",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "TV Girl",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Lonely Women",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/TV+Girl/Lonely+Women",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Brent Faiyaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "WASTELAND",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Brent+Faiyaz/WASTELAND",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Brent Faiyaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Fuck the World",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Brent+Faiyaz/Fuck+the+World",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Brent Faiyaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Larger Than Life",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Brent+Faiyaz/Larger+Than+Life",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Brent Faiyaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Lost",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Brent+Faiyaz/Lost",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Brent Faiyaz",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Poison",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Brent+Faiyaz/Poison",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tate McRae",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "greedy",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tate+McRae/greedy",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tate McRae",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "So Close to What",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tate+McRae/So+Close+to+What",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tate McRae",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "THINK LATER",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tate+McRae/THINK+LATER",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tate McRae",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Just Keep Watching (From F1® The Movie)",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tate+McRae/Just+Keep+Watching+(From+F1%C2%AE+The+Movie)",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Tate McRae",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "you broke me first",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Last.fm"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://www.last.fm/music/Tate+McRae/you+broke+me+first",
     "date_added": "2026-02-27"
   }
 ]
