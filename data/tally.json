@@ -1,9 +1,14 @@
 {
-  "generated_at": "",
-  "total_releases_last_7_days": 0,
-  "total_releases_last_30_days": 0,
-  "by_genre": {},
-  "by_province": {},
-  "independent_count": 0,
-  "label_count": 0
+  "generated_at": "2026-02-27T13:40:55.053Z",
+  "total_releases_last_7_days": 6,
+  "total_releases_last_30_days": 33,
+  "by_genre": {
+    "Other": 31,
+    "Hip-Hop": 2
+  },
+  "by_province": {
+    "Unknown": 33
+  },
+  "independent_count": 8,
+  "label_count": 25
 }

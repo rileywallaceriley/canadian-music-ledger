@@ -1,1 +1,638 @@
-[]
+[
+  {
+    "artist": "The Sheepdogs",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Keep Out of the Storm",
+    "release_type": "Album",
+    "release_date": "2026-02-27",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/6e05b97a-d670-4b35-95f4-e6fb6bb6d387",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Scott Buckley",
+    "artist_country": "CA",
+    "artist_city": "Afghanistan",
+    "artist_province": "",
+    "release_title": "Memories Of Stone",
+    "release_type": "Single",
+    "release_date": "2026-02-27",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/6f956ece-06d8-4a6c-b132-ee0c9d8ca1bd",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Jane Duke",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "The Origin Of Evil - The Legend Of Narcissus And Oedipus (MP3 One File Edition)",
+    "release_type": "Album",
+    "release_date": "2026-02-25",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Neo-Romantic Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/d00bf674-8f75-4e4e-9484-5b3b12801192",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Jane Duke",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "The Origin Of Evil - The Legend Of Narcissus And Oedipus (WAV One File Edition)",
+    "release_type": "Album",
+    "release_date": "2026-02-25",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Neo-Romantic Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/4e07b21d-cb48-4fc6-8c63-d3285bea04db",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Michel Robichaud",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Rallumer l'effort",
+    "release_type": "Album",
+    "release_date": "2026-02-24",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Productions de l’Onde",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/047054b3-c97f-4fc9-8117-8fd3181431c2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Glass Cage",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Where Did The Sunshine Go?",
+    "release_type": "Album",
+    "release_date": "2026-02-24",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Supreme Echo",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/3119afa1-f945-4da0-b812-a369f16070be",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mumford & Sons",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Prizefighter",
+    "release_type": "Album",
+    "release_date": "2026-02-20",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/eb5aa456-be7c-4c2b-a24e-e239e429aeae",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mumford & Sons",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Prizefighter",
+    "release_type": "Album",
+    "release_date": "2026-02-20",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Glassnote",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/2ad745a5-d5f2-4bb5-9a39-035e03b4eac2",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Album LeafSpencer Zahn",
+    "artist_country": "CA",
+    "artist_city": "Afghanistan",
+    "artist_province": "",
+    "release_title": "Floating",
+    "release_type": "Single",
+    "release_date": "2026-02-20",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/8aebedb8-122a-4f0b-a48f-96cf52850a6d",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Foo Fighters",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Your Favorite Toy",
+    "release_type": "Single",
+    "release_date": "2026-02-19",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "RCA",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/906d4c82-fc81-498e-aa4c-8f4991314e0e",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Denez PrigentO'Tridal",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Tatimato",
+    "release_type": "Single",
+    "release_date": "2026-02-17",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Arfolk",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/f8b707dc-409c-4fc4-93e8-8e88721ea85f",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Boy Golden",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Best of Our Possible Lives",
+    "release_type": "Album",
+    "release_date": "2026-02-13",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Six Shooter Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/7012c3cd-a708-4053-860d-8c797a72ad76",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Arif Murakami",
+    "artist_country": "CA",
+    "artist_city": "Afghanistan",
+    "artist_province": "",
+    "release_title": "Mannen Som Døde Stående",
+    "release_type": "Single",
+    "release_date": "2026-02-13",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Nora Collective AS",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/464be8c0-1925-4eb5-8663-d80a6abb8720",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Andrew BirdGavin Brivik",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Need Someone",
+    "release_type": "Single",
+    "release_date": "2026-02-12",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Loma Vista Recordings",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/1e109e07-3579-475f-805b-c51ddb3da970",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Touch Girl Apple Blossom",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "The Springtime Reminds Me Of…",
+    "release_type": "Single",
+    "release_date": "2026-02-11",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "perennialdeath",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/79beeb9b-5190-4390-b25c-1625baa3c30a",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "MC ShadowKaye Sergeant",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Similar",
+    "release_type": "Single",
+    "release_date": "2026-02-10",
+    "primary_genre": "Hip-Hop",
+    "subgenres": [
+      "Hip-Hop",
+      "R&B / Soul"
+    ],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "East Park Productions",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/bddb80f7-4ce7-47c0-89bf-f5b033a2d08e",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "MC ShadowKaye Sergeant",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Foolin' Ya Self",
+    "release_type": "Single",
+    "release_date": "2026-02-07",
+    "primary_genre": "Hip-Hop",
+    "subgenres": [
+      "Hip-Hop",
+      "R&B / Soul"
+    ],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "East Park Productions",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/aea6696b-927f-42e1-b3c6-b556042beb0c",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Sam Aleums",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "At the End, Together // Home Safe",
+    "release_type": "Album",
+    "release_date": "2026-02-06",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/37a3bcd8-5cf7-4ff4-b1e7-c28ac02e4d23",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Emilie‐Claire Barlow",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "La plus belle saison",
+    "release_type": "Album",
+    "release_date": "2026-02-06",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Empress Music Group",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/87127d75-2f37-476b-ab02-0d70d40bd233",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Uni Boys",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Abra",
+    "release_type": "Single",
+    "release_date": "2026-02-06",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Curation Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/cf484c15-7d31-49f5-be75-e6205a6eb112",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Karnivool",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "In Verses",
+    "release_type": "Album",
+    "release_date": "2026-02-06",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Cymatic",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/651a6044-16d0-438d-a802-a06ee3c1c393",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Annapantsu",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Losin' Streak",
+    "release_type": "Single",
+    "release_date": "2026-02-05",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/df3cb279-fff7-4eb4-9897-e1dc393d7489",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Good Kid",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Eastside",
+    "release_type": "Single",
+    "release_date": "2026-02-03",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/488c8943-4fdf-4ab6-9bb3-fe743ec9f319",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Signal Hangup",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "sines + signals",
+    "release_type": "Album",
+    "release_date": "2026-02-03",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/1a37056f-626f-44d7-bf4c-53ea835bddb6",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Mummies",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "The Beast With Four Left Feet",
+    "release_type": "Single",
+    "release_date": "2026-02",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Fink City",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/dbb60710-1859-4982-987f-9c43a342c1b5",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Mummies",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "The Beast With Four Left Feet",
+    "release_type": "Single",
+    "release_date": "2026-02",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Neptoon Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/9cdd0227-2a84-458a-b2b2-b7af725f312d",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Jocelyn Tellier",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Birdhouse",
+    "release_type": "Album",
+    "release_date": "2026-01-30",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/f1226c08-b7d9-4ecb-b84d-4f95f30a6584",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Fakear",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "those trees",
+    "release_type": "Single",
+    "release_date": "2026-01-30",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Nowadays Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/344f72dd-5572-43f3-b68a-ba8a84b3bad1",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Mehdi Cayenne",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Cupidon",
+    "release_type": "Single",
+    "release_date": "2026-01-30",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "PASA Musik",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/fc383686-d97a-460b-95b2-ff7cb1dc8331",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Cold Camp",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Winter Dreamz",
+    "release_type": "Album",
+    "release_date": "2026-01-30",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Hand’Solo Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/af77f2ef-6ba4-423d-99c9-bcfd122cf1db",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "Sam Sauvage",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Mesdames, Messieurs !",
+    "release_type": "Album",
+    "release_date": "2026-01-30",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Cinq 7",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/92a67847-3296-4749-a9de-a4f0688b767b",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Cure",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Boys Don’t Cry (86 Mix)",
+    "release_type": "Single",
+    "release_date": "2026-01-30",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Elektra",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/141339c2-f7b3-414e-98b9-ea8d6861c819",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "NOFX",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Minnesota Nazis",
+    "release_type": "Single",
+    "release_date": "2026-01-29",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Fat Wreck Chords",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/796e2ab4-b8c2-449e-84bf-2e35b447d48c",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "The Rural Alberta Advantage",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "The Hunt in Edson",
+    "release_type": "Single",
+    "release_date": "2026-01-28",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Paper Bag Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/244b3e60-2412-4d7f-9d0c-44f4af68887e",
+    "date_added": "2026-02-27"
+  },
+  {
+    "artist": "SeventhString",
+    "artist_country": "CA",
+    "artist_city": "Canada",
+    "artist_province": "",
+    "release_title": "Bridges",
+    "release_type": "Single",
+    "release_date": "2026-01-28",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/900a1365-c6e2-45a4-827a-63d8b90c2bfc",
+    "date_added": "2026-02-27"
+  }
+]
