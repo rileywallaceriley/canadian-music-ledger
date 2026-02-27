@@ -14,10 +14,8 @@ contents: write
 steps:
 - uses: actions/checkout@v4
 - uses: actions/setup-node@v4
-with:
-node-version: ‘20’
-- name: Install Chrome and system deps
-run: sudo apt-get update -qq && sudo apt-get install -y google-chrome-stable libnss3 libatk-bridge2.0-0 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2t64 libpangocairo-1.0-0 libgtk-3-0
+- name: Install Chrome
+run: sudo apt-get update -qq && sudo apt-get install -y google-chrome-stable
 - name: Install npm deps
 run: npm install
 env:
