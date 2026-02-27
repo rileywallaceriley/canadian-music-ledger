@@ -20,6 +20,7 @@ jobs:
         run: node scripts/build.js
         env:
           MB_USER_AGENT: ${{ secrets.MB_USER_AGENT }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
       - name: Commit data
         run: |
           git config user.name 'github-actions[bot]'
