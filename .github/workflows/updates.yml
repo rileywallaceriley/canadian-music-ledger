@@ -1,32 +1,35 @@
 name: Daily Music Ledger Update
 
 on:
-  schedule:
-    - cron: '0 7 * * *'
-  workflow_dispatch:
+schedule:
+- cron: ‘0 7 * * *’
+workflow_dispatch:
 
 jobs:
-  update:
-    runs-on: ubuntu-latest
-    timeout-minutes: 25
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - name: Install system deps
-        run: sudo apt-get update -qq && sudo apt-get install -y libnss3 libatk-bridge2.0-0 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2t64 libpangocairo-1.0-0 libgtk-3-0 libx11-xcb1 libxcb-dri3-0
-      - name: Install npm deps
-        run: npm install
-      - name: Build
-        run: node scripts/build.js
-        env:
-          MB_USER_AGENT: ${{ secrets.MB_USER_AGENT }}
-      - name: Commit data
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/releases.json data/tally.json
-          git diff --cached --quiet && echo 'No changes' || (git commit -m 'data: daily update [skip ci]' && git push)
+update:
+runs-on: ubuntu-latest
+timeout-minutes: 20
+permissions:
+contents: write
+steps:
+- uses: actions/checkout@v4
+- uses: actions/setup-node@v4
+with:
+node-version: ‘20’
+- name: Install Chrome and system deps
+run: sudo apt-get update -qq && sudo apt-get install -y google-chrome-stable libnss3 libatk-bridge2.0-0 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2t64 libpangocairo-1.0-0 libgtk-3-0
+- name: Install npm deps
+run: npm install
+env:
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: ‘true’
+- name: Build
+run: node scripts/build.js
+env:
+MB_USER_AGENT: ${{ secrets.MB_USER_AGENT }}
+PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
+- name: Commit data
+run: |
+git config user.name ‘github-actions[bot]’
+git config user.email ‘github-actions[bot]@users.noreply.github.com’
+git add data/releases.json data/tally.json
+git diff –cached –quiet && echo ‘No changes’ || (git commit -m ‘data: daily update [skip ci]’ && git push)
