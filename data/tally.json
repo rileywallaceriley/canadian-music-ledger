@@ -1,23 +1,22 @@
 {
-  "generated_at": "2026-02-28T07:22:06.453Z",
-  "total_releases_last_7_days": 21,
-  "total_releases_last_30_days": 32,
+  "generated_at": "2026-03-01T07:28:44.902Z",
+  "total_releases_last_7_days": 16,
+  "total_releases_last_30_days": 28,
   "by_genre": {
-    "Pop": 4,
-    "Electronic": 2,
-    "Rock": 8,
+    "Pop": 3,
+    "Rock": 6,
+    "Electronic": 1,
     "Other": 10,
-    "Punk": 1,
     "Jazz": 2,
+    "Punk": 1,
     "Folk": 1,
-    "Classical": 1,
-    "Metal": 1,
+    "Blues": 2,
     "Country": 1,
-    "Blues": 1
+    "World": 1
   },
   "by_province": {
-    "Unknown": 32
+    "Unknown": 28
   },
   "independent_count": 0,
-  "label_count": 32
+  "label_count": 28
 }
