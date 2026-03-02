@@ -4,7 +4,7 @@ const axios = require(‘axios’);
 const fs    = require(‘fs’);
 const path  = require(‘path’);
 
-// ── CONFIG ────────────────────────────────────────────
+// – CONFIG ––––––––––––––––––––––
 const DATA_DIR     = path.resolve(__dirname, ‘../data’);
 const RELEASES_OUT = path.join(DATA_DIR, ‘releases.json’);
 const TALLY_OUT    = path.join(DATA_DIR, ‘tally.json’);
@@ -17,7 +17,7 @@ const MB_USER_AGENT =
 process.env.MB_USER_AGENT ||
 ‘CanadianMusicLedger/1.0.0 (https://github.com/YOUR_USERNAME/canadian-music-ledger; your@email.com)’;
 
-// ── CANADIAN ARTIST SEED LIST ─────────────────────────
+// – CANADIAN ARTIST SEED LIST ———————––
 // [name, province, primaryGenre]
 const CANADIAN_ARTISTS_RAW = [
 // HIP-HOP / R&B
@@ -128,7 +128,7 @@ const CANADIAN_ARTISTS_RAW = [
 [‘Michael Buble’,‘BC’,‘Pop’],
 [‘Loreena McKennitt’,‘MB’,‘Folk’],
 [‘Ariane Moffatt’,‘QC’,‘Pop’],
-[‘Klô Pelgag’,‘QC’,‘Pop’],
+[‘Klo Pelgag’,‘QC’,‘Pop’],
 [‘Pierre Lapointe’,‘QC’,‘Pop’],
 [‘Louis-Jean Cormier’,‘QC’,‘Pop’],
 [‘Yann Perreau’,‘QC’,‘Pop’],
@@ -151,7 +151,7 @@ const CANADIAN_ARTISTS_RAW = [
 [‘Luc De Larochelliere’,‘QC’,‘Pop’],
 [‘Jayda G’,‘BC’,‘Electronic’],
 [‘Tate McRae’,‘AB’,‘Pop’],
-[‘bülow’,‘ON’,‘Pop’],
+[‘bulow’,‘ON’,‘Pop’],
 [‘Lennon Stella’,‘ON’,‘Pop’],
 [‘JP Saxe’,‘ON’,‘Pop’],
 [‘bbno$’,‘BC’,‘Pop’],
@@ -422,7 +422,7 @@ seenNames.add(k);
 return true;
 });
 
-// ── GENRE MAP ─────────────────────────────────────────
+// – GENRE MAP —————————————–
 const GENRE_MAP = {
 ‘hip hop’:‘Hip-Hop’,‘hip-hop’:‘Hip-Hop’,‘rap’:‘Hip-Hop’,‘trap’:‘Hip-Hop’,
 ‘boom bap’:‘Hip-Hop’,‘drill’:‘Hip-Hop’,‘conscious rap’:‘Hip-Hop’,
@@ -469,7 +469,7 @@ NL:‘Newfoundland and Labrador’, PEI:‘Prince Edward Island’,
 YT:‘Yukon’, NT:‘Northwest Territories’, NU:‘Nunavut’,
 };
 
-// ── UTILS ─────────────────────────────────────────────
+// – UTILS ———————————————
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function isoDate(daysAgo = 0) {
@@ -493,8 +493,8 @@ function ensureDataDir() {
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 
-// ── 1. BANDCAMP DISCOVER ──────────────────────────────
-// bandcamp-fetch v3 is ESM — use dynamic import from CommonJS
+// – 1. BANDCAMP DISCOVER ——————————
+// bandcamp-fetch v3 is ESM – use dynamic import from CommonJS
 async function fetchBandcamp() {
 console.log(’\nFetching Bandcamp Discover (Canada, new arrivals)…’);
 const releases = [];
@@ -567,7 +567,7 @@ console.log(’  BC done: ’ + releases.length);
 return releases;
 }
 
-// ── 2. MUSICBRAINZ ────────────────────────────────────
+// – 2. MUSICBRAINZ ————————————
 async function fetchMBBatch(batch, from, today) {
 const orClause = batch
 .map(([name]) => ‘artist:”’ + name.replace(/”/g, ‘\”’) + ‘”’)
@@ -649,7 +649,7 @@ console.log(’  MB done: ’ + releases.length);
 return releases;
 }
 
-// ── 3. ITUNES SEARCH ──────────────────────────────────
+// – 3. ITUNES SEARCH –––––––––––––––––
 async function fetchiTunesForArtist(name, province, genre) {
 const cutoff = new Date();
 cutoff.setDate(cutoff.getDate() - DAYS_BACK);
@@ -695,7 +695,7 @@ for (const entry of (resp.data?.results || [])) {
 }
 ```
 
-} catch (e) { /* timeout — skip silently */ }
+} catch (e) { /* timeout – skip silently */ }
 
 return results;
 }
@@ -714,7 +714,7 @@ console.log(’  iTunes done: ’ + releases.length);
 return releases;
 }
 
-// ── DEDUPE ────────────────────────────────────────────
+// – DEDUPE ––––––––––––––––––––––
 function deduplicate(releases) {
 const map = new Map();
 for (const rel of releases) {
@@ -744,7 +744,7 @@ return isNaN(d) || d >= cutoff;
 });
 }
 
-// ── TALLY ─────────────────────────────────────────────
+// – TALLY ———————————————
 function generateTally(releases) {
 const now   = new Date();
 const ago7  = new Date(now); ago7.setDate(now.getDate() - 7);
@@ -772,7 +772,7 @@ label_count:       last30.filter(r => !r.independent).length,
 };
 }
 
-// ── MAIN ──────────────────────────────────────────────
+// – MAIN –––––––––––––––––––––––
 async function main() {
 console.log(‘Canadian Music Ledger - Build’);
 console.log(’Lookback: ’ + DAYS_BACK + ’ days | Seed artists: ’ + ARTISTS.length);
