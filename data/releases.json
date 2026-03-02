@@ -1,56 +1,20 @@
 [
   {
-    "artist": "Crown Lands",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Apocalypse",
-    "release_type": "Album",
-    "release_date": "2026-05-15",
-    "primary_genre": "Rock",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/apocalypse/1870523245?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Population II",
+    "artist": "Philippe B",
     "artist_country": "CA",
     "artist_city": "",
     "artist_province": "QC",
-    "release_title": "Gimmicks - EP",
+    "release_title": "Cigale",
     "release_type": "Album",
-    "release_date": "2026-04-03",
-    "primary_genre": "Rock",
+    "release_date": "2026-03-13",
+    "primary_genre": "Folk",
     "subgenres": [],
     "platforms": [
       "iTunes"
     ],
     "label": "",
     "independent": false,
-    "source_url": "https://music.apple.com/ca/album/gimmicks-ep/1870611967?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Wintersleep",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "NS",
-    "release_title": "Wishing Moon",
-    "release_type": "Album",
-    "release_date": "2026-03-27",
-    "primary_genre": "Rock",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/wishing-moon/1844003095?uo=4",
+    "source_url": "https://music.apple.com/ca/album/cigale/1852048256?uo=4",
     "date_added": "2026-03-02"
   },
   {
@@ -234,65 +198,11 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Fucked Up",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Dragon - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-27",
-    "primary_genre": "Punk",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/dragon-single/1880419504?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Jenn Grant",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "NS",
-    "release_title": "Gonna Be Free - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-27",
-    "primary_genre": "Folk",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/gonna-be-free-single/1878658729?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Ingrid Jensen",
+    "artist": "Tona",
     "artist_country": "CA",
     "artist_city": "",
     "artist_province": "BC",
-    "release_title": "Landings",
-    "release_type": "Album",
-    "release_date": "2026-02-27",
-    "primary_genre": "Jazz",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/landings/1867810863?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "SonReal",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "BC",
-    "release_title": "August 16 - Single",
+    "release_title": "FRFR (V2 Cleanaz) [feat. Skyzoo] - Single",
     "release_type": "Album",
     "release_date": "2026-02-27",
     "primary_genre": "Hip-Hop",
@@ -302,79 +212,7 @@
     ],
     "label": "",
     "independent": false,
-    "source_url": "https://music.apple.com/ca/album/august-16-single/1877478962?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Preston Pablo",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Cause I Do - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-27",
-    "primary_genre": "Hip-Hop",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/cause-i-do-single/1875114028?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Shlomo",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "קול גלגל - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-26",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/%D7%A7%D7%95%D7%9C-%D7%92%D7%9C%D7%92%D7%9C-single/1881373002?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Shlomo",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "אבא, אבא, אבא (Cover) - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-26",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/%D7%90%D7%91%D7%90-%D7%90%D7%91%D7%90-%D7%90%D7%91%D7%90-cover-single/1881373019?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Shlomo",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "סתכלי למעלה (Cover Reggae Version) - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-26",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/%D7%A1%D7%AA%D7%9B%D7%9C%D7%99-%D7%9C%D7%9E%D7%A2%D7%9C%D7%94-cover-reggae-version-single/1881373332?uo=4",
+    "source_url": "https://music.apple.com/ca/album/frfr-v2-cleanaz-feat-skyzoo-single/1879219395?uo=4",
     "date_added": "2026-03-02"
   },
   {
@@ -393,24 +231,6 @@
     "label": "Horse Friends Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/5310bf5c-59ec-4a0c-9ed1-e32bcb563042",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Sorisa",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Get Used To Me - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-24",
-    "primary_genre": "Pop",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/get-used-to-me-single/1878822956?uo=4",
     "date_added": "2026-03-02"
   },
   {
@@ -526,7 +346,7 @@
     ],
     "label": "mau5trap",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/404017b8-3c6e-4c47-9316-9eb835aec38b",
+    "source_url": "https://musicbrainz.org/release/8f2a687d-28de-4aa7-bae4-5b859308fe61",
     "date_added": "2026-03-02"
   },
   {
@@ -707,24 +527,6 @@
     "label": "IRRSINN Tonträger",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c0901bdb-d520-4e44-bb30-9daf75283a0b",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Dave Gunning",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "NS",
-    "release_title": "Field Notes",
-    "release_type": "Album",
-    "release_date": "2026-02-20",
-    "primary_genre": "Folk",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/field-notes/1842693698?uo=4",
     "date_added": "2026-03-02"
   },
   {
@@ -1182,24 +984,6 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "SonReal",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "BC",
-    "release_title": "Eavesdrop - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-13",
-    "primary_genre": "Hip-Hop",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/eavesdrop-single/1873732803?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
     "artist": "Lila Downs & Snow tha Product",
     "artist_country": "CA",
     "artist_city": "",
@@ -1488,6 +1272,24 @@
     "date_added": "2026-03-02"
   },
   {
+    "artist": "Chris Watson",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Planet Ocean",
+    "release_type": "Album",
+    "release_date": "2026-02-06",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Touch",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/ee98ddc2-bb9b-4b90-8921-87c9a15485da",
+    "date_added": "2026-03-02"
+  },
+  {
     "artist": "CRi & Nicky Elisabeth",
     "artist_country": "CA",
     "artist_city": "",
@@ -1596,42 +1398,6 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Beverly Glenn-Copeland",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Laughter In Summer",
-    "release_type": "Album",
-    "release_date": "2026-02-06",
-    "primary_genre": "Folk",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/laughter-in-summer/1838950346?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Emilie-Claire Barlow",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "La plus belle saison",
-    "release_type": "Album",
-    "release_date": "2026-02-06",
-    "primary_genre": "Jazz",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/la-plus-belle-saison/1841394441?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
     "artist": "Maara",
     "artist_country": "CA",
     "artist_city": "",
@@ -1726,24 +1492,6 @@
     "artist_country": "CA",
     "artist_city": "",
     "artist_province": "",
-    "release_title": "PERIPETEIA (music for and inspired by)",
-    "release_type": "Album",
-    "release_date": "2026-02-04",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "[no label]",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/9c01cc20-dedc-4cb5-8c95-e92e24066e98",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Ed Harrison",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
     "release_title": "PERIPETEIA: Spaces",
     "release_type": "Album",
     "release_date": "2026-02-04",
@@ -1755,6 +1503,24 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/40a59b80-0b98-4a04-8419-25b73b636cf0",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Ed Harrison",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "PERIPETEIA (music for and inspired by)",
+    "release_type": "Album",
+    "release_date": "2026-02-04",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/9c01cc20-dedc-4cb5-8c95-e92e24066e98",
     "date_added": "2026-03-02"
   },
   {
@@ -1791,24 +1557,6 @@
     "label": "Satellite Services",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9950e688-c7e9-4c93-9493-6ce7975f524e",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Jennarie",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Contemplating You - Single",
-    "release_type": "Album",
-    "release_date": "2026-02-04",
-    "primary_genre": "R&B/Soul",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/contemplating-you-single/1863634944?uo=4",
     "date_added": "2026-03-02"
   },
   {
@@ -2266,24 +2014,6 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Noeline Hofmann",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "AB",
-    "release_title": "Dublin Blues - Single",
-    "release_type": "Album",
-    "release_date": "2026-01-30",
-    "primary_genre": "Country",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/dublin-blues-single/1871002004?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
     "artist": "Threat Signal",
     "artist_country": "CA",
     "artist_city": "",
@@ -2371,24 +2101,6 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/e5790cc1-76c9-493f-9266-cd39afdc5b4b",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Population II",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "QC",
-    "release_title": "Population II (Audiotree Live) - EP",
-    "release_type": "Album",
-    "release_date": "2026-01-27",
-    "primary_genre": "Rock",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/population-ii-audiotree-live-ep/1872220987?uo=4",
     "date_added": "2026-03-02"
   },
   {
@@ -2788,24 +2500,6 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "City and Colour",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Covers, Pt.4 - Single",
-    "release_type": "Album",
-    "release_date": "2026-01-23",
-    "primary_genre": "Folk",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/covers-pt-4-single/1860108859?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
     "artist": "The PropheC & Jonita Gandhi",
     "artist_country": "CA",
     "artist_city": "",
@@ -3202,24 +2896,6 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Julianna Barwick & Mary Lattimore",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Tragic Magic",
-    "release_type": "Album",
-    "release_date": "2026-01-16",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "InFiné",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/b2b3f3ac-1bd7-4e12-b0cb-675f60173954",
-    "date_added": "2026-03-02"
-  },
-  {
     "artist": "Mary Lattimore & Julianna Barwick",
     "artist_country": "CA",
     "artist_city": "",
@@ -3237,6 +2913,24 @@
     "label": "InFiné",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/5315e659-412e-4852-8911-815e9452823e",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Julianna Barwick & Mary Lattimore",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Tragic Magic",
+    "release_type": "Album",
+    "release_date": "2026-01-16",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "InFiné",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/b2b3f3ac-1bd7-4e12-b0cb-675f60173954",
     "date_added": "2026-03-02"
   },
   {
@@ -3366,42 +3060,6 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Jenn Grant",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "NS",
-    "release_title": "Crazy - Single",
-    "release_type": "Album",
-    "release_date": "2026-01-16",
-    "primary_genre": "Folk",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/crazy-single/1867709821?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "SonReal",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "BC",
-    "release_title": "The Lay Up - Single",
-    "release_type": "Album",
-    "release_date": "2026-01-16",
-    "primary_genre": "Hip-Hop",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/the-lay-up-single/1863214351?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
     "artist": "Black Stone Cherry & Tyler Connolly",
     "artist_country": "CA",
     "artist_city": "",
@@ -3470,7 +3128,25 @@
     ],
     "label": "Mint Records",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/40af4fc0-faf3-4074-a736-fa24a43b60d6",
+    "source_url": "https://musicbrainz.org/release/62dd391c-7141-4504-a476-4650f6ca08dc",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Louis-Jean Cormier",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "QC",
+    "release_title": "Tu m'aimes-tu (Live) - Single",
+    "release_type": "Album",
+    "release_date": "2026-01-15",
+    "primary_genre": "Pop",
+    "subgenres": [],
+    "platforms": [
+      "iTunes"
+    ],
+    "label": "",
+    "independent": false,
+    "source_url": "https://music.apple.com/ca/album/tu-maimes-tu-live-single/1860629639?uo=4",
     "date_added": "2026-03-02"
   },
   {
@@ -3818,24 +3494,6 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Dave Gunning",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "NS",
-    "release_title": "Blue Heart - Single",
-    "release_type": "Album",
-    "release_date": "2026-01-09",
-    "primary_genre": "Folk",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/blue-heart-single/1842207899?uo=4",
-    "date_added": "2026-03-02"
-  },
-  {
     "artist": "Above the Snow Line",
     "artist_country": "CA",
     "artist_city": "",
@@ -3851,24 +3509,6 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/93fecbd1-52f6-43b2-8780-527ff2a59ae7",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Crack Cloud",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "BC",
-    "release_title": "Safe Room - Single",
-    "release_type": "Album",
-    "release_date": "2026-01-08",
-    "primary_genre": "Rock",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/safe-room-single/1865163792?uo=4",
     "date_added": "2026-03-02"
   },
   {
@@ -3984,7 +3624,7 @@
     "artist_country": "CA",
     "artist_city": "",
     "artist_province": "",
-    "release_title": "Pantoufle",
+    "release_title": "Soupir",
     "release_type": "Album",
     "release_date": "2026-01-05",
     "primary_genre": "Other",
@@ -3994,7 +3634,7 @@
     ],
     "label": "[no label]",
     "independent": true,
-    "source_url": "https://musicbrainz.org/release/ec259230-a5a0-43d7-b676-f893c2c311d1",
+    "source_url": "https://musicbrainz.org/release/dfe1907c-377d-4294-a2ad-dee99e5b2f30",
     "date_added": "2026-03-02"
   },
   {
@@ -4020,7 +3660,7 @@
     "artist_country": "CA",
     "artist_city": "",
     "artist_province": "",
-    "release_title": "Soupir",
+    "release_title": "Pantoufle",
     "release_type": "Album",
     "release_date": "2026-01-05",
     "primary_genre": "Other",
@@ -4030,7 +3670,7 @@
     ],
     "label": "[no label]",
     "independent": true,
-    "source_url": "https://musicbrainz.org/release/dfe1907c-377d-4294-a2ad-dee99e5b2f30",
+    "source_url": "https://musicbrainz.org/release/ec259230-a5a0-43d7-b676-f893c2c311d1",
     "date_added": "2026-03-02"
   },
   {
@@ -4088,24 +3728,6 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Diana Ringo",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "The Curse of Modigliani (Original Motion Picture Soundtrack)",
-    "release_type": "Album",
-    "release_date": "2026-01-02",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/656bbdc5-71af-46d7-b879-58172918df39",
-    "date_added": "2026-03-02"
-  },
-  {
     "artist": "Diana Herrera",
     "artist_country": "CA",
     "artist_city": "",
@@ -4124,11 +3746,11 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Chris Watson",
+    "artist": "Diana Ringo",
     "artist_country": "CA",
     "artist_city": "",
     "artist_province": "",
-    "release_title": "Planet Ocean",
+    "release_title": "The Curse of Modigliani (Original Motion Picture Soundtrack)",
     "release_type": "Album",
     "release_date": "2026-01-02",
     "primary_genre": "Other",
@@ -4136,9 +3758,9 @@
     "platforms": [
       "MusicBrainz"
     ],
-    "label": "Touch",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/c9783907-fc0e-407b-bd21-5f11e874b678",
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/656bbdc5-71af-46d7-b879-58172918df39",
     "date_added": "2026-03-02"
   },
   {
@@ -4232,11 +3854,29 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Cement Tea",
+    "artist": "Синичкин Календарь (Titmouse's Calendar)",
     "artist_country": "CA",
-    "artist_city": "São Paulo, Brazil",
+    "artist_city": "Shchyolkovo, Russia",
     "artist_province": "",
-    "release_title": "[REMIX PACK] I'm Spitting Fire And I Have No Horns",
+    "release_title": "House of Rest",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Experimental",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://houseofrest.bandcamp.com/album/house-of-rest",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "ancient lair",
+    "artist_country": "CA",
+    "artist_city": "Chicago, Illinois",
+    "artist_province": "",
+    "release_title": "ancient lair",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Electronic",
@@ -4246,33 +3886,15 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://cementtea.bandcamp.com/album/remix-pack-im-spitting-fire-and-i-have-no-horns",
+    "source_url": "https://ancientlair.bandcamp.com/album/ancient-lair",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "ZackRemorqGD《 DJ-ZR 》",
+    "artist": "PlaysauntianMadlads ",
     "artist_country": "CA",
-    "artist_city": "QLD, Australia",
+    "artist_city": "Texas",
     "artist_province": "",
-    "release_title": "Pokémon Ranger - Panula Cave (DJ-ZR Remix)",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://zackremorqgd.bandcamp.com/album/pok-mon-ranger-panula-cave-dj-zr-remix",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Grantor",
-    "artist_country": "CA",
-    "artist_city": "São Paulo, Brazil",
-    "artist_province": "",
-    "release_title": "La Bouche Is My Favorite Grindcore Band",
+    "release_title": "Musical Alchemy, Vol. l",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Experimental",
@@ -4282,51 +3904,15 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://hellthoven.bandcamp.com/album/la-bouche-is-my-favorite-grindcore-band",
+    "source_url": "https://playsauntune.bandcamp.com/album/musical-alchemy-vol-l",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Heriberto Urdánoz",
+    "artist": "Карлик Нос, сергей отвёртка",
     "artist_country": "CA",
-    "artist_city": "Chile",
+    "artist_city": "Moscow, Russia",
     "artist_province": "",
-    "release_title": "KINOGRAFÍA",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Experimental",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://heribertourdanoz.bandcamp.com/album/kinograf-a",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "White Mountains",
-    "artist_country": "CA",
-    "artist_city": "Switzerland",
-    "artist_province": "",
-    "release_title": "Discography (2007 - 2014)",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Experimental",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://miraclesfromthegutter.bandcamp.com/album/discography-2007-2014",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Bonehead3",
-    "artist_country": "CA",
-    "artist_city": "Zagreb, Croatia",
-    "artist_province": "",
-    "release_title": "Now - EP",
+    "release_title": "ОКСNМИРОН 1",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -4336,69 +3922,87 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://bonehead3.bandcamp.com/album/now-ep",
+    "source_url": "https://dwarfnose.bandcamp.com/album/n-1",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "His Calling",
+    "artist": "distrusted advesary",
     "artist_country": "CA",
-    "artist_city": "Florida",
+    "artist_city": "Muskegon, Michigan",
     "artist_province": "",
-    "release_title": "I Hear War.   -                 10 song Album. HCR",
+    "release_title": "No time to decide",
     "release_type": "Album",
     "release_date": "",
-    "primary_genre": "Rock",
+    "primary_genre": "Metal",
     "subgenres": [],
     "platforms": [
       "Bandcamp"
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://hiscallingmmm.bandcamp.com/album/i-hear-war-10-song-album-hcr",
+    "source_url": "https://distrustedadvesary.bandcamp.com/album/no-time-to-decide",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Jesse Palmiotti",
+    "artist": "Карлик Нос",
     "artist_country": "CA",
-    "artist_city": "New Haven, Connecticut",
+    "artist_city": "Moscow, Russia",
     "artist_province": "",
-    "release_title": "HOME RECORDINGS ONE",
+    "release_title": "жапан",
     "release_type": "Album",
     "release_date": "",
-    "primary_genre": "Rock",
+    "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
       "Bandcamp"
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://jpalmjpalmjpalm.bandcamp.com/album/home-recordings-one",
+    "source_url": "https://dwarfnose.bandcamp.com/album/--3",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Mimi Dye",
+    "artist": "Tessa Cecilia",
     "artist_country": "CA",
-    "artist_city": "Tulsa, Oklahoma",
+    "artist_city": "St. John'S, Newfoundland and Labrador",
     "artist_province": "",
-    "release_title": "One Beautiful Light",
+    "release_title": "Memory of the Smell of Smoke & Once Our Eyes Watered",
     "release_type": "Album",
     "release_date": "",
-    "primary_genre": "Jazz",
+    "primary_genre": "Folk",
     "subgenres": [],
     "platforms": [
       "Bandcamp"
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://mimidye.bandcamp.com/album/one-beautiful-light",
+    "source_url": "https://tessacecilia.bandcamp.com/album/memory-of-the-smell-of-smoke-once-our-eyes-watered",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "I Am The Fly",
+    "artist": "Same Strange",
     "artist_country": "CA",
-    "artist_city": "NRW, Germany",
+    "artist_city": "Los Angeles, California",
     "artist_province": "",
-    "release_title": "2nd single",
+    "release_title": "Yet We’ve Been So Blind",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Experimental",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://samestrange.bandcamp.com/album/yet-we-ve-been-so-blind",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "We Hate Niggers",
+    "artist_country": "CA",
+    "artist_city": "Ohio",
+    "artist_province": "",
+    "release_title": "Ross Federman is Trans: The Complete Fucking Boxset",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Punk",
@@ -4408,105 +4012,15 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://iamthefly.bandcamp.com/album/2nd-single",
+    "source_url": "https://retardedrecords.bandcamp.com/album/ross-federman-is-trans-the-complete-fucking-boxset",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Feerix",
+    "artist": "Карлик Нос",
     "artist_country": "CA",
-    "artist_city": "Ukraine",
+    "artist_city": "Moscow, Russia",
     "artist_province": "",
-    "release_title": "God's Revenge",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://phonkk.bandcamp.com/album/gods-revenge",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "mosh-pit justice",
-    "artist_country": "CA",
-    "artist_city": "Burgas, Bulgaria",
-    "artist_province": "",
-    "release_title": "Future Is Denied",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Metal",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://mosh-pitjustice.bandcamp.com/album/future-is-denied",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Tunkun Local Artists",
-    "artist_country": "CA",
-    "artist_city": "Singapore",
-    "artist_province": "",
-    "release_title": "Local Cantonese Music of Tunkun, Kwangtung",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "World",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://xy3mas93.bandcamp.com/album/local-cantonese-music-of-tunkun-kwangtung",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "xu.sounddesign",
-    "artist_country": "CA",
-    "artist_city": "Cloppenburg, Germany",
-    "artist_province": "",
-    "release_title": "xu.sounddesign - \"xiercbuist\" (full album from creative period 1998-2007)",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://xusounddesign.bandcamp.com/album/xu-sounddesign-xiercbuist-full-album-from-creative-period-1998-2007",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Her Menacing Pet",
-    "artist_country": "CA",
-    "artist_city": "Saint Paul, Minnesota",
-    "artist_province": "",
-    "release_title": "A Woman Under the Influence",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://hermenacingpet.bandcamp.com/album/a-woman-under-the-influence",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "aneira",
-    "artist_country": "CA",
-    "artist_city": "London, UK",
-    "artist_province": "",
-    "release_title": "Weeping Willow Tales - EP",
+    "release_title": "Хэппи Мил",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -4516,33 +4030,33 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://aneira.bandcamp.com/album/weeping-willow-tales-ep",
+    "source_url": "https://dwarfnose.bandcamp.com/album/--4",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "After Midnight",
+    "artist": "Stefans_isch, The Trichomes",
     "artist_country": "CA",
-    "artist_city": "Denver, Colorado",
+    "artist_city": "Newmarket, New Hampshire",
     "artist_province": "",
-    "release_title": "Avalon Live",
+    "release_title": "Toast",
     "release_type": "Album",
     "release_date": "",
-    "primary_genre": "Jazz",
+    "primary_genre": "R&B / Soul",
     "subgenres": [],
     "platforms": [
       "Bandcamp"
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://aftermidnightjb.bandcamp.com/album/avalon-live",
+    "source_url": "https://thetrichomes.bandcamp.com/album/toast",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "ORIGINAL BABY JORDAN",
+    "artist": "Карлик Нос",
     "artist_country": "CA",
-    "artist_city": "Houston, Texas",
+    "artist_city": "Moscow, Russia",
     "artist_province": "",
-    "release_title": "DIFFERENT ANIMAL, SAME BEAST",
+    "release_title": "Арбуз",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -4552,15 +4066,87 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://hoodsport2002.bandcamp.com/album/different-animal-same-beast",
+    "source_url": "https://dwarfnose.bandcamp.com/album/--5",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Jesse Palmiotti",
+    "artist": "Карлик Нос",
     "artist_country": "CA",
-    "artist_city": "New Haven, Connecticut",
+    "artist_city": "Moscow, Russia",
     "artist_province": "",
-    "release_title": "HOME RECORDINGS FOUR",
+    "release_title": "Rolling Nose",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://dwarfnose.bandcamp.com/album/rolling-nose",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "C.JayReign",
+    "artist_country": "CA",
+    "artist_city": "Memphis, Tennessee",
+    "artist_province": "",
+    "release_title": "Reign Speaks",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://cjayreign.bandcamp.com/album/reign-speaks",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Isa Noor Pétroma Null",
+    "artist_country": "CA",
+    "artist_city": "Resolute, Nunavut",
+    "artist_province": "",
+    "release_title": "200",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://isanoornull.bandcamp.com/album/200",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Карлик Нос, swarofski",
+    "artist_country": "CA",
+    "artist_city": "Moscow, Russia",
+    "artist_province": "",
+    "release_title": "EXPLICIT ADVISORY",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://dwarfnose.bandcamp.com/album/explicit-advisory",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "HCR.",
+    "artist_country": "CA",
+    "artist_city": "Florida",
+    "artist_province": "",
+    "release_title": "Massacre of the Innocence.   - 10 song album",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Rock",
@@ -4570,51 +4156,15 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://jpalmjpalmjpalm.bandcamp.com/album/home-recordings-four",
+    "source_url": "https://hiscallingmmm.bandcamp.com/album/massacre-of-the-innocence-10-song-album",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "PLACENTA BUKKAKE",
+    "artist": "Isa Noor Pétroma Null",
     "artist_country": "CA",
-    "artist_city": "Switzerland",
+    "artist_city": "Resolute, Nunavut",
     "artist_province": "",
-    "release_title": "PLACENTA BUKKAKE - \" TREPONEMA PALLIDUM \" album",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Metal",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://placentabukkake.bandcamp.com/album/placenta-bukkake-treponema-pallidum-album",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Pluxry SkUrt, 1NOKA",
-    "artist_country": "CA",
-    "artist_city": "Ukraine",
-    "artist_province": "",
-    "release_title": "EU SENTO E ACABO",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://phonkk.bandcamp.com/album/eu-sento-e-acabo",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Corpse Feet",
-    "artist_country": "CA",
-    "artist_city": "Helsinki, Finland",
-    "artist_province": "",
-    "release_title": "Afternoon Afterlife",
+    "release_title": "199",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -4624,15 +4174,15 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://corpsefeet.bandcamp.com/album/afternoon-afterlife",
+    "source_url": "https://isanoornull.bandcamp.com/album/199",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "トドマツの根",
+    "artist": "Scottie Jam",
     "artist_country": "CA",
-    "artist_city": "",
+    "artist_city": "Chicago, Illinois",
     "artist_province": "",
-    "release_title": "Tiny Tree Trunk 9",
+    "release_title": "Midnight Worms (Deluxe)",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -4642,15 +4192,15 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://watamushi.bandcamp.com/album/tiny-tree-trunk-9",
+    "source_url": "https://scottiejam.bandcamp.com/album/midnight-worms-deluxe",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Reproduczia",
+    "artist": "Isa Noor Pétroma Null",
     "artist_country": "CA",
-    "artist_city": "Ukraine",
+    "artist_city": "Resolute, Nunavut",
     "artist_province": "",
-    "release_title": "10 лет терпения",
+    "release_title": "198",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -4660,15 +4210,51 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://reproduczia.bandcamp.com/album/10",
+    "source_url": "https://isanoornull.bandcamp.com/album/198",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Mario SALIS",
+    "artist": "Isa Noor Pétroma Null",
     "artist_country": "CA",
-    "artist_city": "Metz, France",
+    "artist_city": "Resolute, Nunavut",
     "artist_province": "",
-    "release_title": "112. La tua vita è meravigliosa",
+    "release_title": "197",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://isanoornull.bandcamp.com/album/197",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Premature Birth Through Prolapse Expulsion",
+    "artist_country": "CA",
+    "artist_city": "Kalmar, Sweden",
+    "artist_province": "",
+    "release_title": "A Beautiful Aroma of Decomposing Infants",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Experimental",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://vomitingalloveryourlifelesscorpse.bandcamp.com/album/a-beautiful-aroma-of-decomposing-infants",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Gwen Godiva Harrison",
+    "artist_country": "CA",
+    "artist_city": "Birmingham, UK",
+    "artist_province": "",
+    "release_title": "Radiant Healing Frequency ~ Let Your Light In ~ 528hz Sound Healing",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "World",
@@ -4678,195 +4264,51 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://mariosalis.bandcamp.com/album/112-la-tua-vita-meravigliosa",
+    "source_url": "https://awakenradiance.bandcamp.com/album/radiant-healing-frequency-let-your-light-in-528hz-sound-healing",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "inside vices",
+    "artist": "The Glasses Boy",
     "artist_country": "CA",
-    "artist_city": "London, UK",
+    "artist_city": "Phang Nga, Thailand",
     "artist_province": "",
-    "release_title": "it’s probably the beginning of the middle of the end most likely hot damn dang it",
+    "release_title": "Demo #1 At School",
     "release_type": "Album",
     "release_date": "",
-    "primary_genre": "Experimental",
+    "primary_genre": "Folk",
     "subgenres": [],
     "platforms": [
       "Bandcamp"
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://insidevices.bandcamp.com/album/it-s-probably-the-beginning-of-the-middle-of-the-end-most-likely-hot-damn-dang-it",
+    "source_url": "https://theglassesboy.bandcamp.com/album/demo-1-at-school",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Pluxry SkUrt",
+    "artist": "t marie & bayou juju",
     "artist_country": "CA",
-    "artist_city": "Ukraine",
+    "artist_city": "Louisiana",
     "artist_province": "",
-    "release_title": "TRIGGA",
+    "release_title": "Queen Like A Bee",
     "release_type": "Album",
     "release_date": "",
-    "primary_genre": "Electronic",
+    "primary_genre": "World",
     "subgenres": [],
     "platforms": [
       "Bandcamp"
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://phonkk.bandcamp.com/album/trigga",
+    "source_url": "https://tmarieandbayoujuju.bandcamp.com/album/queen-like-a-bee",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "David Armstrong",
+    "artist": "Bookshop Band",
     "artist_country": "CA",
-    "artist_city": "Minnesota",
+    "artist_city": "Barcelona, Spain",
     "artist_province": "",
-    "release_title": "Echoes Of Tomorrow",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Country",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://davidarmstrong.bandcamp.com/album/echoes-of-tomorrow",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Emigrandi",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Moscow city beats",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://emigrandi.bandcamp.com/album/moscow-city-beats",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "this.presence",
-    "artist_country": "CA",
-    "artist_city": "Brugherio, Italy",
-    "artist_province": "",
-    "release_title": "Jade - EP",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Experimental",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://thispresence.bandcamp.com/album/jade-ep",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "YULUNGA",
-    "artist_country": "CA",
-    "artist_city": "Latvia",
-    "artist_province": "",
-    "release_title": "YULUNGA \"Demo\"",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://kristineaugstkalne.bandcamp.com/album/yulunga-demo",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Otis Jordan & Sam McLoughlin",
-    "artist_country": "CA",
-    "artist_city": "UK",
-    "artist_province": "",
-    "release_title": "HARKNESS",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Experimental",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://nichemarket.bandcamp.com/album/harkness",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Segensklang",
-    "artist_country": "CA",
-    "artist_city": "Hamburg, Germany",
-    "artist_province": "",
-    "release_title": "Segensklang - Schreitet in Asche",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://segensklang.bandcamp.com/album/segensklang-schreitet-in-asche",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "VULTURCIDE",
-    "artist_country": "CA",
-    "artist_city": "Marfa, Texas",
-    "artist_province": "",
-    "release_title": "YEAR 45",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://ciarecords2.bandcamp.com/album/year-45",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Meekal",
-    "artist_country": "CA",
-    "artist_city": "North Carolina",
-    "artist_province": "",
-    "release_title": "Visions (Part 2)",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Classical",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://meekal.bandcamp.com/album/visions-part-2",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "relax\\divide",
-    "artist_country": "CA",
-    "artist_city": "Phoenix, Arizona",
-    "artist_province": "",
-    "release_title": "Vol 3",
+    "release_title": "Cosmic Wave",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Pop",
@@ -4876,33 +4318,33 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://relaxdivide.bandcamp.com/album/vol-3",
+    "source_url": "https://bookshopband.bandcamp.com/album/cosmic-wave",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Jesse Palmiotti",
+    "artist": "TÔLE-ACHE",
     "artist_country": "CA",
-    "artist_city": "New Haven, Connecticut",
+    "artist_city": "Stuttgart, Germany",
     "artist_province": "",
-    "release_title": "HOME RECORDINGS TWO",
+    "release_title": "STROPHARIA",
     "release_type": "Album",
     "release_date": "",
-    "primary_genre": "Rock",
+    "primary_genre": "Experimental",
     "subgenres": [],
     "platforms": [
       "Bandcamp"
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://jpalmjpalmjpalm.bandcamp.com/album/home-recordings-two",
+    "source_url": "https://tole-ache.bandcamp.com/album/stropharia",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Makt I Rockar",
+    "artist": "MJM Soundscape",
     "artist_country": "CA",
-    "artist_city": "Sweden",
+    "artist_city": "Riehen, Switzerland",
     "artist_province": "",
-    "release_title": "Inget För Givet",
+    "release_title": "March Tablas",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -4912,15 +4354,69 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://makt-i-rockar.bandcamp.com/album/inget-f-r-givet",
+    "source_url": "https://mjmsoundscape.bandcamp.com/album/march-tablas",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Ari Wulf",
+    "artist": "Tom Walbank",
     "artist_country": "CA",
-    "artist_city": "Santa Fe, Argentina",
+    "artist_city": "Washington, D.C.",
     "artist_province": "",
-    "release_title": "Storm",
+    "release_title": "going back to the country",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Blues",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://tomwalbank.bandcamp.com/album/going-back-to-the-country-2",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Ganjalf",
+    "artist_country": "CA",
+    "artist_city": "Gap, France",
+    "artist_province": "",
+    "release_title": "Terreur",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Electronic",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://ganjalflevnr.bandcamp.com/album/terreur",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Black Tarot Moonlake",
+    "artist_country": "CA",
+    "artist_city": "Brittany, France",
+    "artist_province": "",
+    "release_title": "lookingforsomething",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://blacktarotmoonlake.bandcamp.com/album/lookingforsomething",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Abfahrt",
+    "artist_country": "CA",
+    "artist_city": "Germany",
+    "artist_province": "",
+    "release_title": "Noise Demo '25",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Metal",
@@ -4930,15 +4426,15 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://ariwulf.bandcamp.com/album/storm",
+    "source_url": "https://wraithcallerrecords.bandcamp.com/album/noise-demo-25",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "トドマツの根",
+    "artist": "Musings of a Doomed Generation",
     "artist_country": "CA",
-    "artist_city": "",
+    "artist_city": "Acton, Maine",
     "artist_province": "",
-    "release_title": "Tiny Tree Trunk 8",
+    "release_title": "Musings of a Doomed Generation",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -4948,105 +4444,33 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://watamushi.bandcamp.com/album/tiny-tree-trunk-8",
+    "source_url": "https://musingsofadoomedgeneration.bandcamp.com/album/musings-of-a-doomed-generation",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Jesse Palmiotti",
+    "artist": "Rat Bastard",
     "artist_country": "CA",
-    "artist_city": "New Haven, Connecticut",
+    "artist_city": "San Francisco, California",
     "artist_province": "",
-    "release_title": "HOME RECORDINGS THREE",
+    "release_title": "El Rancho Hotel",
     "release_type": "Album",
     "release_date": "",
-    "primary_genre": "Rock",
+    "primary_genre": "Other",
     "subgenres": [],
     "platforms": [
       "Bandcamp"
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://jpalmjpalmjpalm.bandcamp.com/album/home-recordings-three",
+    "source_url": "https://rat-bastard.bandcamp.com/album/el-rancho-hotel",
     "date_added": "2026-03-02"
   },
   {
-    "artist": "Pluxry SkUrt",
+    "artist": "Sadro",
     "artist_country": "CA",
-    "artist_city": "Ukraine",
+    "artist_city": "Israel",
     "artist_province": "",
-    "release_title": "SEMANA FUNK",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Electronic",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://phonkk.bandcamp.com/album/semana-funk",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "n.u.do",
-    "artist_country": "CA",
-    "artist_city": "Madrid, Spain",
-    "artist_province": "",
-    "release_title": "n.u.do",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Experimental",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://nud0.bandcamp.com/album/n-u-do",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Shine Grooves",
-    "artist_country": "CA",
-    "artist_city": "Moscow, Russia",
-    "artist_province": "",
-    "release_title": "Sequences For Fluttering",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Experimental",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://thtrecords.bandcamp.com/album/sequences-for-fluttering",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Ich aus Weimar",
-    "artist_country": "CA",
-    "artist_city": "TH, Germany",
-    "artist_province": "",
-    "release_title": "More Guitar II",
-    "release_type": "Album",
-    "release_date": "",
-    "primary_genre": "Rock",
-    "subgenres": [],
-    "platforms": [
-      "Bandcamp"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://ichausweimar.bandcamp.com/album/more-guitar-ii-2",
-    "date_added": "2026-03-02"
-  },
-  {
-    "artist": "Pluxry SkUrt",
-    "artist_country": "CA",
-    "artist_city": "Ukraine",
-    "artist_province": "",
-    "release_title": "Strong",
+    "release_title": "Sound EP",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Electronic",
@@ -5056,7 +4480,115 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://phonkk.bandcamp.com/album/strong",
+    "source_url": "https://topboard.bandcamp.com/album/sound-ep",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Daagniel",
+    "artist_country": "CA",
+    "artist_city": "Barcelona, Spain",
+    "artist_province": "",
+    "release_title": "Inwards",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Electronic",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://daagniel.bandcamp.com/album/inwards",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Ramses Jupiter",
+    "artist_country": "CA",
+    "artist_city": "Helsinki, Finland",
+    "artist_province": "",
+    "release_title": "The War Against AI",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Electronic",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://ramsesjupiter.bandcamp.com/album/the-war-against-ai",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Revelstone",
+    "artist_country": "CA",
+    "artist_city": "Indiana",
+    "artist_province": "",
+    "release_title": "The Road, the Robe, and the Feast",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Rock",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://revelstoneaudio.bandcamp.com/album/the-road-the-robe-and-the-feast",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Aldo ❦",
+    "artist_country": "CA",
+    "artist_city": "Indianapolis, Indiana",
+    "artist_province": "",
+    "release_title": "Hysteria",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://aldosux.bandcamp.com/album/hysteria",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "SUPERTALDO2016",
+    "artist_country": "CA",
+    "artist_city": "Santiago, Chile",
+    "artist_province": "",
+    "release_title": "Los Amigos Vol. 2",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://supertaldo2016.bandcamp.com/album/los-amigos-vol-2",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Holke Road",
+    "artist_country": "CA",
+    "artist_city": "Michigan",
+    "artist_province": "",
+    "release_title": "Holke Road",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Rock",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://holkeroad.bandcamp.com/album/holke-road",
     "date_added": "2026-03-02"
   },
   {
@@ -5078,11 +4610,65 @@
     "date_added": "2026-03-02"
   },
   {
-    "artist": "トドマツの根",
+    "artist": "Yarek w Toksyna FM.",
     "artist_country": "CA",
-    "artist_city": "",
+    "artist_city": "Szczecin, Poland",
     "artist_province": "",
-    "release_title": "Tiny Tree Trunk 7",
+    "release_title": "Wywiady: Yarek w Toksyna FM",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Electronic",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://yarek1.bandcamp.com/album/wywiady-yarek-w-toksyna-fm",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Deian Louis Francis Albert Victor Nicholas George Mountbatten (date of birth: 19th November 1965)",
+    "artist_country": "CA",
+    "artist_city": "Blyth, UK",
+    "artist_province": "",
+    "release_title": "Memories Keep Us Alive",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Electronic",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://mountbatten1.bandcamp.com/album/memories-keep-us-alive",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Alto Inversion",
+    "artist_country": "CA",
+    "artist_city": "Athens, Greece",
+    "artist_province": "",
+    "release_title": "Inner Depths",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Metal",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://altoinversion.bandcamp.com/album/inner-depths",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Tito Ramirez",
+    "artist_country": "CA",
+    "artist_city": "Spain",
+    "artist_province": "",
+    "release_title": "Tito Ramirez - Sonido Conquistador",
     "release_type": "Album",
     "release_date": "",
     "primary_genre": "Other",
@@ -5092,7 +4678,43 @@
     ],
     "label": "",
     "independent": true,
-    "source_url": "https://watamushi.bandcamp.com/album/tiny-tree-trunk-7",
+    "source_url": "https://antifazdiscos.bandcamp.com/album/tito-ramirez-sonido-conquistador",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Sanguine Echoes",
+    "artist_country": "CA",
+    "artist_city": "Vancouver, British Columbia",
+    "artist_province": "",
+    "release_title": "Armies Rise",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Punk",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://sanguineechoes.bandcamp.com/album/armies-rise",
+    "date_added": "2026-03-02"
+  },
+  {
+    "artist": "Stefan Paulus",
+    "artist_country": "CA",
+    "artist_city": "Switzerland",
+    "artist_province": "",
+    "release_title": "Heading Inside",
+    "release_type": "Album",
+    "release_date": "",
+    "primary_genre": "Electronic",
+    "subgenres": [],
+    "platforms": [
+      "Bandcamp"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://stefanpaulus.bandcamp.com/album/heading-inside",
     "date_added": "2026-03-02"
   }
 ]
