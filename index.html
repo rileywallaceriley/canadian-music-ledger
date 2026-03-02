@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -21,6 +22,7 @@
 </div>
 
 <!-- MASTHEAD -->
+
 <header class="masthead">
   <div class="masthead-inner">
     <div class="meta-bar">
@@ -32,44 +34,63 @@
       <span class="meta-chip" id="ledger-date-top">—</span>
     </div>
 
-    <div class="hero-lockup">
-      <div class="hero-deco-left" aria-hidden="true">
-        <div class="deco-vline"></div>
-        <div class="deco-dots"><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="deco-vline"></div>
-      </div>
+```
+<div class="hero-lockup">
+  <div class="hero-deco-left" aria-hidden="true">
+    <div class="deco-vline"></div>
+    <div class="deco-dots"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="deco-vline"></div>
+  </div>
 
-      <div class="hero-center">
-        <span class="hero-overline">The</span>
-        <h1 class="hero-title">
-          <span class="ht-1">Canadian</span>
-          <span class="ht-2">Music</span>
-          <span class="ht-3">Ledger</span>
-        </h1>
-        <p class="hero-tagline">Independent &ensp;·&ensp; Niche &ensp;·&ensp; Nationwide</p>
-      </div>
+  <div class="hero-center">
+    <span class="hero-overline">The</span>
+    <h1 class="hero-title">
+      <span class="ht-1">Canadian</span>
+      <span class="ht-2">Music</span>
+      <span class="ht-3">Ledger</span>
+    </h1>
+    <p class="hero-tagline">Independent &ensp;·&ensp; Niche &ensp;·&ensp; Nationwide</p>
+  </div>
 
-      <div class="hero-deco-right" aria-hidden="true">
-        <div class="maple-svg-wrap">
-          <svg viewBox="0 0 80 95" xmlns="http://www.w3.org/2000/svg" class="maple-svg">
-            <path d="M40 4 L47 22 L66 15 L57 33 L76 40 L59 48 L64 66 L47 56 L50 78 L40 70 L30 78 L33 56 L16 66 L21 48 L4 40 L23 33 L14 15 L33 22 Z"/>
-            <rect x="36.5" y="70" width="7" height="20" rx="1"/>
-            <rect x="27" y="88" width="26" height="3.5" rx="1.5"/>
-          </svg>
-        </div>
-        <div class="deco-vline"></div>
-      </div>
+  <div class="hero-deco-right" aria-hidden="true">
+    <div class="maple-svg-wrap">
+      <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg" class="maple-svg">
+        <path d="M50 5
+          C50 5 45 18 38 18 C31 18 22 12 22 12
+          C22 12 27 22 24 27 C21 32 10 30 10 30
+          C10 30 18 37 17 43 C16 49 6 52 6 52
+          C6 52 16 54 19 60 C22 66 16 76 16 76
+          C16 76 26 70 33 73 C38 75 40 85 40 85
+          L44 72 L50 75 L56 72 L60 85
+          C60 85 62 75 67 73 C74 70 84 76 84 76
+          C84 76 78 66 81 60 C84 54 94 52 94 52
+          C94 52 84 49 83 43 C82 37 90 30 90 30
+          C90 30 79 32 76 27 C73 22 78 12 78 12
+          C78 12 69 18 62 18 C55 18 50 5 50 5 Z"/>
+        <rect x="46" y="84" width="8" height="22" rx="2"/>
+        <rect x="35" y="103" width="30" height="4" rx="2"/>
+      </svg>
     </div>
+    <div class="deco-vline"></div>
+  </div>
+</div>
 
-    <div class="sub-bar">
-      <div class="sub-rule"></div>
-      <p class="sub-text">A public record of new Canadian releases &ensp;·&ensp; Updated daily via GitHub Actions</p>
-      <div class="sub-rule"></div>
-    </div>
+<div class="sub-bar">
+  <div class="sub-rule"></div>
+  <p class="sub-text">A public record of new Canadian releases &ensp;·&ensp; Updated daily via GitHub Actions</p>
+  <div class="sub-rule"></div>
+  <button class="sync-btn" id="sync-btn" title="Trigger a manual data refresh via GitHub Actions">
+    <span class="sync-icon" id="sync-icon">⟳</span>
+    <span id="sync-label">Sync Now</span>
+  </button>
+</div>
+```
+
   </div>
 </header>
 
 <!-- STATS -->
+
 <section class="stats-band" aria-label="Release statistics">
   <div class="stats-inner">
     <div class="stat-card">
@@ -111,58 +132,92 @@
 </section>
 
 <!-- MAIN -->
+
 <main class="body-grid">
   <aside class="sidebar">
 
-    <div class="panel">
-      <div class="panel-head"><span class="ph-line"></span><span class="ph-label">Filter</span><span class="ph-line"></span></div>
-      <div class="ctrl-row">
-        <span class="ctrl-label">Window</span>
-        <div class="pill-toggle">
-          <button class="pill-btn active" data-range="7">7 days</button>
-          <button class="pill-btn" data-range="30">30 days</button>
-        </div>
-      </div>
-      <div class="ctrl-row">
-        <label class="ctrl-label" for="filter-genre">Genre</label>
-        <div class="sel-wrap">
-          <select id="filter-genre" class="fancy-select"><option value="">All genres</option></select>
-          <span class="sel-arr">▾</span>
-        </div>
-      </div>
-      <div class="ctrl-row">
-        <label class="ctrl-label" for="filter-province">Province</label>
-        <div class="sel-wrap">
-          <select id="filter-province" class="fancy-select"><option value="">All provinces</option></select>
-          <span class="sel-arr">▾</span>
-        </div>
-      </div>
-      <div class="ctrl-row">
-        <label class="ctrl-label" for="filter-type">Release</label>
-        <div class="sel-wrap">
-          <select id="filter-type" class="fancy-select">
-            <option value="">All types</option>
-            <option value="independent">Independent only</option>
-            <option value="label">On a label</option>
-          </select>
-          <span class="sel-arr">▾</span>
-        </div>
-      </div>
-      <div class="tally-row">
-        <span class="tally-num" id="results-count-num">—</span>
-        <span class="tally-label">releases shown</span>
-      </div>
+```
+<div class="panel">
+  <div class="panel-head"><span class="ph-line"></span><span class="ph-label">Filter</span><span class="ph-line"></span></div>
+  <div class="ctrl-row">
+    <span class="ctrl-label">Window</span>
+    <div class="pill-toggle">
+      <button class="pill-btn active" data-range="7">7 days</button>
+      <button class="pill-btn" data-range="30">30 days</button>
     </div>
+  </div>
+  <div class="ctrl-row">
+    <label class="ctrl-label" for="filter-genre">Genre</label>
+    <div class="sel-wrap">
+      <select id="filter-genre" class="fancy-select"><option value="">All genres</option></select>
+      <span class="sel-arr">▾</span>
+    </div>
+  </div>
+  <div class="ctrl-row">
+    <label class="ctrl-label" for="filter-province">Province</label>
+    <div class="sel-wrap">
+      <select id="filter-province" class="fancy-select"><option value="">All provinces</option></select>
+      <span class="sel-arr">▾</span>
+    </div>
+  </div>
+  <div class="ctrl-row">
+    <label class="ctrl-label" for="filter-type">Release</label>
+    <div class="sel-wrap">
+      <select id="filter-type" class="fancy-select">
+        <option value="">All types</option>
+        <option value="independent">Independent only</option>
+        <option value="label">On a label</option>
+      </select>
+      <span class="sel-arr">▾</span>
+    </div>
+  </div>
+  <div class="tally-row">
+    <span class="tally-num" id="results-count-num">—</span>
+    <span class="tally-label">releases shown</span>
+  </div>
 
-    <div class="panel">
-      <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Genre</span><span class="ph-line"></span></div>
-      <div style="position:relative;height:210px"><canvas id="chart-genre"></canvas></div>
-    </div>
+  <div class="pull-row">
+    <button class="pull-btn" id="trigger-pull" title="Trigger GitHub Actions workflow to fetch new releases">
+      <span class="pull-icon">↻</span>
+      <span class="pull-label">Trigger Pull</span>
+    </button>
+    <span class="pull-status" id="pull-status"></span>
+  </div>
+</div>
 
-    <div class="panel">
-      <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Province</span><span class="ph-line"></span></div>
-      <div style="position:relative;height:230px"><canvas id="chart-province"></canvas></div>
+<!-- Pull Modal -->
+<div class="pull-modal" id="pull-modal" hidden>
+  <div class="pull-modal-inner">
+    <div class="pull-modal-head">
+      <span class="pull-modal-title">GitHub Dispatch</span>
+      <button class="pull-modal-close" id="pull-modal-close">✕</button>
     </div>
+    <p class="pull-modal-desc">Triggers the <code>update.yml</code> workflow via GitHub API.</p>
+    <div class="pull-field">
+      <label class="pull-field-label" for="pull-repo">Repository <span>(owner/repo)</span></label>
+      <input class="pull-field-input" id="pull-repo" type="text" placeholder="your-username/canadian-music-ledger" autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="pull-field">
+      <label class="pull-field-label" for="pull-token">Personal Access Token <span>(workflow scope)</span></label>
+      <input class="pull-field-input" id="pull-token" type="password" placeholder="ghp_••••••••••••••••" autocomplete="off" />
+    </div>
+    <div class="pull-modal-actions">
+      <button class="pull-cancel-btn" id="pull-cancel">Cancel</button>
+      <button class="pull-confirm-btn" id="pull-confirm">Run Workflow ↗</button>
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Genre</span><span class="ph-line"></span></div>
+  <div style="position:relative;height:210px"><canvas id="chart-genre"></canvas></div>
+</div>
+
+<div class="panel">
+  <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Province</span><span class="ph-line"></span></div>
+  <div style="position:relative;height:230px"><canvas id="chart-province"></canvas></div>
+</div>
+```
 
   </aside>
 
@@ -171,33 +226,36 @@
       <strong>⚠ Demo mode</strong> — showing sample data. Run <code>node scripts/build.js</code> or trigger the GitHub Action to populate real releases.
     </div>
 
-    <div class="ledger-head">
-      <span class="lh">Date</span>
-      <span class="lh">Artist</span>
-      <span class="lh">Release</span>
-      <span class="lh">Genre</span>
-      <span class="lh">Prov.</span>
-      <span class="lh">Format</span>
-      <span class="lh lh-indie">Ind.</span>
-    </div>
+```
+<div class="ledger-head">
+  <span class="lh">Date</span>
+  <span class="lh">Artist</span>
+  <span class="lh">Release</span>
+  <span class="lh">Genre</span>
+  <span class="lh">Prov.</span>
+  <span class="lh">Format</span>
+  <span class="lh lh-indie">Ind.</span>
+</div>
 
-    <div id="ledger-body" role="list" aria-live="polite">
-      <div class="skeleton-wrap">
-        <div class="skel-row" style="--sd:.00s"><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="skel-row" style="--sd:.07s"><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="skel-row" style="--sd:.14s"><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="skel-row" style="--sd:.21s"><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="skel-row" style="--sd:.28s"><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="skel-row" style="--sd:.35s"><span></span><span></span><span></span><span></span><span></span></div>
-      </div>
-    </div>
+<div id="ledger-body" role="list" aria-live="polite">
+  <div class="skeleton-wrap">
+    <div class="skel-row" style="--sd:.00s"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="skel-row" style="--sd:.07s"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="skel-row" style="--sd:.14s"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="skel-row" style="--sd:.21s"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="skel-row" style="--sd:.28s"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="skel-row" style="--sd:.35s"><span></span><span></span><span></span><span></span><span></span></div>
+  </div>
+</div>
 
-    <div id="empty-state" class="empty-state" hidden>
-      <span class="empty-glyph">𝄽</span>
-      <p class="empty-title">No releases found</p>
-      <p class="empty-sub">Try adjusting your filters</p>
-      <button class="ghost-btn" id="reset-filters">↩ Reset filters</button>
-    </div>
+<div id="empty-state" class="empty-state" hidden>
+  <span class="empty-glyph">𝄽</span>
+  <p class="empty-title">No releases found</p>
+  <p class="empty-sub">Try adjusting your filters</p>
+  <button class="ghost-btn" id="reset-filters">↩ Reset filters</button>
+</div>
+```
+
   </section>
 </main>
 
@@ -217,5 +275,162 @@
 </footer>
 
 <script src="app.js"></script>
+
+<script>
+/* ── SYNC BUTTON ─────────────────────────────────────── */
+(function () {
+  const btn     = document.getElementById('sync-btn');
+  const icon    = document.getElementById('sync-icon');
+  const label   = document.getElementById('sync-label');
+
+  const LS_TOKEN = 'cml_gh_token';
+  const LS_REPO  = 'cml_gh_repo';   // "owner/repo"
+
+  function getConfig () {
+    let token = localStorage.getItem(LS_TOKEN);
+    let repo  = localStorage.getItem(LS_REPO);
+    if (!token) {
+      token = prompt('GitHub Personal Access Token (needs workflow scope):\n\nThis is stored locally in your browser and never sent anywhere except the GitHub API.');
+      if (!token) return null;
+      localStorage.setItem(LS_TOKEN, token.trim());
+    }
+    if (!repo) {
+      repo = prompt('GitHub repo in owner/repo format:\n(e.g. your-username/canadian-music-ledger)');
+      if (!repo) return null;
+      localStorage.setItem(LS_REPO, repo.trim());
+    }
+    return { token, repo };
+  }
+
+  async function triggerSync () {
+    const cfg = getConfig();
+    if (!cfg) return;
+
+    btn.disabled = true;
+    icon.style.animation = 'syncSpin 1s linear infinite';
+    label.textContent = 'Triggering…';
+
+    try {
+      const res = await fetch(
+        `https://api.github.com/repos/${cfg.repo}/actions/workflows/update.yml/dispatches`,
+        {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${cfg.token}`,
+            'Accept': 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ ref: 'main' })
+        }
+      );
+
+      if (res.status === 204) {
+        icon.style.animation = '';
+        icon.textContent = '✓';
+        label.textContent = 'Queued!';
+        setTimeout(() => {
+          icon.textContent = '⟳';
+          label.textContent = 'Sync Now';
+          btn.disabled = false;
+        }, 4000);
+      } else if (res.status === 401) {
+        localStorage.removeItem(LS_TOKEN);
+        throw new Error('Token invalid or expired — cleared. Try again.');
+      } else {
+        const body = await res.json().catch(() => ({}));
+        throw new Error(body.message || `HTTP ${res.status}`);
+      }
+    } catch (err) {
+      icon.style.animation = '';
+      icon.textContent = '✕';
+      label.textContent = 'Failed';
+      alert('Sync error: ' + err.message);
+      setTimeout(() => {
+        icon.textContent = '⟳';
+        label.textContent = 'Sync Now';
+        btn.disabled = false;
+      }, 3000);
+    }
+  }
+
+  btn.addEventListener('click', triggerSync);
+
+  /* Reset stored config if holding Shift while clicking */
+  btn.addEventListener('click', function (e) {
+    if (e.shiftKey) {
+      localStorage.removeItem(LS_TOKEN);
+      localStorage.removeItem(LS_REPO);
+      alert('Config cleared — will prompt again on next sync.');
+      e.stopImmediatePropagation();
+    }
+  }, { capture: true });
+})();
+</script>
+
+<script>
+(function() {
+  const btn    = document.getElementById('trigger-pull');
+  const modal  = document.getElementById('pull-modal');
+  const close  = document.getElementById('pull-modal-close');
+  const cancel = document.getElementById('pull-cancel');
+  const confirm= document.getElementById('pull-confirm');
+  const status = document.getElementById('pull-status');
+  const repoIn = document.getElementById('pull-repo');
+  const tokIn  = document.getElementById('pull-token');
+
+  repoIn.value = localStorage.getItem('cml_repo') || '';
+
+  function openModal() { modal.hidden = false; status.textContent = ''; }
+  function closeModal(){ modal.hidden = true; }
+
+  btn.addEventListener('click', openModal);
+  close.addEventListener('click', closeModal);
+  cancel.addEventListener('click', closeModal);
+  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+
+  confirm.addEventListener('click', async () => {
+    const repo  = repoIn.value.trim();
+    const token = tokIn.value.trim();
+    if (!repo || !token) { status.textContent = '⚠ Repo and token required.'; return; }
+
+    localStorage.setItem('cml_repo', repo);
+    confirm.disabled = true;
+    confirm.textContent = 'Dispatching…';
+    status.textContent = '';
+
+    try {
+      const res = await fetch(
+        `https://api.github.com/repos/${repo}/actions/workflows/update.yml/dispatches`,
+        {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github+json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ ref: 'main' })
+        }
+      );
+      if (res.status === 204) {
+        closeModal();
+        status.textContent = '✓ Workflow triggered!';
+        status.style.color = 'var(--gold)';
+      } else {
+        const err = await res.json().catch(() => ({}));
+        status.textContent = `✕ ${res.status}: ${err.message || 'Failed'}`;
+        status.style.color = 'var(--red-bright)';
+      }
+    } catch(e) {
+      status.textContent = '✕ Network error';
+      status.style.color = 'var(--red-bright)';
+    } finally {
+      confirm.disabled = false;
+      confirm.textContent = 'Run Workflow ↗';
+    }
+  });
+})();
+</script>
+
 </body>
 </html>
