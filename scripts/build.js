@@ -534,20 +534,51 @@ async function fetchBandcamp() {
           if (!isNaN(d) && d < cutoff) continue;
         }
 
+        // bandcamp-fetch v3 returns artist as object or string - handle both
+        const bcArtist = (() => {
+          const a = item.artist || item.band || item.name;
+          if (!a) return 'Unknown Artist';
+          if (typeof a === 'string') return a;
+          if (typeof a === 'object') return a.name || a.title || JSON.stringify(a);
+          return String(a);
+        })();
+        const bcTitle = (() => {
+          const t = item.title || item.name || item.album;
+          if (!t) return 'Unknown Title';
+          if (typeof t === 'string') return t;
+          if (typeof t === 'object') return t.name || t.title || String(t);
+          return String(t);
+        })();
+        const bcCity = (() => {
+          const l = item.location || item.city || '';
+          if (typeof l === 'string') return l;
+          if (typeof l === 'object') return l.name || '';
+          return '';
+        })();
+        const bcGenre = (() => {
+          const g = item.genre || item.tag || '';
+          if (typeof g === 'string') return g;
+          if (Array.isArray(g)) return g[0] || '';
+          return '';
+        })();
+        const bcUrl = typeof item.url === 'string' ? item.url : (item.url && item.url.href) || '';
+
+        if (bcArtist === 'Unknown Artist' && bcTitle === 'Unknown Title') continue;
+
         releases.push({
-          artist:          String(item.artist || item.band || 'Unknown Artist'),
+          artist:          bcArtist,
           artist_country:  'CA',
-          artist_city:     String(item.location || ''),
+          artist_city:     bcCity,
           artist_province: '',
-          release_title:   String(item.name || item.title || 'Unknown Title'),
+          release_title:   bcTitle,
           release_type:    'Album',
           release_date:    releaseDate,
-          primary_genre:   normalizeGenre(String(item.genre || '')),
+          primary_genre:   normalizeGenre(bcGenre),
           subgenres:       [],
           platforms:       ['Bandcamp'],
           label:           '',
           independent:     true,
-          source_url:      String(item.url || ''),
+          source_url:      bcUrl,
           date_added:      isoDate(0),
         });
       }
@@ -605,8 +636,10 @@ async function fetchAllMusicBrainz() {
         try {
           const credits    = rel['artist-credit'] || [];
           const artistName = credits
-            .map(ac => (typeof ac === 'string' ? ac : ac?.artist?.name || ''))
-            .join('');
+            .filter(ac => typeof ac !== 'string' || ac.trim() !== '')
+            .map(ac => (typeof ac === 'string' ? ac.trim() : ac?.artist?.name || ''))
+            .filter(Boolean)
+            .join(' & ');
           const artistKey  = artistName.toLowerCase();
           const label      = (rel['label-info'] || [])[0]?.label?.name || '';
           const tags       = (rel.tags || []).map(t => t.name);
@@ -788,7 +821,16 @@ async function main() {
   console.log('  iTunes:      ' + itReleases.length);
   console.log('  Combined:    ' + combined.length);
 
-  const filtered = filterByAge(combined);
+  const BLOCKLIST = [
+    'moist records',
+    'moist records presents',
+  ];
+
+  const filtered = filterByAge(combined).filter(r => {
+    const artist = String(r.artist || '').toLowerCase();
+    const label  = String(r.label || '').toLowerCase();
+    return !BLOCKLIST.some(b => artist.includes(b) || label.includes(b));
+  });
   const deduped  = deduplicate(filtered);
   deduped.sort((a, b) =>
     new Date(b.release_date || '1970') - new Date(a.release_date || '1970')
