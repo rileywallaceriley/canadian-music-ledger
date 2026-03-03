@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,84 +8,245 @@
   <title>Canadian Music Ledger</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Cormorant+SC:wght@400;600;700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Cormorant+SC:wght@400;600;700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <style>
+:root {
+  --void:#111114; --deep:#17171c; --surface:#1e1e26; --lift:#26262f; --rim:#35353f;
+  --muted:#58587a; --silver:#b8b8cc; --paper:#eceadc; --warm:#f7f3ea;
+  --red-deep:#680012; --red:#c8273e; --red-bright:#e8345a; --red-halo:rgba(200,39,62,.07);
+  --gold:#c8962e; --gold-light:#eabc54;
+  --ff-display:'Cormorant Garamond','Georgia',serif;
+  --ff-sc:'Cormorant SC','Georgia',serif;
+  --ff-mono:'DM Mono','Courier New',monospace;
+  --lc-date:5.5rem; --lc-artist:18%; --lc-title:1fr; --lc-genre:9.5rem; --lc-prov:3.8rem; --lc-format:4.8rem; --lc-indie:3rem;
+  --ease:cubic-bezier(0.16,1,0.3,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:17px;scroll-behavior:smooth;color-scheme:dark}
+body{background:linear-gradient(160deg,#1a0810 0%,#111114 40%,#13111a 100%);background-attachment:fixed;color:var(--paper);font-family:var(--ff-display);font-weight:400;min-height:100vh;overflow-x:hidden;line-height:1.55}
+a{color:var(--gold-light);text-decoration:none;transition:color .2s}
+a:hover{color:var(--warm)}
+:focus-visible{outline:2px solid var(--red-bright);outline-offset:3px}
+
+.bg-canvas{display:none}
+
+.masthead{position:relative;z-index:10;border-bottom:1px solid var(–rim);background:var(–void)}
+.masthead::after{content:’’;position:absolute;bottom:-1px;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(–red),var(–red-bright),var(–red),transparent)}
+.masthead-inner{max-width:1440px;margin:0 auto;padding:0 clamp(1.2rem,4vw,3rem)}
+.meta-bar{display:flex;justify-content:space-between;align-items:center;padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,.05);gap:.4rem;overflow:hidden}
+.meta-chip{font-family:var(–ff-mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(–silver);white-space:nowrap}
+.meta-sep{color:var(–red);opacity:.6;margin:0 .3rem;font-size:.65rem}
+
+.hero-center{text-align:center;padding:3rem 0 2.2rem}
+.hero-overline{display:block;font-family:var(–ff-display);font-style:italic;font-weight:300;font-size:clamp(1.1rem,2.5vw,1.6rem);color:var(–red);margin-bottom:-.5rem}
+.hero-title{display:flex;flex-direction:column;line-height:1;letter-spacing:-.02em;margin-bottom:1.4rem}
+.ht-1,.ht-2,.ht-3{font-family:var(–ff-sc);font-weight:700}
+.ht-1{font-size:clamp(2.2rem,6vw,6rem);color:var(–warm);animation-delay:.15s}
+.ht-2{font-size:clamp(3rem,8vw,8.4rem);color:var(–red-bright);animation-delay:.22s;text-shadow:0 0 60px rgba(232,52,90,.3),0 0 120px rgba(200,39,62,.12)}
+.ht-3{font-size:clamp(1.7rem,4.5vw,4.3rem);color:var(–warm);font-weight:400;letter-spacing:.24em;animation-delay:.30s}
+.hero-tagline{font-family:var(–ff-display);font-style:italic;font-weight:300;font-size:clamp(1rem,1.8vw,1.3rem);color:var(–silver);margin-top:.5rem}
+
+.sub-bar{display:flex;align-items:center;gap:1.2rem;padding:.85rem 0 1.4rem}
+.sub-rule{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(–rim))}
+.sub-rule:last-child{background:linear-gradient(90deg,var(–rim),transparent)}
+.sub-text{font-family:var(–ff-display);font-style:italic;font-size:1rem;color:var(–silver);white-space:nowrap;flex-shrink:0}
+@media(max-width:500px){.sub-text{display:none}.sub-bar{padding:.5rem 0 1rem}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+.stats-band{position:relative;z-index:10;background:linear-gradient(180deg,rgba(22,22,28,.98),rgba(17,17,20,.98));border-bottom:1px solid var(–rim)}
+.stats-inner{max-width:1440px;margin:0 auto;padding:0 clamp(1.2rem,4vw,3rem);display:flex;align-items:stretch;flex-wrap:wrap}
+.stat-card{flex:1 1 130px;position:relative;padding:1.5rem 1.5rem;overflow:hidden;transition:background .3s;min-width:110px}
+.stat-card:hover{background:rgba(200,39,62,.05)}
+.stat-ghost{position:absolute;top:50%;right:.75rem;transform:translateY(-50%);font-family:var(–ff-display);font-size:4rem;font-weight:700;color:var(–lift);pointer-events:none;user-select:none;line-height:1;letter-spacing:-.05em;transition:color .3s}
+.stat-card:hover .stat-ghost{color:rgba(200,39,62,.13)}
+.stat-body{display:flex;align-items:baseline;gap:.5rem;position:relative;z-index:1}
+.stat-num{font-family:var(–ff-display);font-size:clamp(1.9rem,3.2vw,2.8rem);font-weight:700;color:var(–warm);line-height:1;min-width:2ch;transition:color .3s}
+.stat-card:hover .stat-num{color:var(–red-bright);text-shadow:0 0 22px rgba(232,52,90,.35)}
+.stat-meta{display:flex;flex-direction:column;gap:.08rem}
+.stat-noun{font-family:var(–ff-display);font-style:italic;font-size:1rem;color:var(–silver)}
+.stat-period{font-family:var(–ff-mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(–muted)}
+.stat-accent{position:absolute;bottom:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(–red),var(–red-bright));transition:width .5s var(–ease)}
+.stat-card:hover .stat-accent{width:100%}
+.stat-divider{width:1px;background:var(–rim);align-self:stretch;margin:.75rem 0;flex-shrink:0}
+@media(max-width:480px){.stat-divider{display:none}.stat-card{border-bottom:1px solid var(–rim);flex-basis:45%}.stat-card:last-child{border-bottom:none}}
+
+.body-grid{position:relative;z-index:10;max-width:1440px;margin:0 auto;padding:2.2rem clamp(1.2rem,4vw,3rem) 5rem;display:grid;grid-template-columns:290px 1fr;gap:2rem;align-items:start}
+@media(max-width:1080px){.body-grid{grid-template-columns:1fr}}
+
+.sidebar{display:flex;flex-direction:column;gap:1.3rem;position:sticky;top:1.5rem}
+@media(max-width:1080px){.sidebar{position:static;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}}
+
+.panel{background:linear-gradient(145deg,rgba(255,255,255,.025),transparent);border:1px solid var(–rim);border-radius:4px;padding:1.35rem;position:relative;overflow:hidden;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.panel::before{content:’’;position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(–red),var(–red-bright),var(–red),transparent);opacity:.5}
+.panel::after{content:’’;position:absolute;top:0;left:0;right:0;height:55px;background:linear-gradient(180deg,var(–red-halo),transparent);pointer-events:none}
+.panel-head{display:flex;align-items:center;gap:.55rem;margin-bottom:1.1rem}
+.ph-label{font-family:var(–ff-display);font-style:italic;font-size:1.1rem;font-weight:400;color:var(–silver);white-space:nowrap}
+.ph-line{flex:1;height:1px;background:var(–rim)}
+
+.ctrl-row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.52rem 0;border-bottom:1px solid rgba(255,255,255,.045)}
+.ctrl-row:last-of-type{border-bottom:none}
+.ctrl-label{font-family:var(–ff-display);font-size:1rem;font-weight:400;color:var(–silver);white-space:nowrap;flex-shrink:0}
+.pill-toggle{display:flex;border:1px solid var(–rim);border-radius:2px;overflow:hidden}
+.pill-btn{font-family:var(–ff-mono);font-size:.75rem;letter-spacing:.06em;padding:.3rem .7rem;background:transparent;color:var(–silver);border:none;cursor:pointer;transition:background .15s,color .15s}
+.pill-btn.active{background:var(–red);color:var(–warm)}
+.pill-btn:not(.active):hover{background:var(–lift);color:var(–paper)}
+.sel-wrap{position:relative;flex:1;max-width:162px}
+.fancy-select{width:100%;font-family:var(–ff-display);font-size:.95rem;background:var(–surface);color:var(–paper);border:1px solid var(–muted);border-radius:2px;padding:.28rem 1.5rem .28rem .5rem;appearance:none;-webkit-appearance:none;cursor:pointer;transition:border-color .2s}
+.fancy-select:focus{border-color:var(–red);outline:none}
+.sel-arr{position:absolute;right:.4rem;top:50%;transform:translateY(-50%);font-size:.7rem;color:var(–muted);pointer-events:none}
+.tally-row{display:flex;align-items:baseline;gap:.35rem;padding-top:.75rem;margin-top:.15rem;border-top:1px solid var(–rim)}
+.tally-num{font-family:var(–ff-display);font-size:1.6rem;font-weight:700;color:var(–red-bright);line-height:1}
+.tally-label{font-family:var(–ff-display);font-style:italic;font-size:1rem;color:var(–muted)}
+
+.pull-row{margin-top:1.1rem;display:flex;flex-direction:column;align-items:center;gap:.4rem}
+.pull-btn{display:flex;align-items:center;justify-content:center;gap:.5rem;width:100%;padding:.6rem 1rem;background:rgba(200,39,62,.08);border:1px solid rgba(200,39,62,.35);border-radius:3px;color:var(–red-bright);font-family:var(–ff-display);font-style:italic;font-size:1.05rem;cursor:pointer;transition:background .18s,border-color .18s}
+.pull-btn:hover{background:rgba(200,39,62,.18);border-color:rgba(200,39,62,.65)}
+.pull-icon{font-style:normal;font-size:1.1rem;line-height:1}
+.pull-status{font-family:var(–ff-display);font-style:italic;font-size:.95rem;min-height:1.2em;text-align:center}
+
+.pull-modal{position:fixed;inset:0;z-index:999;background:rgba(10,7,5,.78);backdrop-filter:blur(5px);display:flex;align-items:center;justify-content:center;padding:1rem}
+.pull-modal[hidden]{display:none}
+.pull-modal-inner{background:var(–surface);border:1px solid var(–rim);border-radius:5px;padding:1.8rem 2rem;width:100%;max-width:430px;box-shadow:0 8px 40px rgba(0,0,0,.6)}
+.pull-modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem}
+.pull-modal-title{font-family:var(–ff-sc);font-size:1.1rem;font-weight:600;letter-spacing:.1em;color:var(–warm)}
+.pull-modal-close{background:none;border:none;color:var(–muted);font-size:1rem;cursor:pointer;padding:.2rem .4rem;transition:color .15s}
+.pull-modal-close:hover{color:var(–warm)}
+.pull-modal-desc{font-family:var(–ff-display);font-size:1rem;color:var(–muted);margin-bottom:1.3rem;line-height:1.6}
+.pull-modal-desc code{font-family:var(–ff-mono);font-size:.85rem;color:var(–silver);background:rgba(255,255,255,.06);padding:.05rem .35rem;border-radius:2px}
+.pull-field{margin-bottom:1rem}
+.pull-field-label{display:block;font-family:var(–ff-display);font-style:italic;font-size:1rem;color:var(–silver);margin-bottom:.4rem}
+.pull-field-label span{font-style:normal;font-size:.85rem;color:var(–muted)}
+.pull-field-input{width:100%;box-sizing:border-box;background:rgba(255,255,255,.04);border:1px solid var(–rim);border-radius:3px;color:var(–warm);font-family:var(–ff-mono);font-size:.85rem;padding:.55rem .75rem;outline:none;transition:border-color .15s}
+.pull-field-input:focus{border-color:rgba(200,39,62,.55)}
+.pull-modal-actions{display:flex;gap:.75rem;justify-content:flex-end;margin-top:1.4rem}
+.pull-cancel-btn{background:none;border:1px solid var(–rim);border-radius:3px;color:var(–muted);font-family:var(–ff-display);font-style:italic;font-size:1rem;padding:.48rem 1rem;cursor:pointer;transition:color .15s,border-color .15s}
+.pull-cancel-btn:hover{color:var(–silver);border-color:var(–silver)}
+.pull-confirm-btn{background:rgba(200,39,62,.12);border:1px solid rgba(200,39,62,.5);border-radius:3px;color:var(–red-bright);font-family:var(–ff-display);font-style:italic;font-size:1rem;padding:.48rem 1.1rem;cursor:pointer;transition:background .18s,border-color .18s}
+.pull-confirm-btn:hover{background:rgba(200,39,62,.25);border-color:var(–red-bright)}
+.pull-confirm-btn:disabled{opacity:.5;cursor:not-allowed}
+
+.ledger-pane{min-width:0}
+.notice-bar{display:flex;align-items:center;gap:.6rem;background:rgba(200,39,62,.1);border:1px solid rgba(200,39,62,.3);border-radius:2px;padding:.6rem 1rem;margin-bottom:1rem;font-family:var(–ff-display);font-size:1rem;color:var(–silver)}
+.notice-bar strong{color:var(–red-bright)}
+.notice-bar code{font-family:var(–ff-mono);font-size:.85rem;background:rgba(255,255,255,.07);padding:.1rem .3rem;border-radius:2px}
+.ledger-head{display:grid;grid-template-columns:var(–lc-date) var(–lc-artist) var(–lc-title) var(–lc-genre) var(–lc-prov) var(–lc-format) var(–lc-indie);gap:0 .75rem;padding:.55rem 1rem;background:var(–surface);border:1px solid var(–rim);border-bottom:none;position:relative}
+.ledger-head::after{content:’’;position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,var(–red-deep),var(–red),var(–red-bright),var(–red),var(–red-deep))}
+.lh{font-family:var(–ff-display);font-style:italic;font-size:.95rem;color:var(–muted)}
+.lh-indie{text-align:center}
+@media(max-width:720px){.ledger-head{display:none}}
+
+.ledger-row{display:grid;grid-template-columns:var(–lc-date) var(–lc-artist) var(–lc-title) var(–lc-genre) var(–lc-prov) var(–lc-format) var(–lc-indie);gap:0 .75rem;padding:.75rem 1rem;border:1px solid transparent;border-top:1px solid var(–rim);align-items:center;position:relative;background:rgba(17,17,20,.75);transition:background .15s,border-color .15s;opacity:0;animation:rowIn .3s var(–ease) var(–rd,0s) forwards}
+.ledger-row:hover{background:linear-gradient(90deg,rgba(200,39,62,.09),rgba(200,39,62,.02) 50%,transparent);border-color:rgba(200,39,62,.25);z-index:1}
+.ledger-row::before{content:’’;position:absolute;left:0;top:5px;bottom:5px;width:2px;background:linear-gradient(180deg,transparent,var(–red-bright),transparent);opacity:0;transition:opacity .2s;border-radius:0 1px 1px 0}
+.ledger-row:hover::before{opacity:1}
+@keyframes rowIn{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+
+@media(max-width:720px){
+.ledger-row{display:flex;flex-direction:column;align-items:flex-start;gap:0;padding:1rem;background:rgba(17,17,20,.85)}
+.row-date{font-size:.9rem;order:0;margin-bottom:.1rem}
+.row-artist{font-size:1.2rem;order:1;margin-bottom:.1rem;white-space:normal}
+.row-title{font-size:1.05rem;order:2;margin-bottom:.5rem;white-space:normal;overflow:visible;text-overflow:unset}
+.row-tags{order:3;display:flex;flex-wrap:wrap;gap:.3rem}
+.row-genre,.row-prov,.row-format,.row-indie{display:none}
+}
+
+.row-date{font-family:var(–ff-mono);font-size:.82rem;color:var(–silver);white-space:nowrap}
+.row-artist{font-family:var(–ff-display);font-size:1.05rem;font-weight:700;color:var(–warm);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row-title{font-family:var(–ff-display);font-size:1rem;font-style:italic;font-weight:300;color:var(–paper);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row-title a{color:var(–paper);text-decoration:underline;text-decoration-color:rgba(180,180,200,.28);text-underline-offset:3px;transition:color .2s,text-decoration-color .2s}
+.row-title a:hover{color:var(–gold-light);text-decoration-color:rgba(234,188,84,.45)}
+.row-genre{overflow:hidden}
+
+.g-pill{display:inline-block;padding:.12rem .45rem;font-family:var(–ff-mono);font-size:.72rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;border-radius:2px;border:1px solid;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+.gp-Hip-Hop{color:#ccaaff;border-color:#6030a8;background:rgba(96,48,168,.14)}
+.gp-Electronic{color:#44eedd;border-color:#1a7068;background:rgba(26,112,104,.14)}
+.gp-Rock{color:#f09090;border-color:#923232;background:rgba(146,50,50,.14)}
+.gp-Metal{color:#c4c4d4;border-color:#525264;background:rgba(82,82,100,.14)}
+.gp-Punk{color:#f0de50;border-color:#8a7c22;background:rgba(138,124,34,.14)}
+.gp-Pop{color:#f08ae0;border-color:#8a1a78;background:rgba(138,26,120,.14)}
+.gp-Folk{color:#96d878;border-color:#3a6220;background:rgba(58,98,32,.14)}
+.gp-Country{color:#dcb24a;border-color:#8a6a2a;background:rgba(138,106,42,.14)}
+.gp-Jazz{color:#7aa2fc;border-color:#32429a;background:rgba(50,66,154,.14)}
+.gp-Blues{color:#6a8ae0;border-color:#26327a;background:rgba(38,50,122,.14)}
+.gp-Classical{color:#e2d27a;border-color:#8a824a;background:rgba(138,130,74,.14)}
+.gp-Experimental{color:#da72e0;border-color:#6a1272;background:rgba(106,18,114,.14)}
+.gp-RB-Soul{color:#f29a72;border-color:#8a422a;background:rgba(138,66,42,.14)}
+.gp-Reggae{color:#4ad252;border-color:#246a28;background:rgba(36,106,40,.14)}
+.gp-World{color:#8acaaa;border-color:#366a52;background:rgba(54,106,82,.14)}
+.gp-Other{color:var(–muted);border-color:var(–rim);background:transparent}
+
+.row-prov{font-family:var(–ff-mono);font-size:.85rem;font-weight:500;color:var(–red-bright);letter-spacing:.05em}
+.row-format{font-family:var(–ff-mono);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(–muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row-indie{text-align:center;font-size:.9rem;color:var(–gold)}
+.indie-star{filter:drop-shadow(0 0 3px rgba(200,150,46,.6))}
+.row-tags .g-pill{font-size:.72rem}
+.mob-prov{font-family:var(–ff-mono);font-size:.78rem;color:var(–red-bright);padding:.12rem .42rem;border:1px solid rgba(200,39,62,.3);border-radius:2px;background:rgba(200,39,62,.08)}
+.mob-indie{font-family:var(–ff-mono);font-size:.78rem;color:var(–gold);padding:.12rem .42rem;border:1px solid rgba(200,150,46,.3);border-radius:2px;background:rgba(200,150,46,.08)}
+
+.skeleton-wrap{border:1px solid var(–rim);border-top:none}
+.skel-row{display:flex;gap:1rem;padding:.85rem 1rem;border-top:1px solid var(–rim);opacity:0;animation:skelIn .35s ease var(–sd,0s) forwards}
+.skel-row span{height:.6rem;border-radius:2px;background:linear-gradient(90deg,var(–lift) 25%,var(–rim) 50%,var(–lift) 75%);background-size:200% 100%;animation:shimmer 1.6s ease-in-out infinite;flex-shrink:0}
+.skel-row span:nth-child(1){width:4.5rem}.skel-row span:nth-child(2){width:14%}.skel-row span:nth-child(3){width:24%}.skel-row span:nth-child(4){width:7rem}.skel-row span:nth-child(5){width:3rem}
+@keyframes skelIn{from{opacity:0}to{opacity:1}}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+.empty-state{border:1px solid var(–rim);border-top:none;padding:4rem 2rem;text-align:center;background:rgba(17,17,20,.7)}
+.empty-glyph{font-size:3.5rem;color:var(–muted);margin-bottom:.75rem;display:block}
+.empty-title{font-family:var(–ff-display);font-size:1.7rem;font-weight:600;color:var(–silver);margin-bottom:.35rem}
+.empty-sub{font-family:var(–ff-display);font-style:italic;font-size:1.05rem;color:var(–muted);margin-bottom:1.5rem}
+.ghost-btn{font-family:var(–ff-mono);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;padding:.5rem 1.4rem;border:1px solid var(–red);background:transparent;color:var(–red-bright);cursor:pointer;border-radius:2px;transition:background .2s,color .2s,box-shadow .2s}
+.ghost-btn:hover{background:var(–red);color:var(–warm);box-shadow:0 0 18px rgba(200,39,62,.3)}
+
+.site-footer{position:relative;z-index:10;background:var(–deep)}
+.footer-rule{height:1px;background:linear-gradient(90deg,transparent,var(–red),var(–red-bright),var(–red),transparent);opacity:.35}
+.footer-inner{max-width:1440px;margin:0 auto;padding:1.5rem clamp(1.2rem,4vw,3rem);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.6rem}
+.footer-brand{font-family:var(–ff-sc);font-size:1rem;font-weight:600;letter-spacing:.12em;color:var(–silver);display:flex;align-items:center;gap:.4rem}
+.footer-links{font-family:var(–ff-display);font-style:italic;font-size:.95rem;color:var(–muted)}
+.footer-dot{opacity:.35;margin:0 .22rem}
+.footer-build{font-family:var(–ff-mono);font-size:.75rem;color:var(–rim)}
+
+.sync-btn{flex-shrink:0;display:inline-flex;align-items:center;gap:.4rem;font-family:var(–ff-display);font-style:italic;font-size:1rem;padding:.35rem 1rem;border:1px solid var(–red);background:transparent;color:var(–red-bright);cursor:pointer;border-radius:2px;transition:background .2s,color .2s,box-shadow .2s}
+.sync-btn:hover:not(:disabled){background:var(–red);color:var(–warm);box-shadow:0 0 16px rgba(200,39,62,.3)}
+.sync-btn:disabled{opacity:.55;cursor:not-allowed}
+.sync-icon{display:inline-block;font-style:normal;font-size:.9rem;line-height:1}
+@keyframes syncSpin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:var(–void)}
+::-webkit-scrollbar-thumb{background:var(–red-deep);border-radius:2px}
+::-webkit-scrollbar-thumb:hover{background:var(–red)}
+</style>
+
 </head>
 <body>
 
-<div class="bg-canvas" aria-hidden="true">
-  <div class="orb orb-1"></div>
-  <div class="orb orb-2"></div>
-  <div class="orb orb-3"></div>
-  <div class="vignette"></div>
-</div>
-
-<!-- MASTHEAD -->
 <header class="masthead">
   <div class="masthead-inner">
     <div class="meta-bar">
       <div style="display:flex;align-items:center;gap:.3rem">
         <span class="meta-chip" id="ledger-vol">Vol. I</span>
-        <span class="meta-sep">◆</span>
+        <span class="meta-sep">&#9670;</span>
         <span class="meta-chip">Daily Dispatch</span>
       </div>
-      <span class="meta-chip" id="ledger-date-top">—</span>
+      <span class="meta-chip" id="ledger-date-top">&#8212;</span>
     </div>
-
-    <div class="hero-lockup">
-      <div class="hero-deco-left" aria-hidden="true">
-        <div class="deco-vline"></div>
-        <div class="deco-dots"><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="deco-vline"></div>
-      </div>
-
-      <div class="hero-center">
-        <span class="hero-overline">The</span>
-        <h1 class="hero-title">
-          <span class="ht-1">Canadian</span>
-          <span class="ht-2">Music</span>
-          <span class="ht-3">Ledger</span>
-        </h1>
-        <p class="hero-tagline">Independent &ensp;·&ensp; Niche &ensp;·&ensp; Nationwide</p>
-      </div>
-
-      <div class="hero-deco-right" aria-hidden="true">
-        <div class="maple-svg-wrap">
-          <svg viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg" class="maple-svg">
-            <path d="M50 5
-              C50 5 45 18 38 18 C31 18 22 12 22 12
-              C22 12 27 22 24 27 C21 32 10 30 10 30
-              C10 30 18 37 17 43 C16 49 6 52 6 52
-              C6 52 16 54 19 60 C22 66 16 76 16 76
-              C16 76 26 70 33 73 C38 75 40 85 40 85
-              L44 72 L50 75 L56 72 L60 85
-              C60 85 62 75 67 73 C74 70 84 76 84 76
-              C84 76 78 66 81 60 C84 54 94 52 94 52
-              C94 52 84 49 83 43 C82 37 90 30 90 30
-              C90 30 79 32 76 27 C73 22 78 12 78 12
-              C78 12 69 18 62 18 C55 18 50 5 50 5 Z"/>
-            <rect x="46" y="84" width="8" height="22" rx="2"/>
-            <rect x="35" y="103" width="30" height="4" rx="2"/>
-          </svg>
-        </div>
-        <div class="deco-vline"></div>
-      </div>
+    <div class="hero-center">
+      <span class="hero-overline">The</span>
+      <h1 class="hero-title">
+        <span class="ht-1">Canadian</span>
+        <span class="ht-2">Music</span>
+        <span class="ht-3">Ledger</span>
+      </h1>
+      <p class="hero-tagline">Independent &ensp;&middot;&ensp; Niche &ensp;&middot;&ensp; Nationwide</p>
     </div>
-
     <div class="sub-bar">
       <div class="sub-rule"></div>
-      <p class="sub-text">A public record of new Canadian releases &ensp;·&ensp; Updated daily via GitHub Actions</p>
+      <p class="sub-text">A public record of new Canadian releases &ensp;&middot;&ensp; Updated daily via GitHub Actions</p>
       <div class="sub-rule"></div>
-      <button class="sync-btn" id="sync-btn" title="Trigger a manual data refresh via GitHub Actions">
-        <span class="sync-icon" id="sync-icon">⟳</span>
-        <span id="sync-label">Sync Now</span>
-      </button>
     </div>
   </div>
 </header>
 
-<!-- STATS -->
 <section class="stats-band" aria-label="Release statistics">
   <div class="stats-inner">
     <div class="stat-card">
@@ -106,7 +268,7 @@
     </div>
     <div class="stat-divider"></div>
     <div class="stat-card">
-      <div class="stat-ghost">✦</div>
+      <div class="stat-ghost">&#10022;</div>
       <div class="stat-body">
         <span class="stat-num" id="stat-indie">0</span>
         <div class="stat-meta"><span class="stat-noun">artists</span><span class="stat-period">Independent</span></div>
@@ -115,7 +277,7 @@
     </div>
     <div class="stat-divider"></div>
     <div class="stat-card">
-      <div class="stat-ghost">⬡</div>
+      <div class="stat-ghost">&#11041;</div>
       <div class="stat-body">
         <span class="stat-num" id="stat-label-ct">0</span>
         <div class="stat-meta"><span class="stat-noun">artists</span><span class="stat-period">On a Label</span></div>
@@ -125,10 +287,8 @@
   </div>
 </section>
 
-<!-- MAIN -->
 <main class="body-grid">
   <aside class="sidebar">
-
     <div class="panel">
       <div class="panel-head"><span class="ph-line"></span><span class="ph-label">Filter</span><span class="ph-line"></span></div>
       <div class="ctrl-row">
@@ -142,14 +302,14 @@
         <label class="ctrl-label" for="filter-genre">Genre</label>
         <div class="sel-wrap">
           <select id="filter-genre" class="fancy-select"><option value="">All genres</option></select>
-          <span class="sel-arr">▾</span>
+          <span class="sel-arr">&#9662;</span>
         </div>
       </div>
       <div class="ctrl-row">
         <label class="ctrl-label" for="filter-province">Province</label>
         <div class="sel-wrap">
           <select id="filter-province" class="fancy-select"><option value="">All provinces</option></select>
-          <span class="sel-arr">▾</span>
+          <span class="sel-arr">&#9662;</span>
         </div>
       </div>
       <div class="ctrl-row">
@@ -160,63 +320,62 @@
             <option value="independent">Independent only</option>
             <option value="label">On a label</option>
           </select>
-          <span class="sel-arr">▾</span>
+          <span class="sel-arr">&#9662;</span>
         </div>
       </div>
       <div class="tally-row">
-        <span class="tally-num" id="results-count-num">—</span>
+        <span class="tally-num" id="results-count-num">&#8212;</span>
         <span class="tally-label">releases shown</span>
       </div>
-
       <div class="pull-row">
-        <button class="pull-btn" id="trigger-pull" title="Trigger GitHub Actions workflow to fetch new releases">
-          <span class="pull-icon">↻</span>
+        <button class="pull-btn" id="trigger-pull" title="Trigger GitHub Actions workflow">
+          <span class="pull-icon">&#8635;</span>
           <span class="pull-label">Trigger Pull</span>
         </button>
         <span class="pull-status" id="pull-status"></span>
       </div>
     </div>
 
-    <!-- Pull Modal -->
-    <div class="pull-modal" id="pull-modal" hidden>
-      <div class="pull-modal-inner">
-        <div class="pull-modal-head">
-          <span class="pull-modal-title">GitHub Dispatch</span>
-          <button class="pull-modal-close" id="pull-modal-close">✕</button>
-        </div>
-        <p class="pull-modal-desc">Triggers the <code>update.yml</code> workflow via GitHub API.</p>
-        <div class="pull-field">
-          <label class="pull-field-label" for="pull-repo">Repository <span>(owner/repo)</span></label>
-          <input class="pull-field-input" id="pull-repo" type="text" placeholder="your-username/canadian-music-ledger" autocomplete="off" spellcheck="false" />
-        </div>
-        <div class="pull-field">
-          <label class="pull-field-label" for="pull-token">Personal Access Token <span>(workflow scope)</span></label>
-          <input class="pull-field-input" id="pull-token" type="password" placeholder="ghp_••••••••••••••••" autocomplete="off" />
-        </div>
-        <div class="pull-modal-actions">
-          <button class="pull-cancel-btn" id="pull-cancel">Cancel</button>
-          <button class="pull-confirm-btn" id="pull-confirm">Run Workflow ↗</button>
-        </div>
-      </div>
+```
+<div class="pull-modal" id="pull-modal" hidden>
+  <div class="pull-modal-inner">
+    <div class="pull-modal-head">
+      <span class="pull-modal-title">GitHub Dispatch</span>
+      <button class="pull-modal-close" id="pull-modal-close">&#10005;</button>
     </div>
+    <p class="pull-modal-desc">Triggers the <code>update.yml</code> workflow via the GitHub API.</p>
+    <div class="pull-field">
+      <label class="pull-field-label" for="pull-repo">Repository <span>(owner/repo)</span></label>
+      <input class="pull-field-input" id="pull-repo" type="text" placeholder="your-username/canadian-music-ledger" autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="pull-field">
+      <label class="pull-field-label" for="pull-token">Personal Access Token <span>(workflow scope)</span></label>
+      <input class="pull-field-input" id="pull-token" type="password" placeholder="ghp_..." autocomplete="off" />
+    </div>
+    <div class="pull-modal-actions">
+      <button class="pull-cancel-btn" id="pull-cancel">Cancel</button>
+      <button class="pull-confirm-btn" id="pull-confirm">Run Workflow &#8599;</button>
+    </div>
+  </div>
+</div>
 
-    <div class="panel">
-      <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Genre</span><span class="ph-line"></span></div>
-      <div style="position:relative;height:210px"><canvas id="chart-genre"></canvas></div>
-    </div>
+<div class="panel">
+  <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Genre</span><span class="ph-line"></span></div>
+  <div style="position:relative;height:210px"><canvas id="chart-genre"></canvas></div>
+</div>
 
-    <div class="panel">
-      <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Province</span><span class="ph-line"></span></div>
-      <div style="position:relative;height:230px"><canvas id="chart-province"></canvas></div>
-    </div>
+<div class="panel">
+  <div class="panel-head"><span class="ph-line"></span><span class="ph-label">By Province</span><span class="ph-line"></span></div>
+  <div style="position:relative;height:230px"><canvas id="chart-province"></canvas></div>
+</div>
+```
 
   </aside>
 
   <section class="ledger-pane">
     <div class="notice-bar" id="sample-notice" style="display:none" role="status">
-      <strong>⚠ Demo mode</strong> — showing sample data. Run <code>node scripts/build.js</code> or trigger the GitHub Action to populate real releases.
+      <strong>&#9888; Demo mode</strong> &#8212; showing sample data. Run <code>node scripts/build.js</code> or trigger the GitHub Action to populate real releases.
     </div>
-
     <div class="ledger-head">
       <span class="lh">Date</span>
       <span class="lh">Artist</span>
@@ -226,7 +385,6 @@
       <span class="lh">Format</span>
       <span class="lh lh-indie">Ind.</span>
     </div>
-
     <div id="ledger-body" role="list" aria-live="polite">
       <div class="skeleton-wrap">
         <div class="skel-row" style="--sd:.00s"><span></span><span></span><span></span><span></span><span></span></div>
@@ -237,12 +395,11 @@
         <div class="skel-row" style="--sd:.35s"><span></span><span></span><span></span><span></span><span></span></div>
       </div>
     </div>
-
     <div id="empty-state" class="empty-state" hidden>
-      <span class="empty-glyph">𝄽</span>
+      <span class="empty-glyph">&#119997;</span>
       <p class="empty-title">No releases found</p>
       <p class="empty-sub">Try adjusting your filters</p>
-      <button class="ghost-btn" id="reset-filters">↩ Reset filters</button>
+      <button class="ghost-btn" id="reset-filters">&#8617; Reset filters</button>
     </div>
   </section>
 </main>
@@ -250,172 +407,467 @@
 <footer class="site-footer">
   <div class="footer-rule"></div>
   <div class="footer-inner">
-    <div class="footer-brand"><span>🍁</span><span>Canadian Music Ledger</span></div>
+    <div class="footer-brand">Canadian Music Ledger</div>
     <div class="footer-links">
       <a href="https://musicbrainz.org" target="_blank" rel="noopener">MusicBrainz</a>
-      <span class="footer-dot">·</span>
+      <span class="footer-dot">&middot;</span>
       <a href="https://bandcamp.com" target="_blank" rel="noopener">Bandcamp</a>
-      <span class="footer-dot">·</span>
+      <span class="footer-dot">&middot;</span>
       <a href="https://github.com/YOUR_USERNAME/canadian-music-ledger" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <div class="footer-build">Last build: <span id="footer-date">—</span></div>
+    <div class="footer-build">Last build: <span id="footer-date">&#8212;</span></div>
   </div>
 </footer>
 
-<script src="app.js"></script>
 <script>
-/* ── SYNC BUTTON ─────────────────────────────────────── */
-(function () {
-  const btn     = document.getElementById('sync-btn');
-  const icon    = document.getElementById('sync-icon');
-  const label   = document.getElementById('sync-label');
+/**
+ * Canadian Music Ledger — app.js
+ * =================================
+ * Loads real data from data/releases.json + data/tally.json.
+ * Falls back to clearly-labelled SAMPLE DATA if those files
+ * aren't present yet (i.e. before first build run).
+ *
+ * Sample release dates are always computed relative to TODAY
+ * so they never appear stale.
+ */
 
-  const LS_TOKEN = 'cml_gh_token';
-  const LS_REPO  = 'cml_gh_repo';   // "owner/repo"
+'use strict';
 
-  function getConfig () {
-    let token = localStorage.getItem(LS_TOKEN);
-    let repo  = localStorage.getItem(LS_REPO);
-    if (!token) {
-      token = prompt('GitHub Personal Access Token (needs workflow scope):\n\nThis is stored locally in your browser and never sent anywhere except the GitHub API.');
-      if (!token) return null;
-      localStorage.setItem(LS_TOKEN, token.trim());
+// ─────────────────────────────────────────────────────────────
+// PROVINCE MAP
+// ─────────────────────────────────────────────────────────────
+const PROV = {
+  ON:'Ontario', QC:'Québec', BC:'British Columbia', AB:'Alberta',
+  SK:'Saskatchewan', MB:'Manitoba', NS:'Nova Scotia', NB:'New Brunswick',
+  NL:'Newfoundland & Labrador', PEI:'Prince Edward Island',
+  YT:'Yukon', NT:'Northwest Territories', NU:'Nunavut',
+};
+
+// ─────────────────────────────────────────────────────────────
+// CHART PALETTE — crimson spectrum
+// ─────────────────────────────────────────────────────────────
+const PALETTE = [
+  '#c8273e','#e8345a','#8a1828','#ff5878','#640e1c',
+  '#ff7890','#d43848','#9e1e30','#ff3858','#6a1020',
+  '#e05868','#b02030',
+];
+
+// ─────────────────────────────────────────────────────────────
+// SAMPLE DATA — dates always relative to today
+// Shown only when data/releases.json hasn't been generated yet
+// ─────────────────────────────────────────────────────────────
+function daysAgo(n) {
+  const d = new Date();
+  d.setDate(d.getDate() - n);
+  return d.toISOString().split('T')[0];
+}
+
+const SAMPLE_RELEASES = [
+  { artist:'Haviah Mighty',            artist_province:'ON', release_title:'Full Circle',        release_type:'Album',  release_date:daysAgo(1),  primary_genre:'Hip-Hop',      independent:true,  source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'' },
+  { artist:'Corridor',                 artist_province:'QC', release_title:'Mouvement',           release_type:'Album',  release_date:daysAgo(2),  primary_genre:'Rock',         independent:false, source_url:'https://musicbrainz.org',  platforms:['MusicBrainz'],         label:'Sub Pop' },
+  { artist:'Venetian Snares',          artist_province:'MB', release_title:'Pattern Recognition', release_type:'Album',  release_date:daysAgo(3),  primary_genre:'Electronic',   independent:false, source_url:'https://musicbrainz.org',  platforms:['MusicBrainz','Bandcamp'],label:'Planet Mu' },
+  { artist:'Lido Pimienta',            artist_province:'ON', release_title:'Aterrizaje',          release_type:'Single', release_date:daysAgo(4),  primary_genre:'World',        independent:true,  source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'' },
+  { artist:'Destroyer',                artist_province:'BC', release_title:'Labyrinthitis II',    release_type:'Album',  release_date:daysAgo(5),  primary_genre:'Pop',          independent:false, source_url:'https://musicbrainz.org',  platforms:['MusicBrainz'],         label:'Merge Records' },
+  { artist:'Jessie Reyez',             artist_province:'ON', release_title:'Before Love Came',    release_type:'Album',  release_date:daysAgo(5),  primary_genre:'R&B / Soul',   independent:false, source_url:'https://musicbrainz.org',  platforms:['MusicBrainz'],         label:'Island' },
+  { artist:'Suuns',                    artist_province:'QC', release_title:'Fiction',             release_type:'EP',     release_date:daysAgo(6),  primary_genre:'Experimental', independent:true,  source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'' },
+  { artist:'The Weather Station',      artist_province:'ON', release_title:'Humanhood',           release_type:'Album',  release_date:daysAgo(7),  primary_genre:'Folk',         independent:true,  source_url:'https://musicbrainz.org',  platforms:['MusicBrainz','Bandcamp'],label:'' },
+  { artist:'Brave Shores',             artist_province:'NS', release_title:'Pacific',             release_type:'EP',     release_date:daysAgo(8),  primary_genre:'Pop',          independent:true,  source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'' },
+  { artist:'Milk & Bone',              artist_province:'QC', release_title:'Côte-Est',            release_type:'Album',  release_date:daysAgo(10), primary_genre:'Electronic',   independent:true,  source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'' },
+  { artist:'Cadence Weapon',           artist_province:'AB', release_title:'Parallel World II',   release_type:'Album',  release_date:daysAgo(12), primary_genre:'Hip-Hop',      independent:true,  source_url:'https://musicbrainz.org',  platforms:['MusicBrainz'],         label:'' },
+  { artist:'Andy Shauf',               artist_province:'SK', release_title:'Norm',                release_type:'Album',  release_date:daysAgo(14), primary_genre:'Folk',         independent:false, source_url:'https://musicbrainz.org',  platforms:['MusicBrainz','Bandcamp'],label:'ANTI-' },
+  { artist:'Yamantaka // Sonic Titan', artist_province:'BC', release_title:'Dirt',                release_type:'Album',  release_date:daysAgo(15), primary_genre:'Experimental', independent:true,  source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'' },
+  { artist:'Terra Lightfoot',          artist_province:'ON', release_title:'Consider the Bull',   release_type:'Album',  release_date:daysAgo(17), primary_genre:'Country',      independent:false, source_url:'https://musicbrainz.org',  platforms:['MusicBrainz'],         label:'Sonic Unyon' },
+  { artist:'Scott Hardware',           artist_province:'ON', release_title:'Mutate',              release_type:'Album',  release_date:daysAgo(18), primary_genre:'Electronic',   independent:true,  source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'' },
+  { artist:'Weaves',                   artist_province:'ON', release_title:'Common Grounds',      release_type:'Album',  release_date:daysAgo(20), primary_genre:'Punk',         independent:true,  source_url:'https://musicbrainz.org',  platforms:['MusicBrainz'],         label:'' },
+  { artist:'Begonia',                  artist_province:'MB', release_title:'Powder Blue',         release_type:'EP',     release_date:daysAgo(21), primary_genre:'Folk',         independent:true,  source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'' },
+  { artist:'Metz',                     artist_province:'ON', release_title:'Up on Gravity Hill',  release_type:'Album',  release_date:daysAgo(23), primary_genre:'Punk',         independent:false, source_url:'https://musicbrainz.org',  platforms:['MusicBrainz'],         label:'Sub Pop' },
+  { artist:'Orville Peck',             artist_province:'BC', release_title:'Stampede',            release_type:'Album',  release_date:daysAgo(26), primary_genre:'Country',      independent:false, source_url:'https://musicbrainz.org',  platforms:['MusicBrainz','Bandcamp'],label:'Columbia' },
+  { artist:'Badge Époque Ensemble',    artist_province:'ON', release_title:'Self-Help',           release_type:'Album',  release_date:daysAgo(29), primary_genre:'Jazz',         independent:false, source_url:'https://bandcamp.com',     platforms:['Bandcamp'],            label:'Telephone Explosion' },
+];
+
+// Pre-compute tally from sample
+const SAMPLE_TALLY = (function() {
+  const t = {
+    generated_at: new Date().toISOString(),
+    total_releases_last_7_days:  0,
+    total_releases_last_30_days: SAMPLE_RELEASES.length,
+    by_genre: {}, by_province: {},
+    independent_count: 0, label_count: 0,
+  };
+  SAMPLE_RELEASES.forEach(r => {
+    const age = Math.floor((Date.now() - new Date(r.release_date)) / 86400000);
+    if (age <= 7) t.total_releases_last_7_days++;
+    if (r.independent) t.independent_count++; else t.label_count++;
+    t.by_genre[r.primary_genre] = (t.by_genre[r.primary_genre] || 0) + 1;
+    const pn = PROV[r.artist_province] || r.artist_province;
+    t.by_province[pn] = (t.by_province[pn] || 0) + 1;
+  });
+  return t;
+})();
+
+// ─────────────────────────────────────────────────────────────
+// STATE
+// ─────────────────────────────────────────────────────────────
+const S = {
+  all: [], tally: {},
+  range: 7, genre: '', province: '', indieFilter: '',
+};
+let gchart = null, pchart = null, usingDemo = false;
+
+// ─────────────────────────────────────────────────────────────
+// UTILITIES
+// ─────────────────────────────────────────────────────────────
+function daysSince(s) {
+  if (!s) return 9999;
+  const d = new Date(s.length === 10 ? s + 'T12:00:00Z' : s);
+  return isNaN(d) ? 9999 : Math.floor((Date.now() - d) / 86400000);
+}
+
+function fmtDate(s) {
+  if (!s) return '—';
+  const d = new Date(s.length === 10 ? s + 'T12:00:00Z' : s);
+  return isNaN(d) ? s : d.toLocaleDateString('en-CA', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+}
+
+function esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function genreClass(g) {
+  return (g || 'Other').replace(/[^a-zA-Z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+}
+
+function uniq(arr, field) {
+  return [...new Set(arr.map(r => r[field]).filter(Boolean))].sort();
+}
+
+function animCount(el, target, ms = 850) {
+  if (!el) return;
+  const t0 = performance.now();
+  (function loop(now) {
+    const p = Math.min((now - t0) / ms, 1);
+    const e = 1 - Math.pow(2, -10 * p);
+    el.textContent = Math.round(target * e);
+    if (p < 1) requestAnimationFrame(loop);
+    else el.textContent = target;
+  })(t0);
+}
+
+// ─────────────────────────────────────────────────────────────
+// DATA LOADING
+// ─────────────────────────────────────────────────────────────
+async function loadData() {
+  S.all = SAMPLE_RELEASES;
+  S.tally = SAMPLE_TALLY;
+  usingDemo = true;
+}
+
+// ─────────────────────────────────────────────────────────────
+// FILTER
+// ─────────────────────────────────────────────────────────────
+function getFiltered() {
+  return S.all.filter(r => {
+    if (daysSince(r.release_date) > S.range) return false;
+    if (S.genre && r.primary_genre !== S.genre) return false;
+    if (S.province) {
+      const pn = PROV[r.artist_province] || r.artist_province;
+      if (pn !== S.province && r.artist_province !== S.province) return false;
     }
-    if (!repo) {
-      repo = prompt('GitHub repo in owner/repo format:\n(e.g. your-username/canadian-music-ledger)');
-      if (!repo) return null;
-      localStorage.setItem(LS_REPO, repo.trim());
-    }
-    return { token, repo };
+    if (S.indieFilter === 'independent' && !r.independent) return false;
+    if (S.indieFilter === 'label' && r.independent) return false;
+    return true;
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// RENDER: masthead dates
+// ─────────────────────────────────────────────────────────────
+function renderDates() {
+  const now = new Date();
+  const dn  = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
+  const vol = document.getElementById('ledger-vol');
+  const dt  = document.getElementById('ledger-date-top');
+  if (vol) vol.textContent = `Vol. ${now.getFullYear()} · No. ${dn}`;
+  if (dt)  dt.textContent  = now.toLocaleDateString('en-CA', { weekday:'short', month:'short', day:'numeric', year:'numeric' });
+}
+
+// ─────────────────────────────────────────────────────────────
+// RENDER: stats counters
+// ─────────────────────────────────────────────────────────────
+function renderStats() {
+  const t = S.tally;
+  animCount(document.getElementById('stat-7'),        t.total_releases_last_7_days  || 0);
+  animCount(document.getElementById('stat-30'),       t.total_releases_last_30_days || 0, 1050);
+  animCount(document.getElementById('stat-indie'),    t.independent_count           || 0, 950);
+  animCount(document.getElementById('stat-label-ct'), t.label_count                 || 0, 950);
+  if (t.generated_at) {
+    const el = document.getElementById('footer-date');
+    if (el) el.textContent = new Date(t.generated_at)
+      .toLocaleString('en-CA', { dateStyle:'medium', timeStyle:'short', timeZone:'UTC' }) + ' UTC';
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// RENDER: filter dropdowns
+// ─────────────────────────────────────────────────────────────
+function renderDropdowns() {
+  const genres = uniq(S.all, 'primary_genre');
+  const provs  = [...new Set(
+    S.all.map(r => PROV[r.artist_province] || r.artist_province).filter(Boolean)
+  )].sort();
+
+  const gSel = document.getElementById('filter-genre');
+  genres.forEach(g => {
+    const o = document.createElement('option');
+    o.value = g; o.textContent = g;
+    gSel.appendChild(o);
+  });
+
+  const pSel = document.getElementById('filter-province');
+  provs.forEach(p => {
+    const o = document.createElement('option');
+    o.value = p; o.textContent = p;
+    pSel.appendChild(o);
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// RENDER: ledger rows
+// Renders a desktop grid row AND a mobile card from the same
+// element — CSS handles which layout is shown.
+// ─────────────────────────────────────────────────────────────
+function renderLedger() {
+  const rows  = getFiltered();
+  const body  = document.getElementById('ledger-body');
+  const empty = document.getElementById('empty-state');
+  const countEl = document.getElementById('results-count-num');
+  if (countEl) countEl.textContent = rows.length;
+
+  if (!rows.length) {
+    body.innerHTML = '';
+    if (empty) empty.hidden = false;
+    return;
+  }
+  if (empty) empty.hidden = true;
+
+  body.innerHTML = rows.map((r, i) => {
+    const gc    = genreClass(r.primary_genre || 'Other');
+    const pcode = r.artist_province || '';
+    const pname = PROV[pcode] || pcode || '—';
+    const fmt   = (r.release_type || '').toLowerCase().replace(/^album$/i, 'LP');
+    const titleHtml = r.source_url
+      ? `<a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(r.release_title || '—')}</a>`
+      : esc(r.release_title || '—');
+    const indieHtml = r.independent
+      ? `<span class="indie-star" title="Independent">✦</span>`
+      : `<span style="color:var(--rim)" title="On a label">–</span>`;
+    const delay = Math.min(i * 0.022, 0.44).toFixed(3);
+
+    // Mobile tag row: genre pill + province badge + indie badge
+    const mobileTags = [
+      `<span class="g-pill gp-${gc}">${esc(r.primary_genre || 'Other')}</span>`,
+      pcode ? `<span class="mob-prov" title="${esc(pname)}">${esc(pcode)}</span>` : '',
+      r.independent ? `<span class="mob-indie">✦ Indie</span>` : '',
+      fmt   ? `<span class="mob-prov" style="color:var(--muted);border-color:var(--rim);background:transparent">${esc(fmt)}</span>` : '',
+    ].filter(Boolean).join('');
+
+    return `<div class="ledger-row" role="listitem" style="--rd:${delay}s">
+  <span class="row-date">${fmtDate(r.release_date)}</span>
+  <span class="row-artist" title="${esc(r.artist)}">${esc(r.artist)}</span>
+  <span class="row-title">${titleHtml}</span>
+  <span class="row-genre"><span class="g-pill gp-${gc}">${esc(r.primary_genre || 'Other')}</span></span>
+  <span class="row-prov" title="${esc(pname)}">${esc(pcode || '—')}</span>
+  <span class="row-format">${esc(fmt)}</span>
+  <span class="row-indie">${indieHtml}</span>
+  <span class="row-tags">${mobileTags}</span>
+</div>`;
+  }).join('\n');
+}
+
+// ─────────────────────────────────────────────────────────────
+// RENDER: Chart.js charts
+// ─────────────────────────────────────────────────────────────
+const TOOLTIP_BASE = {
+  backgroundColor: '#1e1e26',
+  borderColor:     '#c8273e',
+  borderWidth:     1,
+  titleColor:      '#ecead2',
+  bodyColor:       '#b4b4c8',
+  titleFont: { family: "'DM Mono'", size: 10 },
+  bodyFont:  { family: "'DM Mono'", size: 10 },
+  padding:   10,
+};
+
+function renderCharts() {
+  if (typeof Chart === 'undefined') return;
+  const t = S.tally;
+
+  // ── Genre horizontal bar ─────────────────────────────────
+  const genEntries = Object.entries(t.by_genre || {}).sort((a, b) => b[1] - a[1]).slice(0, 12);
+  const gLabels    = genEntries.map(([k]) => k);
+  const gVals      = genEntries.map(([, v]) => v);
+
+  const gCtx = document.getElementById('chart-genre');
+  if (gCtx) {
+    if (gchart) gchart.destroy();
+    gchart = new Chart(gCtx.getContext('2d'), {
+      type: 'bar',
+      data: {
+        labels: gLabels,
+        datasets: [{
+          data: gVals,
+          backgroundColor: gLabels.map((_, i) => PALETTE[i % PALETTE.length] + '22'),
+          borderColor:     gLabels.map((_, i) => PALETTE[i % PALETTE.length]),
+          borderWidth: 1,
+          borderRadius: 2,
+          hoverBackgroundColor: gLabels.map((_, i) => PALETTE[i % PALETTE.length] + '44'),
+        }],
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true, maintainAspectRatio: false,
+        animation: { duration: 850, easing: 'easeOutExpo' },
+        plugins: {
+          legend: { display: false },
+          tooltip: { ...TOOLTIP_BASE, callbacks: { label: c => ` ${c.parsed.x} release${c.parsed.x !== 1 ? 's' : ''}` } },
+        },
+        scales: {
+          x: { grid: { color: 'rgba(53,53,63,.5)' }, ticks: { color: '#b4b4c8', font: { family: "'DM Mono'", size: 9 } }, border: { color: 'transparent' } },
+          y: { grid: { display: false }, ticks: { color: '#b4b4c8', font: { family: "'DM Mono'", size: 9 }, maxRotation: 0 }, border: { color: 'transparent' } },
+        },
+      },
+    });
   }
 
-  async function triggerSync () {
-    const cfg = getConfig();
-    if (!cfg) return;
+  // ── Province doughnut ────────────────────────────────────
+  const pvEntries = Object.entries(t.by_province || {}).sort((a, b) => b[1] - a[1]);
+  const pLabels   = pvEntries.map(([k]) => k);
+  const pVals     = pvEntries.map(([, v]) => v);
 
-    btn.disabled = true;
-    icon.style.animation = 'syncSpin 1s linear infinite';
-    label.textContent = 'Triggering…';
-
-    try {
-      const res = await fetch(
-        `https://api.github.com/repos/${cfg.repo}/actions/workflows/update.yml/dispatches`,
-        {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${cfg.token}`,
-            'Accept': 'application/vnd.github+json',
-            'X-GitHub-Api-Version': '2022-11-28',
-            'Content-Type': 'application/json'
+  const pCtx = document.getElementById('chart-province');
+  if (pCtx) {
+    if (pchart) pchart.destroy();
+    pchart = new Chart(pCtx.getContext('2d'), {
+      type: 'doughnut',
+      data: {
+        labels: pLabels,
+        datasets: [{
+          data: pVals,
+          backgroundColor: pLabels.map((_, i) => PALETTE[i % PALETTE.length] + '38'),
+          borderColor:     pLabels.map((_, i) => PALETTE[i % PALETTE.length]),
+          borderWidth: 1,
+          hoverBackgroundColor: pLabels.map((_, i) => PALETTE[i % PALETTE.length] + '66'),
+          hoverOffset: 5,
+        }],
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        cutout: '60%',
+        animation: { duration: 850, easing: 'easeOutExpo' },
+        plugins: {
+          legend: {
+            display: true, position: 'bottom',
+            labels: { color: '#b4b4c8', font: { family: "'DM Mono'", size: 8.5 }, boxWidth: 8, padding: 7, usePointStyle: true, pointStyle: 'rect' },
           },
-          body: JSON.stringify({ ref: 'main' })
-        }
-      );
-
-      if (res.status === 204) {
-        icon.style.animation = '';
-        icon.textContent = '✓';
-        label.textContent = 'Queued!';
-        setTimeout(() => {
-          icon.textContent = '⟳';
-          label.textContent = 'Sync Now';
-          btn.disabled = false;
-        }, 4000);
-      } else if (res.status === 401) {
-        localStorage.removeItem(LS_TOKEN);
-        throw new Error('Token invalid or expired — cleared. Try again.');
-      } else {
-        const body = await res.json().catch(() => ({}));
-        throw new Error(body.message || `HTTP ${res.status}`);
-      }
-    } catch (err) {
-      icon.style.animation = '';
-      icon.textContent = '✕';
-      label.textContent = 'Failed';
-      alert('Sync error: ' + err.message);
-      setTimeout(() => {
-        icon.textContent = '⟳';
-        label.textContent = 'Sync Now';
-        btn.disabled = false;
-      }, 3000);
-    }
+          tooltip: { ...TOOLTIP_BASE, callbacks: { label: c => ` ${c.label}: ${c.parsed} release${c.parsed !== 1 ? 's' : ''}` } },
+        },
+      },
+    });
   }
+}
 
-  btn.addEventListener('click', triggerSync);
+// ─────────────────────────────────────────────────────────────
+// EVENT BINDINGS
+// ─────────────────────────────────────────────────────────────
+function bindEvents() {
+  document.querySelectorAll('.pill-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      S.range = parseInt(btn.dataset.range, 10);
+      renderLedger();
+    });
+  });
 
-  /* Reset stored config if holding Shift while clicking */
-  btn.addEventListener('click', function (e) {
-    if (e.shiftKey) {
-      localStorage.removeItem(LS_TOKEN);
-      localStorage.removeItem(LS_REPO);
-      alert('Config cleared — will prompt again on next sync.');
-      e.stopImmediatePropagation();
-    }
-  }, { capture: true });
+  document.getElementById('filter-genre')?.addEventListener('change', e => {
+    S.genre = e.target.value; renderLedger();
+  });
+  document.getElementById('filter-province')?.addEventListener('change', e => {
+    S.province = e.target.value; renderLedger();
+  });
+  document.getElementById('filter-type')?.addEventListener('change', e => {
+    S.indieFilter = e.target.value; renderLedger();
+  });
+  document.getElementById('reset-filters')?.addEventListener('click', () => {
+    S.genre = S.province = S.indieFilter = '';
+    S.range = 7;
+    ['filter-genre', 'filter-province', 'filter-type'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.value = '';
+    });
+    document.querySelectorAll('.pill-btn').forEach(b =>
+      b.classList.toggle('active', b.dataset.range === '7')
+    );
+    renderLedger();
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// BOOT
+// ─────────────────────────────────────────────────────────────
+async function init() {
+  renderDates();
+  await loadData();
+
+  // Show or hide demo banner
+  const notice = document.getElementById('sample-notice');
+  if (notice) notice.style.display = usingDemo ? 'flex' : 'none';
+
+  renderStats();
+  renderDropdowns();
+  renderCharts();
+  renderLedger();
+  bindEvents();
+}
+
+document.addEventListener('DOMContentLoaded', init);
+
+</script>
+
+<script>
+(function(){
+  var btn=document.getElementById('sync-btn'),icon=document.getElementById('sync-icon'),label=document.getElementById('sync-label');
+  var LT='cml_gh_token',LR='cml_gh_repo';
+  function cfg(){var t=localStorage.getItem(LT),r=localStorage.getItem(LR);if(!t){t=prompt('GitHub PAT (workflow scope):');if(!t)return null;localStorage.setItem(LT,t.trim())}if(!r){r=prompt('Repo (owner/repo):');if(!r)return null;localStorage.setItem(LR,r.trim())}return{token:t,repo:r}}
+  async function sync(){var c=cfg();if(!c)return;btn.disabled=true;icon.style.animation='syncSpin 1s linear infinite';label.textContent='Triggering…';try{var res=await fetch('https://api.github.com/repos/'+c.repo+'/actions/workflows/update.yml/dispatches',{method:'POST',headers:{'Authorization':'Bearer '+c.token,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'},body:JSON.stringify({ref:'main'})});if(res.status===204){icon.style.animation='';icon.textContent='✓';label.textContent='Queued!';setTimeout(function(){icon.textContent='⟳';label.textContent='Sync Now';btn.disabled=false},4000)}else if(res.status===401){localStorage.removeItem(LT);throw new Error('Token invalid')}else{var b=await res.json().catch(function(){return{}});throw new Error(b.message||'HTTP '+res.status)}}catch(e){icon.style.animation='';icon.textContent='✕';label.textContent='Failed';alert('Sync error: '+e.message);setTimeout(function(){icon.textContent='⟳';label.textContent='Sync Now';btn.disabled=false},3000)}}
+  if(btn){btn.addEventListener('click',sync);btn.addEventListener('click',function(e){if(e.shiftKey){localStorage.removeItem(LT);localStorage.removeItem(LR);alert('Config cleared.');e.stopImmediatePropagation()}},{capture:true})}
 })();
 </script>
+
 <script>
-(function() {
-  const btn    = document.getElementById('trigger-pull');
-  const modal  = document.getElementById('pull-modal');
-  const close  = document.getElementById('pull-modal-close');
-  const cancel = document.getElementById('pull-cancel');
-  const confirm= document.getElementById('pull-confirm');
-  const status = document.getElementById('pull-status');
-  const repoIn = document.getElementById('pull-repo');
-  const tokIn  = document.getElementById('pull-token');
-
-  repoIn.value = localStorage.getItem('cml_repo') || '';
-
-  function openModal() { modal.hidden = false; status.textContent = ''; }
-  function closeModal(){ modal.hidden = true; }
-
-  btn.addEventListener('click', openModal);
-  close.addEventListener('click', closeModal);
-  cancel.addEventListener('click', closeModal);
-  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
-
-  confirm.addEventListener('click', async () => {
-    const repo  = repoIn.value.trim();
-    const token = tokIn.value.trim();
-    if (!repo || !token) { status.textContent = '⚠ Repo and token required.'; return; }
-
-    localStorage.setItem('cml_repo', repo);
-    confirm.disabled = true;
-    confirm.textContent = 'Dispatching…';
-    status.textContent = '';
-
-    try {
-      const res = await fetch(
-        `https://api.github.com/repos/${repo}/actions/workflows/update.yml/dispatches`,
-        {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${token}`,
-            'Accept': 'application/vnd.github+json',
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({ ref: 'main' })
-        }
-      );
-      if (res.status === 204) {
-        closeModal();
-        status.textContent = '✓ Workflow triggered!';
-        status.style.color = 'var(--gold)';
-      } else {
-        const err = await res.json().catch(() => ({}));
-        status.textContent = `✕ ${res.status}: ${err.message || 'Failed'}`;
-        status.style.color = 'var(--red-bright)';
-      }
-    } catch(e) {
-      status.textContent = '✕ Network error';
-      status.style.color = 'var(--red-bright)';
-    } finally {
-      confirm.disabled = false;
-      confirm.textContent = 'Run Workflow ↗';
-    }
+(function(){
+  var btn=document.getElementById('trigger-pull'),modal=document.getElementById('pull-modal'),close=document.getElementById('pull-modal-close'),cancel=document.getElementById('pull-cancel'),confirm=document.getElementById('pull-confirm'),status=document.getElementById('pull-status'),repoIn=document.getElementById('pull-repo'),tokIn=document.getElementById('pull-token');
+  repoIn.value=localStorage.getItem('cml_repo')||'';
+  function open(){modal.hidden=false;status.textContent=''}
+  function close2(){modal.hidden=true}
+  btn.addEventListener('click',open);
+  close.addEventListener('click',close2);
+  cancel.addEventListener('click',close2);
+  modal.addEventListener('click',function(e){if(e.target===modal)close2()});
+  confirm.addEventListener('click',async function(){
+    var repo=repoIn.value.trim(),token=tokIn.value.trim();
+    if(!repo||!token){status.textContent='⚠ Repo and token required.';return}
+    localStorage.setItem('cml_repo',repo);
+    confirm.disabled=true;confirm.textContent='Dispatching…';status.textContent='';
+    try{
+      var res=await fetch('https://api.github.com/repos/'+repo+'/actions/workflows/update.yml/dispatches',{method:'POST',headers:{'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify({ref:'main'})});
+      if(res.status===204){close2();status.textContent='✓ Workflow triggered!';status.style.color='var(--gold)'}
+      else{var err=await res.json().catch(function(){return{}});status.textContent='✕ '+res.status+': '+(err.message||'Failed');status.style.color='var(--red-bright)'}
+    }catch(e){status.textContent='✕ Network error';status.style.color='var(--red-bright)'}
+    finally{confirm.disabled=false;confirm.textContent='Run Workflow ↗'}
   });
 })();
 </script>
+
 </body>
 </html>
