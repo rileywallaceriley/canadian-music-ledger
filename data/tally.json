@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-10T07:45:13.991Z",
-  "total_releases_last_7_days": 22,
-  "total_releases_last_30_days": 100,
+  "generated_at": "2026-03-11T07:46:57.170Z",
+  "total_releases_last_7_days": 18,
+  "total_releases_last_30_days": 95,
   "by_genre": {
     "Rock": 9,
-    "Other": 60,
+    "Other": 55,
     "Hip-Hop": 6,
     "Pop": 2,
     "Folk": 9,
@@ -17,15 +17,15 @@
     "R&B/Soul": 1
   },
   "by_province": {
-    "Nova Scotia": 5,
-    "Unknown": 64,
+    "Ontario": 17,
+    "Unknown": 59,
+    "Nova Scotia": 4,
     "British Columbia": 5,
     "Nunavut": 1,
     "Quebec": 7,
-    "Ontario": 16,
     "Newfoundland and Labrador": 1,
     "Manitoba": 1
   },
-  "independent_count": 41,
-  "label_count": 59
+  "independent_count": 39,
+  "label_count": 56
 }
