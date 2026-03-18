@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-17T07:59:05.742Z",
-  "total_releases_last_7_days": 29,
+  "generated_at": "2026-03-18T07:56:03.556Z",
+  "total_releases_last_7_days": 26,
   "total_releases_last_30_days": 105,
   "by_genre": {
     "Rock": 11,
-    "Electronic": 9,
     "Other": 56,
+    "Electronic": 9,
     "Pop": 4,
     "Hip-Hop": 5,
     "R&B / Soul": 2,
@@ -28,6 +28,6 @@
     "Saskatchewan": 1,
     "Newfoundland and Labrador": 1
   },
-  "independent_count": 36,
-  "label_count": 69
+  "independent_count": 35,
+  "label_count": 70
 }
