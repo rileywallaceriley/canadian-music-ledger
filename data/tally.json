@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-03-29T07:57:15.057Z",
-  "total_releases_last_7_days": 21,
-  "total_releases_last_30_days": 107,
+  "generated_at": "2026-03-30T08:27:00.344Z",
+  "total_releases_last_7_days": 24,
+  "total_releases_last_30_days": 111,
   "by_genre": {
-    "Other": 49,
-    "Pop": 9,
-    "Rock": 11,
+    "Other": 51,
+    "Pop": 8,
+    "Rock": 12,
+    "Punk": 3,
     "Jazz": 3,
-    "R&B / Soul": 3,
+    "R&B / Soul": 4,
     "Folk": 6,
-    "Electronic": 9,
+    "Electronic": 8,
     "Metal": 5,
-    "Hip-Hop": 4,
+    "Hip-Hop": 5,
     "Country": 4,
-    "Punk": 2,
     "Reggae": 1,
     "Experimental": 1
   },
   "by_province": {
-    "Unknown": 52,
-    "Ontario": 21,
-    "British Columbia": 10,
+    "Unknown": 53,
+    "Ontario": 24,
+    "British Columbia": 11,
     "Nova Scotia": 5,
-    "Quebec": 13,
+    "Quebec": 12,
     "Alberta": 5,
     "Nunavut": 1
   },
   "independent_count": 33,
-  "label_count": 74
+  "label_count": 78
 }
