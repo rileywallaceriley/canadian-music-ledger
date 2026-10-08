@@ -1,5 +1,23 @@
 [
   {
+    "artist": "Cut Me And Shatter Your Mirror Into A Thousand Stars",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "the sky glows in azure blue",
+    "release_type": "Unknown",
+    "release_date": "2026-10-07",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "vergissmeinnicht",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/6896c5a7-77ce-45fa-b6f8-fcc6d645a06c",
+    "date_added": "2026-10-08"
+  },
+  {
     "artist": "Snow Man",
     "artist_country": "CA",
     "artist_city": "",
@@ -15,7 +33,7 @@
     "label": "MENT RECORDING",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/a3294e22-e57c-40f7-b075-c46ea6502d20",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "La Rumeur & Chilly Gonzales",
@@ -33,7 +51,25 @@
     "label": "DEMAIN",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/d26a6947-c776-4068-ba4c-688a6325bb9b",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "The Northern Lights",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Synesthesia",
+    "release_type": "Album",
+    "release_date": "2026-10-05",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Northern Lights Productions",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/984723d5-5fb4-4536-bb0c-754fc482a12f",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Drake",
@@ -52,7 +88,7 @@
     "label": "Republic Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/82d38a42-e0b1-42cc-93b3-c49a4a742c4d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "keep me close to your body i never want to leave your side because i feel safe when im next to you",
@@ -70,7 +106,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/64c48e17-7ea0-4770-a713-faa74fb657cb",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "keep me close to your body i never want to leave your side because i feel safe when im next to you",
@@ -88,7 +124,25 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/dd12bf2b-bc9a-428e-aeca-27d32a5088ca",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Ian Harrison",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "30 or 21",
+    "release_type": "Single",
+    "release_date": "2026-10-02",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Sony Music Nashville",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/a9b36003-bd96-4f12-b696-eeed10b210af",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Fenmoss & Gallowglass & Dusk Merchant & Isolde's Cauldron",
@@ -106,7 +160,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/296bee5e-be46-4870-9732-1961c6e377d7",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Avalanches & Nikki Nair & Jessy Lanza & Prentiss",
@@ -124,7 +178,7 @@
     "label": "Modular Recordings",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c5448f6e-8694-4d9c-b104-8778a3c40ca8",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Tim Hicks",
@@ -142,7 +196,7 @@
     "label": "Open Road Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/32d71bd9-eb1b-4114-a5a6-026c9bfd4afb",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Youth Valley",
@@ -160,7 +214,7 @@
     "label": "Fine! Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/87b4228f-83d1-4d02-954f-a4f8548d2507",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Valley of the Sun",
@@ -178,7 +232,7 @@
     "label": "Heavy Psych Sounds",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b84ba01e-c94a-4b4b-a180-1618af3a8a2d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Zehr Vibe & Gminxr",
@@ -196,7 +250,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/2c6d0466-401f-4b88-95b9-5ee367017bac",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Haywire",
@@ -214,7 +268,7 @@
     "label": "Roadrunner Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/3afc2356-a1f3-451b-9127-cbd6889a1104",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Haywire 617",
@@ -232,7 +286,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/ceb619cd-6620-4bb5-a5c9-c292d66a29cd",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Passenger 10",
@@ -250,7 +304,7 @@
     "label": "Enormous Tunes",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/ef1ecdac-6ee3-439b-a69b-2a0399ed2aef",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Alaska Gold Rush",
@@ -268,7 +322,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/11d86613-1e38-4d26-8484-1d6a0e781e14",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Band of Heathens",
@@ -286,7 +340,7 @@
     "label": "OurVinyl TV, Inc.",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/7f331f74-8175-4475-93bb-0981f688e74d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "ALMAS & Snow tha Product & NXNNI",
@@ -304,7 +358,7 @@
     "label": "Universal Music Latino",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/01000075-e104-4805-b152-c40e21fe3746",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "I Prevail",
@@ -322,7 +376,7 @@
     "label": "Fearless Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/8358bcd0-e045-4c51-ac1d-e36b88a9595e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Excision & Space Laces",
@@ -340,7 +394,7 @@
     "label": "Never Say Die",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/4b02de9d-f5c7-4a60-ac43-50be45765e3d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "K-OS",
@@ -358,7 +412,7 @@
     "label": "",
     "independent": false,
     "source_url": "https://music.apple.com/ca/album/guns-roses-single/6815350636?uo=4",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Wordburglar",
@@ -376,7 +430,25 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/4ddf9d6a-1fd1-4e8d-97a9-a2164c01ce3f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Damnit Diana",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "CATACOMBS",
+    "release_type": "Single",
+    "release_date": "2026-10-01",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/e83773ac-462e-45e6-897a-79dd0d8e3887",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Comeback Kid",
@@ -394,25 +466,7 @@
     "label": "Sharptone",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/ab7a765b-5498-4911-8b75-b2dd14eb770a",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "Dominique Fils-Aimé",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Ensorcelée [Dominique Fils-Aimé Edit]",
-    "release_type": "Single",
-    "release_date": "2026-10-01",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Ensoul Records",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/191be7f7-5833-4fbe-957a-d8d2059c56f1",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Valley of the Sun",
@@ -430,7 +484,7 @@
     "label": "Heavy Psych Sounds",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/77900068-53d4-40ad-a396-39be4254f70d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Tony Watson",
@@ -448,7 +502,7 @@
     "label": "PST Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c743fd3f-9efe-4ab8-b066-689735001e96",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Ghislain Poirier & Bianca Rocha",
@@ -466,7 +520,7 @@
     "label": "Novisa",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b5412743-babc-4d99-a365-4c3b7b749bc4",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Hayden Birmingham",
@@ -484,7 +538,7 @@
     "label": "Dad Rock Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/8a8e2654-1909-4a3d-89c4-e4c9f10acc5d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Death From Above 1979",
@@ -502,7 +556,7 @@
     "label": "Last Gang Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/28e5f6d4-c0f4-4a8e-bcff-e271db3b2f99",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "あ子 & 鏡音リン & 鏡音レン",
@@ -520,7 +574,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/9ddbf7c6-7245-4832-b5e0-0f197a71145c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Sister Ray Davies",
@@ -537,26 +591,8 @@
     ],
     "label": "Well Kept Secret",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/f650e2c8-96a8-42a3-8b42-cee8b7088323",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "一家Dumb Rock!",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "ピースフル・ピーシーズ！",
-    "release_type": "Single",
-    "release_date": "2026-09-30",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "BUSHIROAD MUSIC",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/1b8aa8c2-d103-404c-b3dd-37a8ecb6765d",
-    "date_added": "2026-10-07"
+    "source_url": "https://musicbrainz.org/release/212d221a-952c-45ac-84f1-3771f70a6f9c",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "BEE! the Band",
@@ -574,7 +610,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/ba9e187d-af7e-4f98-aadf-207d632cdb42",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "BEE! the Band",
@@ -592,7 +628,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/955f781b-cf25-41d6-925b-25825fec202d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Peaches",
@@ -610,7 +646,7 @@
     "label": "Kill Rock Stars",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/67bba6d7-dea6-4f0d-b758-25a6861625f6",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Matt Dusk",
@@ -628,7 +664,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/7bc0ab8f-ac25-461a-bf04-155ea9f0eee7",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Nickelback",
@@ -646,7 +682,7 @@
     "label": "Nickelback",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/bde0bfd7-14f3-4f7a-8783-48836cc896be",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The 89th Passenger",
@@ -664,7 +700,43 @@
     "label": "Analogical Force",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/2b3da3bb-7a0e-40bd-8ee2-cfca80907bba",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Kardinal Offishall",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "ON",
+    "release_title": "Firestarter Vol 2: Everyday, Sometimes…",
+    "release_type": "Album",
+    "release_date": "2026-09-25",
+    "primary_genre": "Hip-Hop",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/3fbcc880-f5da-4776-ae16-756fb8e2c804",
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Ollie & Merkules",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Singer",
+    "release_type": "Single",
+    "release_date": "2026-09-25",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "More Than Music Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/2b16c3ba-41ff-48d7-9030-4767cf077fdc",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Shawn Mendes",
@@ -682,7 +754,7 @@
     "label": "Island",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/243d3e79-fed4-44d1-865d-a5bdd9b0ef44",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Tegan and Sara & Lights & Felix Cartal",
@@ -700,7 +772,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/75b48bcd-8668-438c-80e1-38b90b28c950",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Alanis Morissette",
@@ -718,7 +790,7 @@
     "label": "Epiphany Music LLC",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/21b2379c-cf72-4363-9a1f-86c821114a11",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Louis-Jean Cormier",
@@ -736,7 +808,61 @@
     "label": "Simone Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/6ae5c67b-2516-4484-8320-bb0bcbf9f519",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Jessie Reyez",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "ON",
+    "release_title": "HIGHER",
+    "release_type": "Single",
+    "release_date": "2026-09-25",
+    "primary_genre": "Pop",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Island",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/7e354889-5ad8-46a0-835f-50899905bd74",
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Diana",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "ON",
+    "release_title": "Emily",
+    "release_type": "Single",
+    "release_date": "2026-09-25",
+    "primary_genre": "Pop",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/dfa012cc-82f6-44f4-807e-d8b43f83eeef",
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "bbno$ & tommy.",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "why is miku like this",
+    "release_type": "Single",
+    "release_date": "2026-09-25",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/e33f809e-a1ca-4ab8-a492-343dd0612bde",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Stars Crusaders",
@@ -754,7 +880,7 @@
     "label": "skyQode",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/0f4eafa7-3121-4c26-b740-8f50184c192f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Devin Townsend",
@@ -772,7 +898,7 @@
     "label": "Inside Out Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/8fd34243-f362-4a85-a725-0e961dddf115",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -790,7 +916,7 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/fe78168f-4b44-449b-b0dd-5a2a3d729442",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -808,7 +934,7 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/4572a324-988f-42f3-8701-d3bb63fb0ff9",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Aaron Watson",
@@ -826,7 +952,25 @@
     "label": "Adub Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/85c029e3-7546-45f0-8541-553ccdf0b421",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Nate Haller",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "AB",
+    "release_title": "Can't Stay Here",
+    "release_type": "Album",
+    "release_date": "2026-09-25",
+    "primary_genre": "Country",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Starseed Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/222c3653-9951-405b-943d-c02ae593e7dd",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Remi Wolf",
@@ -844,7 +988,7 @@
     "label": "Remi Wolf PS",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/620e084a-4a07-4ab0-a963-ea0c96405f83",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Eline De Sainté Vherodia & Young Eman",
@@ -862,7 +1006,25 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/9f1d295f-b929-40e9-85bf-a245c0d2219f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Echo Motion",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Out of Focus",
+    "release_type": "Single",
+    "release_date": "2026-09-25",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Echo Motion Music",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/246e0254-5678-4188-a618-bf469366a80a",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Jean‐Michel Blais",
@@ -880,7 +1042,7 @@
     "label": "Arts & Crafts",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/50823914-6024-42f9-abf6-060d7d528b4f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Rochelle Jordan",
@@ -898,7 +1060,7 @@
     "label": "EMPIRE",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9f3b6ba3-1f8d-4b8b-a5a7-8a346d761d8d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Pony Bradshaw",
@@ -916,7 +1078,7 @@
     "label": "Dogs of the South",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b39b7593-cf3e-4a9a-ab5b-50a1363702d4",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Band of Heathens",
@@ -934,7 +1096,7 @@
     "label": "OurVinyl TV, Inc.",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c7ff9c9a-e6d6-45c0-bcc3-b6d93a205c8a",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Josh Ross",
@@ -952,7 +1114,25 @@
     "label": "Universal Music Canada",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/ae4fca1b-102f-41f4-aa97-5e70e21f63e9",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Karan Aujla",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "BC",
+    "release_title": "AUJLA SZN 1",
+    "release_type": "EP",
+    "release_date": "2026-09-25",
+    "primary_genre": "Hip-Hop",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/8c875d6a-09e8-43b4-9ca3-785cd71b437d",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Escape The Box",
@@ -973,7 +1153,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/b6d380b9-65e7-441c-b28f-f42745aa059e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Mr Bison",
@@ -991,7 +1171,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/1c97479c-d5fa-4f56-a8fe-dd9253f65d58",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "KAYTRANADA",
@@ -1009,25 +1189,7 @@
     "label": "",
     "independent": false,
     "source_url": "https://music.apple.com/ca/album/so-good-single/6814631265?uo=4",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "Alanis Morissette",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Season Of The Witch - Single",
-    "release_type": "Album",
-    "release_date": "2026-09-25",
-    "primary_genre": "Rock",
-    "subgenres": [],
-    "platforms": [
-      "iTunes"
-    ],
-    "label": "",
-    "independent": false,
-    "source_url": "https://music.apple.com/ca/album/season-of-the-witch-single/6815061437?uo=4",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -1045,7 +1207,7 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/8079f639-eafd-4cb4-891c-012eac074666",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -1063,7 +1225,7 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/1c97872b-5d3b-444c-88ee-3f476505dba9",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -1081,7 +1243,25 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/440e43ab-11d8-42e4-8f08-8e9bdf9381ed",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Lennon Stella",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "ON",
+    "release_title": "Comedy Show",
+    "release_type": "Single",
+    "release_date": "2026-09-23",
+    "primary_genre": "Pop",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Columbia",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/f5e6a03d-d541-43b0-854d-821eec0db360",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Valley Road",
@@ -1099,7 +1279,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/48978ffa-6fe5-4902-976c-c97ee78e6570",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Isabella Lovestory",
@@ -1117,7 +1297,7 @@
     "label": "Giant Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c08e4717-1a50-420f-aa1b-707c5cbb95f5",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "RIP Magic",
@@ -1135,7 +1315,7 @@
     "label": "section1",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9001158d-6451-44c3-aa85-5b5913d8a763",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Magic Orange",
@@ -1156,7 +1336,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/fe843d2a-5a4a-4f3e-a89e-467cebac9361",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "A Tomb Full of Stars",
@@ -1174,7 +1354,7 @@
     "label": "Varia Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9cbde695-eccd-4d59-ba82-67ce0c20336c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Shlomo Aranoff & Yisroel Werdyger",
@@ -1192,25 +1372,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/bc86642a-21ed-4cfa-ae30-a7020d70c53f",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "一家Dumb Rock!",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "微笑みの爆弾",
-    "release_type": "Single",
-    "release_date": "2026-09-21",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "BUSHIROAD MUSIC",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/dab3ea34-aeaa-4282-ba90-36e1bb6a776e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Blurred City Lights",
@@ -1231,7 +1393,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/3c6f8d93-fb55-44f2-92fd-04949843e01f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Carly Rae Jepsen",
@@ -1248,8 +1410,8 @@
     ],
     "label": "Interscope Records",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/903bdd6d-e440-4fda-9d49-eda39b397724",
-    "date_added": "2026-10-07"
+    "source_url": "https://musicbrainz.org/release/6d42c8a3-69c3-458c-9f18-f8a503780607",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Sasha Alex Sloan",
@@ -1267,7 +1429,7 @@
     "label": "10K Projects",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/61ec9120-ffc5-46bf-9c27-2d53b27bce6c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Hayden Birmingham",
@@ -1285,7 +1447,25 @@
     "label": "Dad Rock Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/08c05584-39a7-47e7-920b-ad958a46477e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Zoon Phonanta",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Emergency Lies",
+    "release_type": "Album",
+    "release_date": "2026-09-18",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Bronzerat",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/ec7f1ac9-608e-4cde-accb-10fb1b2ae717",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Riley Grimes",
@@ -1303,7 +1483,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/70d1bbbe-1e12-4867-806c-5934bd456dbf",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Chefket & Chilly Gonzales",
@@ -1321,7 +1501,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/ccaa0452-7cbb-4a60-af49-ffc44c0fb0e8",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Jutes",
@@ -1339,7 +1519,7 @@
     "label": "Position Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/e8e0867e-7336-48e9-a886-2c33eb88cd33",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Sofia Camara",
@@ -1354,10 +1534,10 @@
     "platforms": [
       "MusicBrainz"
     ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/9819e4b3-0b12-4937-b1cb-3a44ad4fc5a2",
-    "date_added": "2026-10-07"
+    "label": "Universal Music Canada",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/86b57d3d-fd76-43b7-a256-3c556a626f9a",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Chris Watson",
@@ -1375,7 +1555,7 @@
     "label": "Atlantic Records UK",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b77d2c26-beb3-4442-8f5f-4dfe143884e6",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "HALŌ",
@@ -1393,7 +1573,7 @@
     "label": "Armada Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c5afecf6-5e74-460d-b4a4-bce769540d3e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "HALŌ & Third Party & DubVision & Matisse & Sadko",
@@ -1411,7 +1591,7 @@
     "label": "Armada Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/7d1fa9e5-2ac4-48b5-b317-ebdd2e5c024f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Rachel Sermanni",
@@ -1429,7 +1609,7 @@
     "label": "Jellygirl Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/d7c0c694-d5f1-447e-a41c-863582c7b64e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Morabeza Tobacco",
@@ -1447,7 +1627,7 @@
     "label": "Dream On",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/80ae283a-3813-4e5b-8ec6-bc61ae43f036",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "HEARTSTEEL & Riot Games Music Team & BAEKHYUN & Connor Price",
@@ -1465,14 +1645,14 @@
     "label": "Riot Games",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/a7ad75d6-a4ac-45d5-aea0-66a0b2d6fa29",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
-    "artist": "Sam Binga & Machinedrum & Cesco",
+    "artist": "Space Motion & Soofnic",
     "artist_country": "CA",
     "artist_city": "",
     "artist_province": "",
-    "release_title": "Niche Flex EP",
+    "release_title": "Loopy Loopy EP",
     "release_type": "EP",
     "release_date": "2026-09-18",
     "primary_genre": "Other",
@@ -1480,28 +1660,10 @@
     "platforms": [
       "MusicBrainz"
     ],
-    "label": "Pineapple Records",
+    "label": "Space Motion Records",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/c2d66a27-cdca-419b-bc87-198767e1d97c",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "一家Dumb Rock!",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Mela!",
-    "release_type": "Single",
-    "release_date": "2026-09-18",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "BUSHIROAD MUSIC",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/32699dbd-aa3b-4697-abcc-766c063c8cf7",
-    "date_added": "2026-10-07"
+    "source_url": "https://musicbrainz.org/release/40df97fa-9bec-4530-b22c-17996dd4f0ec",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Leyla The Band",
@@ -1519,7 +1681,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/4ba2f49a-86a6-4752-ad1f-9c2f9c93cc5d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Band of Heathens",
@@ -1537,7 +1699,7 @@
     "label": "OurVinyl TV, Inc.",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/7f8f5168-5dd5-4580-bd62-2553c52346a7",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Virtual Snow",
@@ -1555,7 +1717,7 @@
     "label": "Droidmoon Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/afb57778-675c-4aa7-8876-7ec921be29dc",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Trews",
@@ -1573,7 +1735,7 @@
     "label": "Known Accomplice",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/e6f5af47-a228-4352-ab43-37d3cbdb2524",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Jade Eagleson & Midland",
@@ -1591,7 +1753,7 @@
     "label": "Broken Bow Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/5becabc1-cf01-4f9b-930f-5e0af397e6a5",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "untitled (halo)",
@@ -1609,7 +1771,7 @@
     "label": "Dirty Hit",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/7a30b4b9-0c41-4dcb-91b3-8523f9766fe0",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Haywire",
@@ -1627,7 +1789,7 @@
     "label": "Roadrunner Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/0ff8619e-588b-43a0-9de3-6057a77c71e0",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Talk Heavy",
@@ -1645,25 +1807,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/221fba21-7baa-40e7-a245-c546ebcdda36",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "一家Dumb Rock!",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "イケナイ太陽",
-    "release_type": "Single",
-    "release_date": "2026-09-16",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "BUSHIROAD MUSIC",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/26160dbf-7f0f-4182-a155-124ccad4f636",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "NOBRO",
@@ -1681,7 +1825,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/15d0fe9d-d45c-4353-80ac-1a0d7d24ceb7",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Anciients",
@@ -1699,7 +1843,7 @@
     "label": "Season of Mist",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b13a8e8f-90d5-4be3-86e7-c642a4a96b06",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Razor Edge",
@@ -1717,7 +1861,7 @@
     "label": "Fujimi Industry Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/80708ffc-947d-4bc5-934d-e5569ff475b0",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Kirara Magic & Yuuna Nini",
@@ -1735,25 +1879,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/6a4f50bb-de84-4a3f-8cbc-384c4cb2cb26",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "一家Dumb Rock!",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "革命道中",
-    "release_type": "Single",
-    "release_date": "2026-09-12",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "BUSHIROAD MUSIC",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/d0ff37d2-f365-45d6-918b-3fddfd1c614c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Weeknd",
@@ -1771,7 +1897,7 @@
     "label": "Universal International",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/0de394ab-0f98-411f-b834-a52e407802e2",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "NAV & Young Thug",
@@ -1789,7 +1915,27 @@
     "label": "XO Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/29d3d615-8b0b-4b37-9a73-69a426235202",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Ernest Bloch & Spectrum Concerts Berlin & Boris Brovtsyn & Diana Ketler",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Violin Sonatas Nos. 1 and 2 \"Poème mystique\", Baal Shem & Suite No. 1 for Solo Violin",
+    "release_type": "Album",
+    "release_date": "2026-09-11",
+    "primary_genre": "Classical",
+    "subgenres": [
+      "Classical"
+    ],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Naxos",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/9b59ccba-5526-4b50-bb4f-232350dc5616",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Riley Grimes",
@@ -1807,7 +1953,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/2b30cdd1-d8ca-42bd-8833-1c1ce407ba36",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Andy Sheppard & Rita Marcotulli & Michel Benita",
@@ -1825,7 +1971,7 @@
     "label": "ECM Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/f55d4323-eb1d-404c-961e-2a398ac9acbb",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "MAGIC CROSS",
@@ -1843,7 +1989,7 @@
     "label": "Caligari Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/adb942ab-1206-4f54-8709-a0e43a9fdf43",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "SonReal",
@@ -1861,7 +2007,7 @@
     "label": "Honest Work Inc",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/5c41c71c-546c-4549-a2d7-564324c85f98",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Connor Price & GRAHAM",
@@ -1879,7 +2025,7 @@
     "label": "100graham sounds",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/7beb80ca-4c78-4da6-b6c4-e99f0e9e53a5",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Colin Stetson & Brìghde Chaimbeul",
@@ -1897,7 +2043,7 @@
     "label": "Invada",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/e55e38a0-fde0-4cc7-b327-a059e0b44a9b",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Peaches & Joe Talbot",
@@ -1915,7 +2061,7 @@
     "label": "Kill Rock Stars",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/a72e27dd-6aa2-46e5-9cb8-93318d457181",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Shania Twain & Zedd",
@@ -1933,7 +2079,7 @@
     "label": "Republic Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/efe8967e-8a16-45c0-8b89-a0c024d7baec",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Sofia Camara",
@@ -1951,7 +2097,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/08bd25a9-58a3-4eeb-b7da-90f7675540a3",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Priya Ragu",
@@ -1969,7 +2115,7 @@
     "label": "AWAL Recordings",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/50fab3b3-2bc2-4bea-bf4d-7a3277bad896",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Rochelle Jordan",
@@ -1987,7 +2133,7 @@
     "label": "EMPIRE",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/a0cf2312-fd27-4d4c-ba69-e296a63fa0aa",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Emanuel Brown",
@@ -2005,7 +2151,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/3a938110-6ecc-467d-a48b-2f7ea6f4a2bb",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Hayden Birmingham",
@@ -2023,7 +2169,7 @@
     "label": "Dad Rock Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/caf4f9b1-b41c-4d20-bbdd-41b227b89bc4",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Aaron Watson",
@@ -2041,7 +2187,7 @@
     "label": "Adub Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/a46919f7-56af-4590-8ec2-21aecad52ef6",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Marshmello & ILLENIUM & SACHA",
@@ -2059,7 +2205,7 @@
     "label": "Marshmello Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/d3ffbabe-2703-4501-9aae-843f9b387474",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Cámara Chilena de la Destrucción & La Estrategia del Caracol",
@@ -2077,7 +2223,7 @@
     "label": "Unísono Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/30d0dcfc-ed30-4774-8bec-25563b79cd73",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Lisa LeBlanc",
@@ -2095,7 +2241,25 @@
     "label": "Bonsound",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/dae7bb93-149d-49cd-bc00-7021da6acfb0",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "94fatso & Merkules",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Lost In Austin",
+    "release_type": "Single",
+    "release_date": "2026-09-07",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Takedown Records",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/9fcb3859-28d7-4d2e-8f88-63b70e8cc474",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Lighthouse",
@@ -2113,7 +2277,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/a6730ab7-5448-449a-bdab-470596cd6184",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Max the Band",
@@ -2131,7 +2295,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/a2224d8d-1beb-4598-b673-35d60cccd627",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Magic Orange",
@@ -2152,7 +2316,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/6fa5ffe7-e321-4310-99bb-76e3c739fcd7",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Nelly Furtado",
@@ -2170,7 +2334,7 @@
     "label": "Geffen",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/129d6453-b80a-4f81-9015-68820a9b1587",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Jayda G",
@@ -2188,7 +2352,25 @@
     "label": "Ministry of Sound",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/bd4d3355-f573-4355-8340-9925249f4d05",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Guido Pup",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "TRANSGENDER WILL NEVER END",
+    "release_type": "Single",
+    "release_date": "2026-09-04",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/ae468bf8-fecb-44d2-8e90-4c0ba4168002",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Theory of a Deadman",
@@ -2206,7 +2388,7 @@
     "label": "Panic Room Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/630da82e-2500-4dc4-973a-8f5bc6e6f46b",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Riley Grimes",
@@ -2224,7 +2406,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/03d20348-662b-4e93-b040-3f1364604366",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Kane Brown & Shania Twain",
@@ -2242,7 +2424,7 @@
     "label": "Sony Music Nashville",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/36b646b4-7d6b-414b-b9b0-0e514a87c219",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Bros. Landreth",
@@ -2260,7 +2442,7 @@
     "label": "Birthday Cake",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/e320bc08-3d30-48f2-aade-890fea174a6e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Colin Stetson",
@@ -2278,25 +2460,7 @@
     "label": "Milan Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/2d9dccbc-c6f0-4285-87f5-09aea136ad10",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "一家Dumb Rock!",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "ジャイアント・キラー・チューン",
-    "release_type": "Single",
-    "release_date": "2026-09-04",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "BUSHIROAD MUSIC",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/c62f922c-d943-4e67-99d0-0b5e70d66cdc",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Northern Lighthouse Board",
@@ -2314,7 +2478,7 @@
     "label": "Fiadh Productions",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c57c8e2e-7d6d-4ed4-8cfe-4d49c582a0eb",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Hardwell & Sound Rush",
@@ -2332,7 +2496,7 @@
     "label": "Revealed Recordings",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/055b91de-5576-4f2a-96a2-b0a08d429f56",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Band Whose Name Is a Symbol",
@@ -2350,7 +2514,7 @@
     "label": "Cardinal Fuzz",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b488ed19-0257-49a0-9a3a-5df75d9a7ff3",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Mystic Tea Party",
@@ -2368,7 +2532,25 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/015afb60-b8b2-4480-b12b-21d3db1f119c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Tom MacDonald",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "BC",
+    "release_title": "The Government",
+    "release_type": "Single",
+    "release_date": "2026-09-04",
+    "primary_genre": "Hip-Hop",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/435fe1c5-49ed-442a-8b89-12f7cdd18b39",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Harrison Gordon",
@@ -2386,7 +2568,7 @@
     "label": "Hopeless Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/1e0c7594-7fd7-4cb1-ac10-54956555de91",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "VIBI",
@@ -2404,7 +2586,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/d2704e05-2fbb-4be1-a2a9-ac02d48f510e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Girl Ultra & Chromeo",
@@ -2422,7 +2604,7 @@
     "label": "Big Dada",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/59e4d328-8c2f-48f4-94af-24a7f4f5b6fb",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "All once",
@@ -2440,7 +2622,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/4508127b-e5e1-4668-b10e-6e742e1dd2a7",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Last Halo",
@@ -2458,7 +2640,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/abdc0441-5ab9-41dc-b382-e062a5fa074f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Last Halo",
@@ -2476,7 +2658,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/fe8e5c10-25f7-4183-be14-de1ee33b99e1",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Last Halo",
@@ -2494,7 +2676,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/41fb3489-937c-40cb-9696-4c5c7f19be61",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Last Halo",
@@ -2512,7 +2694,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/c4d7d580-2ba4-4a05-acad-14973db37f6c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Witches Hammer",
@@ -2530,7 +2712,7 @@
     "label": "Nuclear War Now! Productions",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/59018e49-0d19-45f8-b48e-b623a0f7f398",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "modest by default",
@@ -2550,7 +2732,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/54114b15-d4a0-4fdc-b599-ffb5d4986a91",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Lights of Euphoria",
@@ -2568,7 +2750,7 @@
     "label": "Infacted Recordings",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/104b111d-8c38-4db7-8db4-206f9c9fcd33",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Nelly Furtado",
@@ -2586,7 +2768,7 @@
     "label": "Geffen",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/563c105b-1593-47c8-99c6-24bed79d61c3",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Gryffin & Sasha Alex Sloan & AVELLO",
@@ -2604,7 +2786,7 @@
     "label": "Gryffin",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/59b95c06-3884-4cbc-a4b6-9eac1c2a4687",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -2622,7 +2804,7 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/d12ed649-4815-4c31-9227-22a416632315",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -2640,7 +2822,7 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/176f1ec7-747a-42aa-bfd6-270d11b0ceaf",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Riley Grimes",
@@ -2658,7 +2840,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/1a0c07b1-e617-45a8-86a1-c0b703a3904a",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Oscar Peterson",
@@ -2676,7 +2858,7 @@
     "label": "Mack Avenue",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/2c163e43-f526-4d21-ae36-b36ebbaaa0e0",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "shAmAn Magic Music",
@@ -2694,7 +2876,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/113d9d87-6a38-4282-ac95-6f8ea21219a3",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Magic Sword & Droid Bishop",
@@ -2712,7 +2894,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/ac42f526-12e1-4366-abf9-193d77fa04db",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Anders Manga",
@@ -2730,7 +2912,7 @@
     "label": "Sacrificial Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/5728325f-60d0-4679-824c-05de473fe468",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Marshmello & Cameron Whitcomb",
@@ -2748,7 +2930,7 @@
     "label": "Mercury Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9a783d20-650a-42c2-9d22-d553d6831783",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Night Lovell",
@@ -2766,7 +2948,7 @@
     "label": "G*59 Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/afc7e064-81cd-4b14-b898-ceb7df4e525b",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Connor Price",
@@ -2784,7 +2966,7 @@
     "label": "100graham sounds",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/fdd6c223-9491-4092-aa24-f5e2b094de23",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Colin Stetson",
@@ -2802,7 +2984,7 @@
     "label": "Netflix Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/d35606b7-0882-4393-83c5-1e88422f8c60",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Passenger 10",
@@ -2820,7 +3002,7 @@
     "label": "Enormous Tunes",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/59929a5b-af21-40cc-86ed-2c3a45e7c6c2",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "BAMBII",
@@ -2838,7 +3020,7 @@
     "label": "BAMBII",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9dea0062-bc79-482c-b0e2-2516ca60cd8b",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "TALK",
@@ -2856,7 +3038,7 @@
     "label": "Big Loud Rock",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/13a6ccfb-6399-4e3d-b21e-15468ea477cc",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Rochelle Jordan & Chad Hugo",
@@ -2874,7 +3056,7 @@
     "label": "EMPIRE",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/2b86310e-aac0-41ba-bcd7-9cf7e7b7a835",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Majid Jordan",
@@ -2892,7 +3074,7 @@
     "label": "OVO Sound",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/64867dc8-0905-4a3b-925f-a501c4412eee",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "OMNOM & Tommy Genesis",
@@ -2910,7 +3092,7 @@
     "label": "Insomniac Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/503c4798-d027-42c5-8110-9298cdec8c2b",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Basia Bulat",
@@ -2928,7 +3110,7 @@
     "label": "Secret City Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/0d364ffc-1046-4ead-b35c-78fb5aec5c58",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Massano & Humans Musik",
@@ -2946,7 +3128,7 @@
     "label": "ÆDEN Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/605fa7d7-a66a-47d9-8cfa-a7934787c333",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Bedouin Soundclash",
@@ -2964,25 +3146,7 @@
     "label": "Ineffable Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/3adb54d7-4bcc-47ba-8349-56b874d65410",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "Saga Mast",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Don’t Pick Me",
-    "release_type": "Single",
-    "release_date": "2026-08-28",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "[no label]",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/8a834673-a5ed-4b19-9e6e-12796ccdd1f9",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Matt Dusk",
@@ -3000,7 +3164,7 @@
     "label": "Royal Crown Records Inc.",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/96ca797f-e5e6-4125-90b8-0b6d241aec1e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "New Town Lights",
@@ -3018,7 +3182,7 @@
     "label": "Up Ma Humph Recordings",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/24b3edd4-0d29-440b-b5e6-fd12b5045af4",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Bryan Adams",
@@ -3036,7 +3200,25 @@
     "label": "Bad Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/7ea21465-d1a1-41b8-b312-cec37d3c3479",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Lennon Stella",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "ON",
+    "release_title": "Unforgivable Things",
+    "release_type": "Single",
+    "release_date": "2026-08-27",
+    "primary_genre": "Pop",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Columbia",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/5b58b90d-8ba5-44e7-a249-1ed39d0ed1f3",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Comeback Kid",
@@ -3054,7 +3236,7 @@
     "label": "SharpTone Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/48f01629-8fe2-4eee-b27a-7eaf6d496515",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Amaal Mallik",
@@ -3072,7 +3254,7 @@
     "label": "Sony Music",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/99ce273f-0289-4f15-b84f-6211b6edf510",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "untitled (halo)",
@@ -3090,7 +3272,7 @@
     "label": "Dirty Hit",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/8c0bba2b-8075-41ea-bcc7-5fe7bfac84d8",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Nick Ward & Glenn Gould",
@@ -3108,25 +3290,7 @@
     "label": "EMI",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/53b50465-55ac-4549-88ef-8cfb16a09fb3",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "Ruby Waters",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "GET A GRIP",
-    "release_type": "Single",
-    "release_date": "2026-08-26",
-    "primary_genre": "Rock",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Wet Records",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/c1744aea-3d1e-4247-96fb-36bbacb458a8",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "the band apart",
@@ -3144,7 +3308,7 @@
     "label": "asian gothic label",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b569b908-9622-4612-831e-64518b5db486",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Ralph & Rêve & Red Farrow",
@@ -3162,7 +3326,7 @@
     "label": "Rich Man Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/ca2d7c2e-362b-4b97-838b-bc112e69283e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Drag Talk",
@@ -3180,7 +3344,25 @@
     "label": "MNRK Heavy",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/85cc3ee5-66bf-45ff-8888-b7ad12c3cb88",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Merkules & C‐Lance",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "I Don't Wanna",
+    "release_type": "Single",
+    "release_date": "2026-08-24",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "Merkules Music Inc.",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/0b4c7e3c-a4a1-4dc7-aa45-eb0fd3e698c6",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Bright Lights & Laidback Luke",
@@ -3198,7 +3380,7 @@
     "label": "3:33 RECORDINGS",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/1405b694-1e7e-491c-bf13-bed4c148a22e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "NAV",
@@ -3216,7 +3398,7 @@
     "label": "XO",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/f889c20d-10f5-4013-9526-34cfd4298195",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "NAV & Frost",
@@ -3234,7 +3416,7 @@
     "label": "XO Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/d851d252-347b-44fc-9a7c-310e92557bde",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Full Belly Show",
@@ -3252,7 +3434,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/544a43c3-37fe-4fad-9c2d-c6b0c32e8731",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Short Fictions & Kwarter Zip & Be Safe & Lofting",
@@ -3270,7 +3452,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/31cb0795-b7ed-4239-b400-256ebd18f5cd",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Sean Leon & God's ALGORITHM",
@@ -3288,7 +3470,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/49210d3d-0fc8-4222-b8ff-fbf27fcceab9",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Carly Rae Jepsen",
@@ -3305,8 +3487,8 @@
     ],
     "label": "Interscope Records",
     "independent": false,
-    "source_url": "https://musicbrainz.org/release/99643e2d-f849-42ac-a731-a5757408ad21",
-    "date_added": "2026-10-07"
+    "source_url": "https://musicbrainz.org/release/7590ea4c-f7b7-4081-b24a-3223c22ae21b",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Lights of Euphoria",
@@ -3324,7 +3506,7 @@
     "label": "Infacted Recordings",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/4abd1237-af93-4d43-87c5-9b4a9517a911",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Chasing Stars",
@@ -3342,7 +3524,7 @@
     "label": "Chasing Stars",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/1103ddbf-a5f3-48d7-becf-e14a6145a5d7",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Man Watching the Stars",
@@ -3360,7 +3542,7 @@
     "label": "CIÙIN",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/ad250e17-4d1f-464c-baaa-b12718fa818f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Cast of Canada’s Drag Race: All Stars",
@@ -3378,25 +3560,7 @@
     "label": "World of Wonder Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9c78b5b4-d1ff-49fc-b681-03d6305f841b",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "The Tragically Hip",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "ON",
-    "release_title": "Live: July 22 – August 20, 2016",
-    "release_type": "Album",
-    "release_date": "2026-08-21",
-    "primary_genre": "Rock",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Universal Music Canada",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/f8d1ae1a-3411-4160-9446-d37152c79957",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Sasha Alex Sloan",
@@ -3414,7 +3578,7 @@
     "label": "10K Projects",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/5c91e5a7-969d-47f8-a535-a5df77b6cd38",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Nickelback",
@@ -3432,7 +3596,25 @@
     "label": "Nickelback",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/bbdeea96-d562-4c14-aeea-63a12b94cb0a",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Mike Shabb",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "QC",
+    "release_title": "Sewaside IV",
+    "release_type": "Album",
+    "release_date": "2026-08-21",
+    "primary_genre": "Hip-Hop",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/3138206e-f8e1-499d-8568-e1711407f555",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Aaron Watson",
@@ -3450,7 +3632,7 @@
     "label": "Adub Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c62caa21-6a73-4f1e-ba2d-79fce7d1ec5e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Black Atlass",
@@ -3468,7 +3650,7 @@
     "label": "Black Atlass Inc.",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/1cf07bfe-fc93-45d9-895f-acdecfd8dcdd",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "TOBACCO",
@@ -3486,7 +3668,7 @@
     "label": "Rad Cult",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/8296e502-35ce-416c-8d34-3279350bd166",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Connor Price",
@@ -3504,7 +3686,7 @@
     "label": "100graham sounds",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/e92e9042-cafb-4909-a363-ecfba26160bd",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Sound Rush",
@@ -3522,7 +3704,7 @@
     "label": "Destination",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/7298e37f-cb8d-4417-a6fd-ff4fbea465eb",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Carl Rush",
@@ -3540,7 +3722,7 @@
     "label": "We Play Acid",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/65a3cfda-c340-4871-b089-afbe90ec128e",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "The Band Feel",
@@ -3558,7 +3740,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/c28588be-25bc-4a0d-91de-15de495e6fc2",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Lambchop",
@@ -3576,7 +3758,7 @@
     "label": "City Slang",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/709c24eb-ca64-4602-9c1f-7ab9787740ed",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "PARTYNEXTDOOR",
@@ -3594,7 +3776,25 @@
     "label": "OVO Sound",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b70ab71a-f25b-4904-98e9-2c00754e6c80",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "CRRDR & Alby Loud",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "DETONE",
+    "release_type": "Single",
+    "release_date": "2026-08-20",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "TRAMPA",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/c0e208e1-6f90-4fb3-83af-eea504295472",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Mike Harrison",
@@ -3612,7 +3812,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/7a1aba12-85b1-4127-89de-076abb36bd09",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Valley of the Sun",
@@ -3630,7 +3830,7 @@
     "label": "Heavy Psych Sounds",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/a98c08cd-9a27-40bd-bcb6-d8d34f2ea2f5",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Shlomo Lipman",
@@ -3648,7 +3848,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/d375d47f-a519-4e09-a5d8-ca27a32dc287",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Remi Wolf",
@@ -3666,7 +3866,7 @@
     "label": "Remi Wolf PS",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/27686876-9560-4dd9-8272-e471211b3da8",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Mariah Carey & Rochelle Jordan",
@@ -3684,7 +3884,7 @@
     "label": "MARIAH",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/75666b23-006c-41a5-9945-0e6ac16f54dd",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Rex Orange County & Daniel Caesar",
@@ -3702,7 +3902,7 @@
     "label": "Rex Orange County",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/458f7084-c11a-4209-aead-65daffa7ba5c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Tony Ann",
@@ -3720,7 +3920,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/c1f8c91f-2be7-4bea-a93e-11a7f3cf72b0",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Haywire",
@@ -3738,7 +3938,7 @@
     "label": "Roadrunner Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/3ca56289-8b48-4b11-ba2c-389de19c2a1c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Casper TNG",
@@ -3756,7 +3956,7 @@
     "label": "Universal Music Canada",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/978c3bfd-8748-4958-833a-7efe3c36eabc",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Hidden Since the Foundation of the World",
@@ -3774,7 +3974,7 @@
     "label": "I Heart Noise",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/67b32b10-6c5a-4119-b541-2574c7781f35",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Carly Rae Jepsen",
@@ -3792,7 +3992,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/61b17804-c8ab-489c-92fc-77ac33092006",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "project lights",
@@ -3810,7 +4010,7 @@
     "label": "Shiratamaco",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/0541346f-1f00-4930-8d6a-cb6025982c3f",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Chinozo & v flower & 鏡音レン",
@@ -3828,7 +4028,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/cac342a5-223b-4fd8-a2bb-3a06e2829997",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Don't Wake in Crisis",
@@ -3846,7 +4046,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/bff5fc65-ce44-4021-897a-1a1117ff4243",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Mustafa Zahid",
@@ -3864,7 +4064,27 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/d9f0a3ef-1aad-4f88-a547-c18b6943af32",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Diana Mae",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Same Wild Song",
+    "release_type": "Single",
+    "release_date": "2026-08-14",
+    "primary_genre": "Pop",
+    "subgenres": [
+      "Folk"
+    ],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "[no label]",
+    "independent": true,
+    "source_url": "https://musicbrainz.org/release/e426aaec-c30f-40cb-9e1d-3f315f998a19",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -3882,7 +4102,7 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/4e7aa33c-d351-4315-b46e-a0b8f6ac992c",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "deadmau5",
@@ -3900,7 +4120,7 @@
     "label": "mau5trap",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9c0a9205-10b1-4e97-b03f-946e5a746b62",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Riley Grimes",
@@ -3918,7 +4138,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/71a7d2a6-7bc9-48e9-aa9a-afef3b521dca",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Riley Grimes",
@@ -3936,7 +4156,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/9ea345e9-be6f-4c71-a770-a7d0e5d9f674",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "BEYOND BORDERs & 初音ミク & Grimes & さたぱんP",
@@ -3954,7 +4174,7 @@
     "label": "ドワンゴ",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/97e33d89-f411-47b5-9d1f-70daac7c706b",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Liza Bibikova",
@@ -3972,7 +4192,7 @@
     "label": "Pomitni",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/d101fe9f-9a32-484a-b0cf-ea95dfb514a6",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Sofia Camara",
@@ -3990,7 +4210,7 @@
     "label": "Universal Music Canada",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/f0f7d785-cb8e-4919-acee-b778224c3fa7",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "yung kai",
@@ -4008,7 +4228,7 @@
     "label": "Kai Music Inc.",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/066f8581-cfc0-43d8-8a9b-317711641b48",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Anders Hillborg & Ida Falk Winland & Göteborgs Symfoniker & Pekka Kuusisto & Brad Lubman",
@@ -4026,7 +4246,7 @@
     "label": "Alpha Classics",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/dbf3289d-7645-4f6d-844a-e5c5d43cc823",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Len",
@@ -4044,7 +4264,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/72dfecf6-0108-42c2-a480-f1c3d040de60",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "SonReal",
@@ -4062,7 +4282,7 @@
     "label": "Honest Work Inc",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/502d4e70-ad21-456e-8512-e54136b22b22",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Preston Pablo",
@@ -4080,7 +4300,7 @@
     "label": "Universal Music Canada",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/8a20a78c-97a5-4c20-a67a-163e9985f6c3",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Passenger",
@@ -4098,7 +4318,7 @@
     "label": "Nettwerk Music Group",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/4fdd2393-caf5-4e4e-91ac-97d1cb4ab84a",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Fractured Wake",
@@ -4116,7 +4336,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/7449d875-f680-4cbd-b149-a9ab03f1e7a3",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Michael Christmas & Chris Crack & Girl Talk",
@@ -4134,7 +4354,7 @@
     "label": "Illegal Art",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/9ff725ae-d786-4d65-92d5-fd9943312024",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Rochelle Jordan",
@@ -4152,7 +4372,7 @@
     "label": "EMPIRE",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/33ec7c02-82f3-4c11-8e2a-b76e72dc10bb",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "My Little Pony & Twilight Sparkle",
@@ -4170,7 +4390,7 @@
     "label": "Hasbro",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/c465a21a-5e89-457e-9049-bdc69a1ee19a",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Josh Ross",
@@ -4188,25 +4408,7 @@
     "label": "Universal Music Canada",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/75ca4ef5-0ba0-4f9d-9817-2ddf05b6ed94",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "Kodie Shane & WondaGurl",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Heartthrob Hotel",
-    "release_type": "EP",
-    "release_date": "2026-08-14",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Parachute",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/0f3a7366-5723-405a-adfb-2bb390da0178",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Hildegard von Blingin’",
@@ -4224,25 +4426,7 @@
     "label": "[no label]",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/2d136363-25c0-42fc-a410-76eabbe1df6e",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "Rochelle Jordan & KLSH",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Get It Off (KLSH remix)",
-    "release_type": "Single",
-    "release_date": "2026-08-13",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "EMPIRE",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/5d291513-7f60-456d-8a77-72d04626e13d",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Rochelle Jordan & Halogenix",
@@ -4260,7 +4444,25 @@
     "label": "EMPIRE",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/05d5ac07-6426-40d5-b0e8-aed909db0313",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
+  },
+  {
+    "artist": "Rochelle Jordan & KLSH",
+    "artist_country": "CA",
+    "artist_city": "",
+    "artist_province": "",
+    "release_title": "Get It Off (KLSH remix)",
+    "release_type": "Single",
+    "release_date": "2026-08-13",
+    "primary_genre": "Other",
+    "subgenres": [],
+    "platforms": [
+      "MusicBrainz"
+    ],
+    "label": "EMPIRE",
+    "independent": false,
+    "source_url": "https://musicbrainz.org/release/5d291513-7f60-456d-8a77-72d04626e13d",
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Rochelle Jordan & Honey Dijon",
@@ -4278,7 +4480,7 @@
     "label": "EMPIRE",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/a88519c1-c402-4809-a40f-a34de173bc94",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Shock Corridor",
@@ -4296,25 +4498,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/422ddaeb-654d-4729-8e8d-acaa824c4af1",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "Dumb Numbers",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Love is the Slug",
-    "release_type": "Single",
-    "release_date": "2026-08-12",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "Joyful Noise Recordings",
-    "independent": false,
-    "source_url": "https://musicbrainz.org/release/49888b52-1bbb-42ea-9768-d4c3e388b7df",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Jade LeMac",
@@ -4332,7 +4516,7 @@
     "label": "X5 Music Group",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/b9747e6a-dd0c-4140-83d8-d1bd0f6bcd85",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "Holy Fuck",
@@ -4350,7 +4534,7 @@
     "label": "",
     "independent": true,
     "source_url": "https://musicbrainz.org/release/cd8344aa-4f87-4afa-920e-82da0a16b768",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   },
   {
     "artist": "beslik & Chilly Gonzales",
@@ -4368,24 +4552,6 @@
     "label": "ivy Records",
     "independent": false,
     "source_url": "https://musicbrainz.org/release/1a3ac5e0-0e65-4119-affd-523c068ab196",
-    "date_added": "2026-10-07"
-  },
-  {
-    "artist": "Shlomo Mash",
-    "artist_country": "CA",
-    "artist_city": "",
-    "artist_province": "",
-    "release_title": "Od Yavo Tov",
-    "release_type": "Single",
-    "release_date": "2026-08-09",
-    "primary_genre": "Other",
-    "subgenres": [],
-    "platforms": [
-      "MusicBrainz"
-    ],
-    "label": "",
-    "independent": true,
-    "source_url": "https://musicbrainz.org/release/47c31b7f-ea71-4ed2-aec8-2291a9db1516",
-    "date_added": "2026-10-07"
+    "date_added": "2026-10-08"
   }
 ]
